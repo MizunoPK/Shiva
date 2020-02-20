@@ -1,0 +1,2 @@
+x += xShotVelocity
+y += yShotVelocity
