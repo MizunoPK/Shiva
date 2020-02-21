@@ -5,7 +5,7 @@
 // Last Updated: 2/19/19
 
 
-if ( isAttacking and canAttack ) { 
+if ( not passiveUnit and isAttacking and canAttack ) { 
 	
 	// calculate the x and y of the new shot
 	xShot = x + sprite_height * cos( degtorad(targetAngle) )

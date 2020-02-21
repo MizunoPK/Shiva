@@ -34,7 +34,7 @@
             "Key": "01cee3ae-653c-455e-a51e-812adc1605e8",
             "Value": {
                 "id": "18dc63ca-07cf-4c0c-b9af-cbd063448a45",
-                "resourcePath": "sprites\\s_Alien_Rudra\\s_Alien_Rudra.yy",
+                "resourcePath": "sprites\\s_Alien_Rudra_Idle_Left\\s_Alien_Rudra_Idle_Left.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -43,6 +43,14 @@
             "Value": {
                 "id": "7c17380c-97ff-422f-9edd-8af1ec32e0e5",
                 "resourcePath": "views\\0994dacf-5d34-41dd-aa7e-0311b892a0f6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1b8b24ee-c7b5-471d-9b97-ba0f66d13301",
+            "Value": {
+                "id": "db0f01c5-357b-4048-892e-04cc6a56de00",
+                "resourcePath": "views\\1b8b24ee-c7b5-471d-9b97-ba0f66d13301.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -114,8 +122,16 @@
             "Key": "5082054b-14d1-48ec-a05f-343d9c2bd405",
             "Value": {
                 "id": "4435b4c1-237b-4118-92ea-ef2da2de6c08",
-                "resourcePath": "sprites\\s_Soldier_Pistol\\s_Soldier_Pistol.yy",
+                "resourcePath": "sprites\\s_Soldier_Pistol_Right\\s_Soldier_Pistol_Right.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "55e0d330-c94e-4556-8f18-49aee4e29324",
+            "Value": {
+                "id": "cce72ff5-0d4f-46fd-a8c0-296e9f5debdb",
+                "resourcePath": "views\\55e0d330-c94e-4556-8f18-49aee4e29324.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -124,6 +140,14 @@
                 "id": "3fbe4098-433f-41a2-8a47-c66466d28177",
                 "resourcePath": "sprites\\sprite5\\sprite5.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5bc530ca-70e7-454c-abb3-6f65cd59ec1b",
+            "Value": {
+                "id": "dc63bcba-9462-4e1e-8a1c-555a72024298",
+                "resourcePath": "views\\5bc530ca-70e7-454c-abb3-6f65cd59ec1b.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -167,6 +191,14 @@
             }
         },
         {
+            "Key": "6bcab372-61b0-4a3f-aeff-5d936a2cd99c",
+            "Value": {
+                "id": "d16669a6-cfba-44ef-a932-a3f33fe06b80",
+                "resourcePath": "scripts\\changeWeapon\\changeWeapon.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6cb13137-2ac6-4fe7-9fea-7cae4c5799a6",
             "Value": {
                 "id": "4c78691c-f9c5-4dbb-bf2f-38f72b8d35ed",
@@ -175,11 +207,43 @@
             }
         },
         {
+            "Key": "6da22d1e-60c4-474e-be50-3970fac65db2",
+            "Value": {
+                "id": "9896aa95-5b87-4ff0-98db-770677b228e3",
+                "resourcePath": "scripts\\unarmedSetup\\unarmedSetup.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6dc4fb96-99be-44db-a290-ed0390083fdd",
+            "Value": {
+                "id": "62d6010d-d3ba-446a-9d24-6fedc44d9826",
+                "resourcePath": "scripts\\pistolSetup\\pistolSetup.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "76edc1e0-37b4-4917-9bcb-50b2a909871e",
             "Value": {
                 "id": "86d7dab3-51ae-43f8-9259-88f270262b99",
-                "resourcePath": "sprites\\s_Turret_Manual_Unmanned\\s_Turret_Manual_Unmanned.yy",
+                "resourcePath": "sprites\\s_Turret_Manual_Unmanned_Right\\s_Turret_Manual_Unmanned_Right.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "79b12a50-2fb9-4239-9729-2b30dc6b3afb",
+            "Value": {
+                "id": "103d5776-4563-4e1d-9d89-b7d8ffd5b470",
+                "resourcePath": "views\\79b12a50-2fb9-4239-9729-2b30dc6b3afb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "81cb5b62-e59a-417f-ae6d-d27b6e7a07c6",
+            "Value": {
+                "id": "9bef6a0c-1beb-41b2-8b66-306a7ebe68ed",
+                "resourcePath": "scripts\\machineGunSetup\\machineGunSetup.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -188,6 +252,14 @@
                 "id": "127283f4-8762-47fe-a12e-048bacc20830",
                 "resourcePath": "views\\856ff260-ee57-4b73-9ff4-e35c5c61c084.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8e52a0e4-3e4f-4482-af09-0384ecdfcb8b",
+            "Value": {
+                "id": "dfa732f2-5458-4ed7-9c54-31993e3a795f",
+                "resourcePath": "objects\\o_Change\\o_Change.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -215,6 +287,14 @@
             }
         },
         {
+            "Key": "9e0a1a91-2a4d-4985-9841-3e19b78f4061",
+            "Value": {
+                "id": "0bc5b429-dd0e-4a65-bbe9-4b2b8ad372ee",
+                "resourcePath": "scripts\\laserSetup\\laserSetup.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a5107555-f6b5-46b1-96e8-4ac5a98aac8e",
             "Value": {
                 "id": "b4af39b1-d184-419f-ae28-9ad0fc41793b",
@@ -223,11 +303,35 @@
             }
         },
         {
+            "Key": "a7cade7b-bb47-4fd1-a47a-5cfb6e3a9f8f",
+            "Value": {
+                "id": "954c6d5e-36de-4b30-95f3-b12e4bf9d79c",
+                "resourcePath": "sprites\\s_Soldier_Cannon_Right\\s_Soldier_Cannon_Right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "28c45455-603a-4ac5-8185-afcc64d55833",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "ace4faf7-86f4-44e9-b42b-487dcc84eefd",
+            "Value": {
+                "id": "b69560a0-e557-434a-ba15-c30cab2ba018",
+                "resourcePath": "scripts\\defineConstants\\defineConstants.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ad322106-0c28-4817-87c9-a7a89af8ea61",
+            "Value": {
+                "id": "f77e9af3-5715-4352-973d-83f61c829257",
+                "resourcePath": "sprites\\s_Soldier_Laser_Right\\s_Soldier_Laser_Right.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -295,6 +399,14 @@
             }
         },
         {
+            "Key": "da0682a6-4061-48d1-84f6-df9092021190",
+            "Value": {
+                "id": "60d512e9-e671-4b14-9640-bbf72da3d32e",
+                "resourcePath": "sprites\\s_Soldier_MachineGun_Right\\s_Soldier_MachineGun_Right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e13d6c94-4660-4026-a2a4-e6a3eb4e08c2",
             "Value": {
                 "id": "b0cb0e23-7ae9-4b67-aa7b-fc0a9aa2edbb",
@@ -311,11 +423,27 @@
             }
         },
         {
+            "Key": "e8b1100e-deeb-40b2-8ccb-28614afa805b",
+            "Value": {
+                "id": "fb840ecb-a4b1-4a80-9090-66ed80e3b04f",
+                "resourcePath": "scripts\\cannonSetup\\cannonSetup.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e904114c-7ef9-4d99-b001-0e716bd5b338",
             "Value": {
                 "id": "96eca486-9144-4e65-a1a1-cc871f213de0",
-                "resourcePath": "sprites\\s_Turret_Manual_Manned\\s_Turret_Manual_Manned.yy",
+                "resourcePath": "sprites\\s_Turret_Manual_Manned_Right\\s_Turret_Manual_Manned_Right.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "eae0e6d7-819f-43c8-95e3-62cdf6ce5396",
+            "Value": {
+                "id": "daea3a9a-b2e0-4e2d-996e-47c77dee1398",
+                "resourcePath": "views\\eae0e6d7-819f-43c8-95e3-62cdf6ce5396.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -324,6 +452,14 @@
                 "id": "344d332e-61be-4f8e-9a77-d56686f8828b",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f7707543-bc95-4075-ab9f-fcf87aedb585",
+            "Value": {
+                "id": "0819dbca-edae-4cbd-b007-aba882612122",
+                "resourcePath": "sprites\\sprite51\\sprite51.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -359,6 +495,14 @@
             }
         },
         {
+            "Key": "fecbce75-66ad-4974-80cf-f211ba2eb1fe",
+            "Value": {
+                "id": "979014cf-24fb-4718-815c-04be19440b78",
+                "resourcePath": "sprites\\s_Soldier_Unarmed_Right\\s_Soldier_Unarmed_Right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "feff4c7b-aaa5-4e54-9711-ad5bd28da948",
             "Value": {
                 "id": "187fc5b4-3212-4a42-97f8-73c92acef168",
@@ -368,12 +512,19 @@
         }
     ],
     "script_order": [
+        "ace4faf7-86f4-44e9-b42b-487dcc84eefd",
         "1df3b082-79f4-4917-815f-c3d1e299b9b4",
         "b8203ce3-6837-4e5f-9945-3ba2ed3ab9f0",
         "260cce52-f421-4dea-a623-f105a877d89c",
         "90398c2e-9f5f-4cc4-82e1-9e926bee864d",
         "2b8ab765-dea3-4391-9d9a-1a75c7f24f0c",
-        "35abb6a2-032a-43ec-bd6c-90e13a30c481"
+        "35abb6a2-032a-43ec-bd6c-90e13a30c481",
+        "6bcab372-61b0-4a3f-aeff-5d936a2cd99c",
+        "6da22d1e-60c4-474e-be50-3970fac65db2",
+        "6dc4fb96-99be-44db-a290-ed0390083fdd",
+        "81cb5b62-e59a-417f-ae6d-d27b6e7a07c6",
+        "9e0a1a91-2a4d-4985-9841-3e19b78f4061",
+        "e8b1100e-deeb-40b2-8ccb-28614afa805b"
     ],
     "tutorial": ""
 }
