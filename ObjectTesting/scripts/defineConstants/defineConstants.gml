@@ -17,7 +17,7 @@
 // Shot Velocity Multiplier (affects how fast projectiles travel)
 #macro SHOT_SPEED_SLOW 0.5
 #macro SHOT_SPEED_MID 1
-#macro SHOT_SPEED_FAST 2
+#macro SHOT_SPEED_FAST 3
 
 // Soldier Weapons
 #macro NO_WEAPON "Unarmed"
