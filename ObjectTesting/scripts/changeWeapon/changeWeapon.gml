@@ -21,3 +21,6 @@ else if ( newWeapon == LASER ) {
 else if ( newWeapon == CANNON ) {
 	cannonSetup()
 }
+else {
+	unarmedSetup()
+}

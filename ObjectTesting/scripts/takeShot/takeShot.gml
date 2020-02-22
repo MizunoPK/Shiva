@@ -10,9 +10,6 @@ if ( not other.isExploding ) {
 
 	// Switch to the explosion sprite
 	with (other) {
-		sprite_index = explosionSprite
-		isExploding = true
-		xShotVelocity = 0
-		yShotVelocity = 0
+		startExplosion()
 	}
 }

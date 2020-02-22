@@ -5,3 +5,4 @@
 // Last Updated: 2/19/19
 
 checkHealth()
+checkTarget()

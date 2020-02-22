@@ -6,18 +6,18 @@ defineConstants()
 
 // Testing soldier shooting an alien
 // Create a soldier
-s1 = instance_create_layer( room_width/3, room_height/3, "Instances", o_Soldier)
+s1 = instance_create_layer( room_width/5, room_height/5, "Instances", o_Soldier)
 // Create an alien
-a1 = instance_create_layer( room_width/3 + 64 * 2, room_height/3, "Instances", o_Alien_Rudra)
+a1 = instance_create_layer( room_width/5 + 64 * 2, room_height/5, "Instances", o_Alien_Rudra)
 with (s1) {
 	currentTarget = other.a1
 }
 // Create an attack button
-b1 = instance_create_layer( room_width/3 + 32, room_height/3 + 48, "Instances", o_AttackButton)
+b1 = instance_create_layer( room_width/5 + 32, room_height/5 + 48, "Instances", o_AttackButton)
 with (b1) {
 	currentTarget = other.s1
 }
-b2 = instance_create_layer( room_width/3 - 32, room_height/3 + 48, "Instances", o_Change)
+b2 = instance_create_layer( room_width/5 - 32, room_height/5 + 48, "Instances", o_Change)
 with (b2) {
 	currentTarget = other.s1
 }
