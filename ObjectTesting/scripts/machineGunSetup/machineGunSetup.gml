@@ -12,3 +12,6 @@ sprite_index = rightwardSprite // base sprite
 damage = ATTACK_DAMAGE_MID // the amount of damage this unit deals
 secondsBetweenHits = ATTACK_SPEED_FAST // seconds between each hit
 velocityMultiplier = SHOT_SPEED_FAST // multiplier affecting the speed of the shots
+
+// Set this unit's projectiles
+firingProjectile = o_Shot_Standard

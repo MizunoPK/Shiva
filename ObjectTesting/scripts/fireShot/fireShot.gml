@@ -12,7 +12,7 @@ if ( not passiveUnit and isAttacking and canAttack ) {
 	yShot = y - sprite_height * sin( degtorad(targetAngle) )
 	
 	// Create the new shot, and update its variables
-	shot = instance_create_layer(xShot, yShot, "Instances", o_Shot_Standard)
+	shot = instance_create_layer(xShot, yShot, "Instances", firingProjectile)
 	with (shot) {
 		image_angle = other.targetAngle
 		// calculate the x and y velocity of the shot

@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "19b94ab5-5416-44dc-9d55-d100dede8d68",
+            "Value": {
+                "id": "916129c9-9a51-4f4e-a618-278804b6d2f6",
+                "resourcePath": "sprites\\s_Shot_Standard_Firing\\s_Shot_Standard_Firing.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1b8b24ee-c7b5-471d-9b97-ba0f66d13301",
             "Value": {
                 "id": "db0f01c5-357b-4048-892e-04cc6a56de00",
@@ -111,6 +119,22 @@
             }
         },
         {
+            "Key": "3ad5e935-9220-4657-9f7c-c96abf525b03",
+            "Value": {
+                "id": "f4972acf-1ff3-4f4a-a73c-ae952f3c583b",
+                "resourcePath": "objects\\o_Shot_Cannon\\o_Shot_Cannon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3dd88100-5f0a-4f3f-a195-4ac7a43d0f11",
+            "Value": {
+                "id": "05e9d7dc-2b3e-490a-9cda-d9c50c69c4d6",
+                "resourcePath": "sprites\\s_Shot_Cannon_Explosion\\s_Shot_Cannon_Explosion.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4c6c6322-ff78-4c07-8041-64943802b4b0",
             "Value": {
                 "id": "7d2f55ae-ee77-44be-afde-8584ea408c10",
@@ -135,6 +159,14 @@
             }
         },
         {
+            "Key": "566dae80-e620-4b69-803d-ba7095ae4536",
+            "Value": {
+                "id": "f2b83029-2999-4ef3-96ab-43bce9208e33",
+                "resourcePath": "scripts\\shotSetup\\shotSetup.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5a611007-3fb4-47e3-9945-de379111df00",
             "Value": {
                 "id": "3fbe4098-433f-41a2-8a47-c66466d28177",
@@ -156,14 +188,6 @@
                 "id": "2d2156ae-7c46-4a49-9c73-aace7a07226b",
                 "resourcePath": "views\\5cf5ba9a-28a1-42a7-9273-156e3f851fc4.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "5ee1ba11-3cea-4118-a2f9-c75c2fec606e",
-            "Value": {
-                "id": "7b7fc09b-52c2-4ea0-b968-145df3ea5306",
-                "resourcePath": "sprites\\s_Shot_Standard\\s_Shot_Standard.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -303,10 +327,34 @@
             }
         },
         {
+            "Key": "a5aa3149-8b7c-49c8-bfdc-70cee17b54b1",
+            "Value": {
+                "id": "15f6f77f-0f5e-4801-96fd-c58973e24cbe",
+                "resourcePath": "views\\a5aa3149-8b7c-49c8-bfdc-70cee17b54b1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a7318c02-6dde-410b-9dcd-4e377ea933c5",
+            "Value": {
+                "id": "94a7eb13-b395-4031-8744-9aebeeeb6e17",
+                "resourcePath": "scripts\\shotStep\\shotStep.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a7cade7b-bb47-4fd1-a47a-5cfb6e3a9f8f",
             "Value": {
                 "id": "954c6d5e-36de-4b30-95f3-b12e4bf9d79c",
                 "resourcePath": "sprites\\s_Soldier_Cannon_Right\\s_Soldier_Cannon_Right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a89241c2-765f-4258-943b-e2496a645a95",
+            "Value": {
+                "id": "6f661827-4fff-4fa3-b1f1-3229d70241ec",
+                "resourcePath": "sprites\\s_Shot_Cannon_Firing\\s_Shot_Cannon_Firing.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -335,6 +383,14 @@
             }
         },
         {
+            "Key": "aed564c3-83f5-43e7-9dcf-4ac306044ee1",
+            "Value": {
+                "id": "93440d85-aa63-4e2e-b7af-d194363fbb3b",
+                "resourcePath": "objects\\o_Shot_Laser\\o_Shot_Laser.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b8203ce3-6837-4e5f-9945-3ba2ed3ab9f0",
             "Value": {
                 "id": "490a7965-e880-45c0-a4b5-76437917e45a",
@@ -351,11 +407,27 @@
             }
         },
         {
+            "Key": "c61b6775-e93c-4d61-b607-d3e7b656effe",
+            "Value": {
+                "id": "cad8d160-f60a-497e-a08d-5dfa462b2e5f",
+                "resourcePath": "views\\c61b6775-e93c-4d61-b607-d3e7b656effe.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "c6f3e814-26ee-4cbf-aa99-22caf0a1021c",
             "Value": {
                 "id": "bfe5fd39-46c7-4fdc-ba29-c5420b0bfc82",
                 "resourcePath": "objects\\o_Alien_Rudra\\o_Alien_Rudra.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cc031d92-81aa-43e1-b750-72d8338d7923",
+            "Value": {
+                "id": "de3f1749-5431-4cdf-bc26-52feb56f30b0",
+                "resourcePath": "sprites\\s_Shot_Laser_Explosion\\s_Shot_Laser_Explosion.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -388,6 +460,30 @@
                 "id": "df0fed04-e480-4836-b604-3e228ad9e9ab",
                 "resourcePath": "objects\\o_GameEngine\\o_GameEngine.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d609c086-eddd-4f5d-99ad-73b59cb4bdd7",
+            "Value": {
+                "id": "3552c4e2-71b4-45b0-a446-e360adfa7b2c",
+                "resourcePath": "scripts\\takeShot\\takeShot.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d724dddd-d62d-4dfe-ae97-ecbcaae7da37",
+            "Value": {
+                "id": "f66a5919-bf2f-439f-8361-06f746599629",
+                "resourcePath": "sprites\\s_Shot_Standard_Explosion\\s_Shot_Standard_Explosion.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d7e9b34d-21ee-40d0-b17b-a3b5df0af24d",
+            "Value": {
+                "id": "934915e8-82be-4e8d-b187-5029b53886a7",
+                "resourcePath": "sprites\\s_Shot_Laser_Firing\\s_Shot_Laser_Firing.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -518,7 +614,10 @@
         "260cce52-f421-4dea-a623-f105a877d89c",
         "90398c2e-9f5f-4cc4-82e1-9e926bee864d",
         "2b8ab765-dea3-4391-9d9a-1a75c7f24f0c",
+        "566dae80-e620-4b69-803d-ba7095ae4536",
         "35abb6a2-032a-43ec-bd6c-90e13a30c481",
+        "d609c086-eddd-4f5d-99ad-73b59cb4bdd7",
+        "a7318c02-6dde-410b-9dcd-4e377ea933c5",
         "6bcab372-61b0-4a3f-aeff-5d936a2cd99c",
         "6da22d1e-60c4-474e-be50-3970fac65db2",
         "6dc4fb96-99be-44db-a290-ed0390083fdd",

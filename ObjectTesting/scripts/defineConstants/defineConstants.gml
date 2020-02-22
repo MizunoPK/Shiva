@@ -8,16 +8,19 @@
 #macro ATTACK_DAMAGE_LOW 1
 #macro ATTACK_DAMAGE_MID 5
 #macro ATTACK_DAMAGE_HIGH 10
+#macro ATTACK_DAMAGE_LASER 0.2
 
 // Attack Speed (seconds between hits)
 #macro ATTACK_SPEED_SLOW 3
 #macro ATTACK_SPEED_MID 1.5
 #macro ATTACK_SPEED_FAST 0.5
+#macro ATTACK_SPEED_LASER 0.05
 
 // Shot Velocity Multiplier (affects how fast projectiles travel)
 #macro SHOT_SPEED_SLOW 0.5
 #macro SHOT_SPEED_MID 1
 #macro SHOT_SPEED_FAST 3
+#macro SHOT_SPEED_LASER 5
 
 // Soldier Weapons
 #macro NO_WEAPON "Unarmed"

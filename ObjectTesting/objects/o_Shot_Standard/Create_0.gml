@@ -1,3 +1,1 @@
-xShotVelocity = 0
-yShotVelocity = 0
-damage = 0
+shotSetup(s_Shot_Standard_Firing, s_Shot_Standard_Explosion)
