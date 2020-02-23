@@ -1,5 +1,5 @@
 index++
-if ( index > ds_list_size(weapons) ) {
+if ( index >= ds_list_size(weapons) ) {
 	index = 0
 }
 with (currentTarget) {

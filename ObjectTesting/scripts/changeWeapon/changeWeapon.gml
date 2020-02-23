@@ -5,20 +5,20 @@
 // Last Updated: 2/21/19
 
 //Arguements:
-// argument0 = new weapon type (based off constant"
+// argument0 = new weapon type (based off constant)
 
-newWeapon = argument0
+name = argument0
 
-if ( newWeapon == PISTOL ) {
+if ( name == PISTOL ) {
 	pistolSetup()
 }
-else if ( newWeapon == MACHINE_GUN ) {
+else if ( name == MACHINE_GUN ) {
 	machineGunSetup()	
 }
-else if ( newWeapon == LASER ) {
+else if ( name == LASER ) {
 	laserSetup()
 }
-else if ( newWeapon == CANNON ) {
+else if ( name == CANNON ) {
 	cannonSetup()
 }
 else {

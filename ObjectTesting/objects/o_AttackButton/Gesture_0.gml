@@ -1,1 +1,3 @@
-currentTarget.isAttacking = !currentTarget.isAttacking
+with (currentTarget) {
+	changeAttackMode()
+}

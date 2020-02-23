@@ -6,6 +6,4 @@
 
 
 draw_self()
-draw_set_halign(fa_center)
-draw_set_font(f_health)
-draw_text_colour(x, y - sprite_height, currentHealth, healthColor, healthColor, healthColor, healthColor, 1)
+unitDialog()

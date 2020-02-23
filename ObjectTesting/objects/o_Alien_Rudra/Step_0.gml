@@ -1,1 +1,5 @@
 unitStep()
+checkStatus()
+meleeAttack()
+unitMove()
+groundUnitChecks()
