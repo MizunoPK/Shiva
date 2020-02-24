@@ -8,7 +8,7 @@
         "da0682a6-4061-48d1-84f6-df9092021190",
         "ad322106-0c28-4817-87c9-a7a89af8ea61",
         "a7cade7b-bb47-4fd1-a47a-5cfb6e3a9f8f",
-        "fecbce75-66ad-4974-80cf-f211ba2eb1fe"
+        "52325eb6-ab92-41c8-8bb8-53892dfbffc4"
     ],
     "filterType": "GMSprite",
     "folderName": "Soldiers",

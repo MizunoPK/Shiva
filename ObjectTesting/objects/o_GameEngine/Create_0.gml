@@ -81,7 +81,7 @@ with (meleeAlienTesting_attackButton) {
 
 // Testing barbwire
 // Create a soldier
-barbwireTesting_barbwire = instance_create_layer( 3 * room_width/5, 2 * room_height/5, "Instances", o_Trap_Barbwire)
+instance_create_layer( 3 * room_width/5, 2 * room_height/5, "Instances", o_Trap_Barbwire)
 // Create an alien
 barbwireTesting_alien = instance_create_layer( 3 * room_width/5 + 128, 2 * room_height/5, "Instances", o_Alien_Rudra)
 with (barbwireTesting_alien) {
@@ -89,3 +89,11 @@ with (barbwireTesting_alien) {
 	isMoving = true
 	targetAngle = 180
 }
+
+
+
+// Testing directions
+index = 0
+timebetweenImages = 2
+alarm[0] = timebetweenImages * room_speed
+directionTesting_unarmedSoldier = instance_create_layer( room_width/5, 4 * room_height/5, "Instances", o_Soldier)

@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "4ce3666e-bb50-472b-ae61-be0390b760ee",
+            "Value": {
+                "id": "393790b9-7507-4fb6-9cb5-eee1e3e5d9d0",
+                "resourcePath": "scripts\\updateDirection\\updateDirection.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5082054b-14d1-48ec-a05f-343d9c2bd405",
             "Value": {
                 "id": "4435b4c1-237b-4118-92ea-ef2da2de6c08",
@@ -411,6 +419,14 @@
             "Value": {
                 "id": "577529e6-63ba-4ae9-88b8-b7e6f8a2c42e",
                 "resourcePath": "views\\509f9d81-f43b-4604-8f9e-31631232dc9b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "52325eb6-ab92-41c8-8bb8-53892dfbffc4",
+            "Value": {
+                "id": "e3752f11-5cda-4ad4-bb0e-f4fd1fa7e294",
+                "resourcePath": "views\\52325eb6-ab92-41c8-8bb8-53892dfbffc4.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -444,6 +460,14 @@
                 "id": "ddc718ac-26db-4661-8f3d-bc9afd3dc529",
                 "resourcePath": "views\\57406947-edaf-47f1-91be-da1ee4799001.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "57ebac71-01b9-4505-aaab-3c451f001744",
+            "Value": {
+                "id": "6f4460a9-0e01-4a6e-ac28-e67bcaca4a2c",
+                "resourcePath": "sprites\\s_Soldier_Unarmed_North\\s_Soldier_Unarmed_North.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -636,6 +660,14 @@
                 "id": "db337125-d111-4988-a803-966291e963c5",
                 "resourcePath": "scripts\\toggleSelection\\toggleSelection.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7f74dfc3-42d5-4115-855a-03e4e924c9f9",
+            "Value": {
+                "id": "7c7fb047-69ee-43ae-9e97-c1453a7a79ed",
+                "resourcePath": "sprites\\s_Soldier_Unarmed_South\\s_Soldier_Unarmed_South.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -863,6 +895,14 @@
             }
         },
         {
+            "Key": "b1c9a2f6-0a4c-421f-ae48-84ab6970304a",
+            "Value": {
+                "id": "3ebb434e-6157-452e-be5c-910bf05fb634",
+                "resourcePath": "sprites\\s_Soldier_Unarmed_North_East\\s_Soldier_Unarmed_North_East.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b643b817-0108-4dbd-baf1-2d4bcc0c6308",
             "Value": {
                 "id": "47111fc3-1e87-45f6-809a-063759257547",
@@ -876,6 +916,14 @@
                 "id": "4d1a62e2-dedc-493f-90ec-7b0c1b9ed9aa",
                 "resourcePath": "views\\b6e235c6-1a62-4a1f-93df-4448afe59d6f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b767d0af-558f-4708-bd26-b9e7318f8115",
+            "Value": {
+                "id": "3d90d994-d296-4a45-97f8-1ae6678cacae",
+                "resourcePath": "sprites\\s_Soldier_Unarmed_South_East\\s_Soldier_Unarmed_South_East.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1202,7 +1250,7 @@
             "Key": "fecbce75-66ad-4974-80cf-f211ba2eb1fe",
             "Value": {
                 "id": "979014cf-24fb-4718-815c-04be19440b78",
-                "resourcePath": "sprites\\s_Soldier_Unarmed_Right\\s_Soldier_Unarmed_Right.yy",
+                "resourcePath": "sprites\\s_Soldier_Unarmed_East\\s_Soldier_Unarmed_East.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1231,6 +1279,7 @@
         "7d9ed3a8-7547-4f1b-a02f-1c1a5a26626e",
         "e8e52768-9ec4-4f55-b296-bdbb8da6c86e",
         "ec09ccba-fc25-478d-a4e4-249f00b32ece",
+        "4ce3666e-bb50-472b-ae61-be0390b760ee",
         "566dae80-e620-4b69-803d-ba7095ae4536",
         "35abb6a2-032a-43ec-bd6c-90e13a30c481",
         "d609c086-eddd-4f5d-99ad-73b59cb4bdd7",

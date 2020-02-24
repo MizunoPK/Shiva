@@ -41,6 +41,18 @@ global.groundTroops = ds_list_create() // a list of the ground troops
 #macro MOVEMENT_VELOCITY_4 4
 #macro MOVEMENT_VELOCITY_5 5
 
+// Angles
+#macro DIRECTION_EAST 0
+#macro DIRECTION_NORTH_EAST 45
+#macro DIRECTION_NORTH 90
+#macro DIRECTION_NORTH_WEST 135
+#macro DIRECTION_WEST 180
+#macro DIRECTION_SOUTH_WEST 225
+#macro DIRECTION_SOUTH 270
+#macro DIRECTION_SOUTH_EAST 315
+global.directionList = ds_list_create()
+ds_list_add(global.directionList, DIRECTION_EAST, DIRECTION_NORTH_EAST, DIRECTION_NORTH, DIRECTION_NORTH_WEST, DIRECTION_WEST, DIRECTION_SOUTH_WEST, DIRECTION_SOUTH, DIRECTION_SOUTH_EAST )
+
 // Soldier Weapons
 #macro NO_WEAPON "Unarmed Soldier"
 #macro PISTOL "Pistol Soldier"
