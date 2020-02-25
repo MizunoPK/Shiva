@@ -1,11 +1,11 @@
-// @func: updateDirection
-// @description: This is called when a unit changes the direction of their movement
+/// @func: updateDirection(targetAngle)
+/// @description: This is called when a unit changes the direction of their movement
 // @Author: Kai Mizuno
 // Date Created: 2/23/19
 // Last Updated: 2/23/19
 
 // Parameters:
-// argument0 = angle of movement based off macro
+/// @param targetAngle angle of movement based off macro
 
 targetAngle = argument0 // angle of movement
 

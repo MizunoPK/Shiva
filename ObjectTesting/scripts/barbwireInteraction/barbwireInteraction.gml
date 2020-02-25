@@ -1,5 +1,5 @@
-// @func: barbwireInteraction
-// @description: This is called whenever a unit runs into a barbwire
+/// @func: barbwireInteraction()
+/// @description: This is called whenever a unit runs into a barbwire
 // @Author: Kai Mizuno
 // Date Created: 2/23/19
 // Last Updated: 2/23/19
@@ -15,4 +15,5 @@ if (barbwireCheck != noone ) {
 // otherwise, be at max speed
 else {
 	vectorVelocty = maxVelocty
+	isSlowed = false
 }

@@ -1,5 +1,5 @@
-// @func: fireShot
-// @description: This is called when a ranged units fires a shot
+/// @func: fireShot()
+/// @description: This is called when a ranged units fires a shot
 // @Author: Kai Mizuno
 // Date Created: 2/19/19
 // Last Updated: 2/19/19

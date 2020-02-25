@@ -1,5 +1,5 @@
-// @func: unitMove
-// @description: This is called during a unit's step event and tries to move the unit towards its target
+/// @func: unitMove()
+/// @description: This is called during a unit's step event and tries to move the unit towards its target
 // @Author: Kai Mizuno
 // Date Created: 2/23/19
 // Last Updated: 2/23/19

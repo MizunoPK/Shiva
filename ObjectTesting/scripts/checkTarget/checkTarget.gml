@@ -1,5 +1,5 @@
-// @func: checkTarget
-// @description: This is called during a unit's step function to check on their target
+/// @func: checkTarget()
+/// @description: This is called during a unit's step function to check on their target
 // @Author: Kai Mizuno
 // Date Created: 2/21/19
 // Last Updated: 2/21/19
