@@ -1,5 +1,5 @@
-// @func: checkStatus
-// @description: This is called during a unit's step function to check it's current status
+/// @func: checkStatus()
+/// @description: This is called during a unit's step function to check it's current status
 // @Author: Kai Mizuno
 // Date Created: 2/22/19
 // Last Updated: 2/22/19

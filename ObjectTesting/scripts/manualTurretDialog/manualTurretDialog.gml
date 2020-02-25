@@ -1,5 +1,5 @@
-// @func: manualTurretDialog
-// @description: This is called during the draw event and shows the corresponding dialog for the turret
+/// @func: manualTurretDialog()
+/// @description: This is called during the draw event and shows the corresponding dialog for the turret
 // @Author: Kai Mizuno
 // Date Created: 2/22/19
 // Last Updated: 2/22/19

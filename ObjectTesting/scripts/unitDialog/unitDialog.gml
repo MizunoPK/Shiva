@@ -1,11 +1,10 @@
-// @func: unitDialog
-// @description: This is called during a unit's draw function and draws the info dialog above the unit if it's selected
-//				 If it isn't selected, then show the health of the unit
+/// @func: unitDialog
+/// @description: Draws the info dialog above the unit if it's selected. If it isn't selected, then show the health of the unit
 // @Author: Kai Mizuno
 // Date Created: 2/22/19
 // Last Updated: 2/22/19
 
-draw_set_font(f_dialog)
+draw_set_font(DIALOG_FONT)
 draw_set_color(dialogColor)
 depth = -1000
 

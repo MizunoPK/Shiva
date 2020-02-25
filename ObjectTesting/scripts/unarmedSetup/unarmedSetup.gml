@@ -1,5 +1,5 @@
-// @func: unarmedSetup
-// @description: This is called whenever a soldier changes to not holding a weapon and sets up needed variables
+/// @func: unarmedSetup()
+/// @description: This is called whenever a soldier changes to not holding a weapon and sets up needed variables
 // @Author: Kai Mizuno
 // Date Created: 2/21/19
 // Last Updated: 2/21/19

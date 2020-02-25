@@ -1,5 +1,5 @@
-// @func: standardTurretSetup
-// @description: This is called whenever a standard unmanned turret needs to be initialized
+/// @func: standardTurretSetup()
+/// @description: This is called whenever a standard unmanned turret needs to be initialized
 // @Author: Kai Mizuno
 // Date Created: 2/22/19
 // Last Updated: 2/22/19

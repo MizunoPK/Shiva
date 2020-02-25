@@ -1,5 +1,5 @@
-// @func: createSoldierButton
-// @description: This is called whenever a button is created
+/// @func: createSoldierButton()
+/// @description: This is called whenever a button is created
 // @Author: Kai Mizuno
 // Date Created: 2/22/19
 // Last Updated: 2/22/19

@@ -1,5 +1,5 @@
-// @func: meleeAttack
-// @description: This is called when a unit is attacking something
+/// @func: meleeAttack()
+/// @description: This is called when a unit is attacking something
 // @Author: Kai Mizuno
 // Date Created: 2/19/19
 // Last Updated: 2/19/19

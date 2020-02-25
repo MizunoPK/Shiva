@@ -1,5 +1,5 @@
-// @func: rudraAttackSetup
-// @description: This is called whenever a rudra is set to attack mode
+/// @func: rudraAttackSetup()
+/// @description: This is called whenever a rudra is set to attack mode
 // @Author: Kai Mizuno
 // Date Created: 2/23/19
 // Last Updated: 2/23/19

@@ -1,5 +1,5 @@
-// @func: rudraSetup
-// @description: This is called whenever a rudra is created or goes from attack mode to movement mode
+/// @func: rudraSetup()
+/// @description: This is called whenever a rudra is created or goes from attack mode to movement mode
 // @Author: Kai Mizuno
 // Date Created: 2/23/19
 // Last Updated: 2/23/19

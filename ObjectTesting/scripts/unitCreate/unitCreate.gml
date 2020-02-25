@@ -1,14 +1,14 @@
-// @func: unitCreate
-// @description: This is called during the create event of units, and initializes the common variables for each alien
+/// @func: unitCreate(name, isFriendly, maxHealth, passiveUnit)
+/// @description: This is called during the create event of units, and initializes the common variables for each alien
 // @Author: Kai Mizuno
 // Date Created: 2/19/19
 // Last Updated: 2/21/19 - Removed negation of animation
 
 // Arguments:
-// argument0 = the name of the unit
-// argument1 = boolean for if it's a friendly unit (true), or an enemy unit (false)
-// argument2 = health
-// argument3 = passivity (true if it's a non-attacking unit, and false if its an attacking unit)
+/// @param argument0 name the name of the unit
+/// @param argument1 isFriendly boolean for if it's a friendly unit (true), or an enemy unit (false)
+/// @param argument2 maxHealth maximum health of the unit
+/// @param argument3 passiveUnit passivity (true if it's a non-attacking unit, and false if its an attacking unit)
 
 name = argument0 // the name of the unit
 isFriendly = argument1 // is this a player unit or an alien
@@ -30,8 +30,8 @@ movementMultiplier = 4 // how much you multiply the idle speed by when moving
 
 // set variables according to if it's a friendly unit or an enemy unit
 if ( isFriendly ) {
-	dialogColor = c_white // the color that the unit's health will be displayed as
+	dialogColor = FRIENDLY_DIALOG_COLOR // the color that the unit's health will be displayed as
 } 
 else {
-	dialogColor = c_red // the color that the unit's health will be displayed as
+	dialogColor = ENEMY_DIALOG_COLOR // the color that the unit's health will be displayed as
 }

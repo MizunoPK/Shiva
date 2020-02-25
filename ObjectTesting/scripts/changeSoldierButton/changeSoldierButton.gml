@@ -1,5 +1,5 @@
-// @func: changeSoldierButton
-// @description: This is called whenever a soldier button is pressed and the action is performed successfully
+/// @func: changeSoldierButton()
+/// @description: This is called whenever a soldier button is pressed and the action is performed successfully
 // @Author: Kai Mizuno
 // Date Created: 2/22/19
 // Last Updated: 2/22/19

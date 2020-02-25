@@ -1,5 +1,5 @@
-// @func: checkForSoldier
-// @description: This is called during the step event and checks if the turret is waiting for a soldier and if it's been given one
+/// @func: checkForSoldier()
+/// @description: This is called during the step event and checks if the turret is waiting for a soldier and if it's been given one
 // @Author: Kai Mizuno
 // Date Created: 2/22/19
 // Last Updated: 2/22/19

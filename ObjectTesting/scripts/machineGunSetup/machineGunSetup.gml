@@ -1,5 +1,5 @@
-// @func: machineGunSetup
-// @description: This is called whenever a soldier changes to holding a machine gun and sets up needed variables
+/// @func: machineGunSetup()
+/// @description: This is called whenever a soldier changes to holding a machine gun and sets up needed variables
 // @Author: Kai Mizuno
 // Date Created: 2/21/19
 // Last Updated: 2/21/19

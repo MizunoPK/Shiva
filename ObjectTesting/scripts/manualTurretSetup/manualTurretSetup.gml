@@ -1,5 +1,5 @@
-// @func: manualTurretSetup
-// @description: This is called whenever a manual turret is created
+/// @func: manualTurretSetup()
+/// @description: This is called whenever a manual turret is created
 // @Author: Kai Mizuno
 // Date Created: 2/22/19
 // Last Updated: 2/22/19
