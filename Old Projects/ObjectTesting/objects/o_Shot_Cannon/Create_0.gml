@@ -1,0 +1,1 @@
+shotSetup(s_Shot_Cannon_Firing, s_Shot_Cannon_Explosion)

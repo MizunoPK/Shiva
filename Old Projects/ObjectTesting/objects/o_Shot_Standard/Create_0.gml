@@ -1,0 +1,1 @@
+shotSetup(s_Shot_Standard_Firing, s_Shot_Standard_Explosion)
