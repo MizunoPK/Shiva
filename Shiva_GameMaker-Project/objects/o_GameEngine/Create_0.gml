@@ -2,8 +2,11 @@
 
 // Constants
 defineConstants()
+defineGlobals()
 
 
+
+/*
 // Testing soldier shooting an alien
 // Create a soldier
 soldierTesting_soldier = instance_create_layer( room_width/5, room_height/5, "Instances", o_Soldier)
@@ -97,3 +100,4 @@ index = 0
 timebetweenImages = 2
 alarm[0] = timebetweenImages * room_speed
 directionTesting_unarmedSoldier = instance_create_layer( room_width/5, 4 * room_height/5, "Instances", o_Soldier)
+*/

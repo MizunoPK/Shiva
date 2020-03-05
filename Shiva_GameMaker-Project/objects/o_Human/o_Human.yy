@@ -1,43 +1,43 @@
 {
-    "id": "fa4b6249-66d4-4ab2-960f-7dda7dc85eac",
+    "id": "e23df3c1-2871-477c-8999-240a7011b6ce",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_Soldier",
+    "name": "o_Human",
     "eventList": [
         {
-            "id": "0aca6768-4626-4457-b679-93343afc7c41",
+            "id": "96510613-becf-49aa-b906-21a629099c96",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "fa4b6249-66d4-4ab2-960f-7dda7dc85eac"
+            "m_owner": "e23df3c1-2871-477c-8999-240a7011b6ce"
         },
         {
-            "id": "dcea20f8-6292-4444-916d-bc725f1bd51d",
+            "id": "f25f1486-c18b-4669-b41e-f738b25e19e0",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "fa4b6249-66d4-4ab2-960f-7dda7dc85eac"
+            "eventtype": 13,
+            "m_owner": "e23df3c1-2871-477c-8999-240a7011b6ce"
         },
         {
-            "id": "a791c87c-b229-4423-8670-2668ef5eb3af",
+            "id": "5ce04903-9221-46e3-87f5-846519dcff6f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "fa4b6249-66d4-4ab2-960f-7dda7dc85eac"
+            "eventtype": 8,
+            "m_owner": "e23df3c1-2871-477c-8999-240a7011b6ce"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "e23df3c1-2871-477c-8999-240a7011b6ce",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -53,6 +53,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "fecbce75-66ad-4974-80cf-f211ba2eb1fe",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

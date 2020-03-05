@@ -15,5 +15,6 @@ if ( waitingForUnit ) {
 	depth = 0
 }
 else {
+	setBaseUnitDialog()
 	unitDialog()
 }

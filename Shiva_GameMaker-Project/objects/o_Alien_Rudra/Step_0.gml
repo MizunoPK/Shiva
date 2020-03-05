@@ -1,5 +1,4 @@
-unitStep()
-checkStatus()
-unitMove()
+event_inherited()
+
 meleeAttack()
 groundUnitChecks()

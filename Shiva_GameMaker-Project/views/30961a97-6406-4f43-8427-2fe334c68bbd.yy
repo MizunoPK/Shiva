@@ -11,7 +11,7 @@
         "434859ba-9ca9-458e-baf2-a99de847b7c2"
     ],
     "filterType": "GMScript",
-    "folderName": "dynamictext",
+    "folderName": "textBubbles",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

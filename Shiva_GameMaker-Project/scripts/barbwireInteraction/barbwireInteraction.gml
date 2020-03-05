@@ -1,8 +1,8 @@
 /// @func: barbwireInteraction()
 /// @description: This is called whenever a unit runs into a barbwire
 // @Author: Kai Mizuno
-// Date Created: 2/23/19
-// Last Updated: 2/23/19
+// Date Created: 2/23/20
+// Last Updated: 2/23/20
 
 slowdownMultiplier = 0.25 // multiply the unit's velocity by this amount
 

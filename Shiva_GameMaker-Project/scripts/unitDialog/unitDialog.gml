@@ -13,11 +13,7 @@ if ( global.currentSelectedObject == self ) {
 	// creates a dialog showing the name, health, and status of the unit
 	draw_set_halign(fa_left);
 	draw_set_valign(fa_top);
-	msg_static(
-	name + "\n" +
-	"\nHealth: " + string(currentHealth) + 
-	"\nStatus: " + status
-	)
+	msg_static(dialogText)
 	
 }
 // otherwise just show the health of the unit if it isn't at 100%

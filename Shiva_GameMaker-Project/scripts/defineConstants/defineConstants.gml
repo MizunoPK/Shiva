@@ -1,13 +1,9 @@
-/// @func: changeWeapon
+/// @func: defineConstants
 /// @description: This is called at the start of the game and establishes all the constants we want to define
-// @Author: Kai Mizuno
 // Date Created: 2/21/19
 // Last Updated: 2/21/19
 
-// Global Variables
-global.currentSelectedObject = noone // the currently selected object by the user
-global.groundTroops = ds_list_create() // a list of the ground troops
-	ds_list_add( global.groundTroops, o_Soldier, o_Alien_Rudra )
+
 
 // Dialog Colors
 #macro FRIENDLY_DIALOG_COLOR c_white
