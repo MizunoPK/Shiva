@@ -1,4 +1,2 @@
-
-unitStep()
+event_inherited()
 fireShot()
-checkStatus()

@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "o_NextRound",
     "eventList": [
-        
+        {
+            "id": "8c7a4861-7278-45df-8852-6d62769b6c14",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 13,
+            "m_owner": "d1f53c00-d39b-4c0e-9d58-56b594898ccc"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
