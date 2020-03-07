@@ -1,0 +1,1 @@
+occupier = noone // the instance occupying the tile
