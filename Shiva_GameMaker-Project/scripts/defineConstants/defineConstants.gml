@@ -3,7 +3,13 @@
 // Date Created: 2/21/19
 // Last Updated: 2/21/19
 
+// Sprites
+#macro xButton s_X
 
+// Tiles
+#macro tileDiameter 64
+#macro tileRadius (tileDiameter / 2)
+#macro tileEdgeWidth 50 
 
 // Dialog Colors
 #macro FRIENDLY_DIALOG_COLOR c_white

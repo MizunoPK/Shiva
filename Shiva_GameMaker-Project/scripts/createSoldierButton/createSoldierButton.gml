@@ -8,4 +8,4 @@ currentTarget = noone // the turret that the button is attached to. This will be
 
 turretIsManned = false // does the turret have a soldier on it?
 placeSoldierSprite = s_PlaceSoldier // sprite for when unmanned
-removeSoldierSprite = s_RemoveSoldier // sprite for manned
+removeSoldierSprite = xButton // sprite for manned

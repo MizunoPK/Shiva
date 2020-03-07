@@ -12,3 +12,5 @@ checkHunger()
 checkTarget()
 // check the status
 checkStatus()
+// check the movement button
+checkMovementButton()

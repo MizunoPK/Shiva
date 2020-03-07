@@ -14,7 +14,9 @@
         "7d9ed3a8-7547-4f1b-a02f-1c1a5a26626e",
         "e8e52768-9ec4-4f55-b296-bdbb8da6c86e",
         "ec09ccba-fc25-478d-a4e4-249f00b32ece",
-        "4ce3666e-bb50-472b-ae61-be0390b760ee"
+        "4ce3666e-bb50-472b-ae61-be0390b760ee",
+        "c960a186-b760-48b0-bebc-8ea3a6068ae1",
+        "181b66a7-5d04-46d5-a0c2-13cc4316efe1"
     ],
     "filterType": "GMScript",
     "folderName": "General Unit Scrips",

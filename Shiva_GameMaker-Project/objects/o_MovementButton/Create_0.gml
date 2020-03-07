@@ -1,0 +1,1 @@
+moveSprite = s_Move

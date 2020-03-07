@@ -2,4 +2,5 @@
 // Argument 2: Health
 event_inherited()
 unitCreate( NO_WEAPON, true, 100, true)
+movement = 5
 unarmedSetup()

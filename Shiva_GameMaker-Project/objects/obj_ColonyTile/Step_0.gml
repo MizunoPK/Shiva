@@ -8,4 +8,5 @@ for(rings = 1; rings <= 15; rings++) {
 }
 
 isGenerating = 0;
+calculateAdjacencies()
 }
