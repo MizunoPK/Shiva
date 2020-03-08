@@ -1,2 +1,3 @@
 setBaseUnitDialog()
-unitDraw()
+draw_self()
+unitDialog()

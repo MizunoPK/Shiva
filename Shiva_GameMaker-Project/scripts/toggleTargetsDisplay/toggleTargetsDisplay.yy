@@ -1,8 +1,8 @@
 {
-    "id": "260cce52-f421-4dea-a623-f105a877d89c",
+    "id": "fac42f89-93ab-48dc-bde6-4144c05b18de",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "unitStep",
+    "name": "toggleTargetsDisplay",
     "IsCompatibility": false,
     "IsDnD": false
 }

@@ -16,6 +16,8 @@ global.food = 0 // the amount of food the player has accumulated
 global.board = ds_list_create()
 global.adjacencyList = ds_map_create()
 global.targetsList = ds_list_create()
+global.targetsDistanceList = ds_list_create()
+global.visitedList = ds_list_create()
 
 // Inventory
 global.inventory = ds_map_create()

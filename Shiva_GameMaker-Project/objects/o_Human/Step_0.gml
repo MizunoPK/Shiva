@@ -14,3 +14,9 @@ checkTarget()
 checkStatus()
 // check the movement button
 checkMovementButton()
+// check the unit's direction
+updateDirection()
+// check if the unit has been provided a tile target
+checkForTile()
+// try to start a movement path
+checkMovement()

@@ -3,3 +3,4 @@
 event_inherited()
 isGenerating = 1;
 ds_list_add(global.board, self)
+mainSprite = spr_ColonyTile

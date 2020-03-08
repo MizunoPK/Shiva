@@ -1,8 +1,8 @@
 {
-    "id": "b8203ce3-6837-4e5f-9945-3ba2ed3ab9f0",
+    "id": "d9e9a9db-d3f0-4ccc-9407-ccb827b4bef8",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "unitDraw",
+    "name": "top_instance_position",
     "IsCompatibility": false,
     "IsDnD": false
 }

@@ -2,6 +2,5 @@
 
 
 hunger = 0
-hasMoved = false
 instance_round = global.roundNumber
 createMovementButton()

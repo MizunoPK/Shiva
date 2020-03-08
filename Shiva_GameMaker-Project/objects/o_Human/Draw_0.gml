@@ -1,7 +1,6 @@
+draw_self()
+
 humanDialog()
 if ( not selectingTarget) {
-	unitDraw()
-}
-else {
-	draw_self()
+	unitDialog()
 }

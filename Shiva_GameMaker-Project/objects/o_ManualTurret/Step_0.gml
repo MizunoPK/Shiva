@@ -1,4 +1,5 @@
-unitStep()
+checkHealth()
+checkTarget()
 fireShot()
 checkStatus()
 checkForSoldier()

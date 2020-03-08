@@ -43,7 +43,7 @@
         },
         {
             "__type": "GMRAssetLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Assets_1",
+            "name": "UI_Sprites",
             "id": "654d7dbc-1c16-4b59-b4ac-a50f0d11e947",
             "assets": [
 {"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_4721F2D","id": "c0af10c5-8cbd-4d5b-b5e1-65b0e5d92203","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 8.468751,"scaleY": 1,"mvc": "1.0","spriteId": "4837c276-fa77-4d6a-b341-0e4c50f69412","userdefined_animFPS": false,"x": 0,"y": 0}

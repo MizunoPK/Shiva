@@ -6,8 +6,12 @@
 
 passiveUnit = false // this unit can fight
 
-rightwardSprite = s_Soldier_Pistol_Right // sprite facing rightward
-sprite_index = rightwardSprite // base sprite
+eastSprite = s_Soldier_Pistol_East // east facing sprite
+northeastSprite = s_Soldier_Pistol_NorthEast // northeast facing sprite
+northSprite = s_Soldier_Pistol_North // north facing sprite
+southeastSprite = s_Soldier_Pistol_SouthEast // south east facing sprite
+southSprite = s_Soldier_Pistol_South // south facing sprite
+sprite_index = eastSprite // base sprite
 
 damage = ATTACK_DAMAGE_3 // the amount of damage this unit deals
 secondsBetweenHits = ATTACK_SPEED_3 // seconds between each hit

@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "037a3d98-af2b-43a8-a354-ec8b1177060b",
+            "Value": {
+                "id": "ebdefdfc-b64d-4225-97d8-c488e9d2497f",
+                "resourcePath": "scripts\\movementTap\\movementTap.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "07d8a142-a1c4-4935-b53b-1a8095f587e7",
             "Value": {
                 "id": "a0373b0b-4b04-4c93-a879-874fae498413",
@@ -255,6 +263,14 @@
             }
         },
         {
+            "Key": "1f7298e5-eb46-4898-abd0-076e0310e7d9",
+            "Value": {
+                "id": "de3b9fc7-146f-4a6d-ac8a-0d87abc30f60",
+                "resourcePath": "sprites\\s_Soldier_Pistol_South\\s_Soldier_Pistol_South.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "20c29e39-f628-42ec-bb10-b493164d1ebf",
             "Value": {
                 "id": "18420be8-1191-4323-8850-0bbf8dc82463",
@@ -267,6 +283,14 @@
             "Value": {
                 "id": "8a1ce8ed-7155-40d1-9336-ad618c547eef",
                 "resourcePath": "views\\20dec71b-f235-420f-9fd9-87da0b1a6491.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "21b060cd-20cd-4331-8105-8ab99a9d1e64",
+            "Value": {
+                "id": "68dae46a-c03e-4b8c-8ddd-58bf6032c3ba",
+                "resourcePath": "views\\21b060cd-20cd-4331-8105-8ab99a9d1e64.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -295,14 +319,6 @@
             }
         },
         {
-            "Key": "260cce52-f421-4dea-a623-f105a877d89c",
-            "Value": {
-                "id": "4a61dcc4-b6a6-48cf-82c7-6b9c2e8211ad",
-                "resourcePath": "scripts\\unitStep\\unitStep.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "271a8345-f6a5-4740-b333-c37a94c99070",
             "Value": {
                 "id": "83453f02-6d39-4ba1-be48-88db2113b62c",
@@ -324,6 +340,14 @@
                 "id": "875d51fb-bb29-44b8-9b9a-db5b1c8f5c7b",
                 "resourcePath": "sprites\\s_Turret_Cannon_Unmanned_Right\\s_Turret_Cannon_Unmanned_Right.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2af32633-38e0-42a0-b7ba-30bd02133087",
+            "Value": {
+                "id": "9dd32c5b-f592-41df-b05d-0694d465a09f",
+                "resourcePath": "views\\2af32633-38e0-42a0-b7ba-30bd02133087.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -492,14 +516,6 @@
                 "id": "393790b9-7507-4fb6-9cb5-eee1e3e5d9d0",
                 "resourcePath": "scripts\\updateDirection\\updateDirection.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "5082054b-14d1-48ec-a05f-343d9c2bd405",
-            "Value": {
-                "id": "4435b4c1-237b-4118-92ea-ef2da2de6c08",
-                "resourcePath": "sprites\\s_Soldier_Pistol_Right\\s_Soldier_Pistol_Right.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -783,6 +799,14 @@
             }
         },
         {
+            "Key": "7d3c5cec-3645-4959-84fc-385205c5bbe9",
+            "Value": {
+                "id": "35b25de9-1fd2-4f0a-b9ae-63af9a4acc5b",
+                "resourcePath": "sprites\\s_Soldier_Pistol_North\\s_Soldier_Pistol_North.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7d9ed3a8-7547-4f1b-a02f-1c1a5a26626e",
             "Value": {
                 "id": "db337125-d111-4988-a803-966291e963c5",
@@ -951,6 +975,14 @@
             }
         },
         {
+            "Key": "a23ffce0-b0a0-4537-a9cd-50f85f2dc2e2",
+            "Value": {
+                "id": "3a133d6b-b4d7-4980-8651-0447693aca81",
+                "resourcePath": "sprites\\s_Soldier_Pistol_SouthEast\\s_Soldier_Pistol_SouthEast.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a5107555-f6b5-46b1-96e8-4ac5a98aac8e",
             "Value": {
                 "id": "b4af39b1-d184-419f-ae28-9ad0fc41793b",
@@ -1015,6 +1047,14 @@
             }
         },
         {
+            "Key": "a96049c7-5faa-43c8-ac84-62d9df3ad05e",
+            "Value": {
+                "id": "06beb903-9ba4-4f51-af0f-aa4efe641016",
+                "resourcePath": "scripts\\checkForTile\\checkForTile.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "aab7031c-ac19-48f3-afb5-569f9cb8116b",
             "Value": {
                 "id": "07648d8a-be1e-4ea3-a5fc-bb0d77f32983",
@@ -1028,6 +1068,14 @@
                 "id": "b517d2f6-f0e4-46f1-aa93-6d153950a24a",
                 "resourcePath": "scripts\\barbwireInteraction\\barbwireInteraction.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ab0c922f-0573-4786-a92f-e155423aef53",
+            "Value": {
+                "id": "eefd95b7-bdff-4396-8b3e-07697832c0f1",
+                "resourcePath": "sprites\\s_Soldier_Pistol_NorthEast\\s_Soldier_Pistol_NorthEast.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1111,19 +1159,19 @@
             }
         },
         {
-            "Key": "b8203ce3-6837-4e5f-9945-3ba2ed3ab9f0",
-            "Value": {
-                "id": "490a7965-e880-45c0-a4b5-76437917e45a",
-                "resourcePath": "scripts\\unitDraw\\unitDraw.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "bc0aa764-ba13-47ff-a39e-9e8897d7e1be",
             "Value": {
                 "id": "d5da0100-370a-4e17-8786-7886e889b430",
                 "resourcePath": "sprites\\spr_PlainsTile\\spr_PlainsTile.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bc10811b-ec50-4c72-853f-9feeeb3705d1",
+            "Value": {
+                "id": "3b905aae-a242-4702-89a4-1cefb6cce196",
+                "resourcePath": "scripts\\checkMovement\\checkMovement.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1375,6 +1423,14 @@
             }
         },
         {
+            "Key": "d9e9a9db-d3f0-4ccc-9407-ccb827b4bef8",
+            "Value": {
+                "id": "181fd00d-230f-423e-b35a-5591dc83d28a",
+                "resourcePath": "scripts\\top_instance_position\\top_instance_position.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "da0682a6-4061-48d1-84f6-df9092021190",
             "Value": {
                 "id": "60d512e9-e671-4b14-9640-bbf72da3d32e",
@@ -1455,6 +1511,14 @@
             }
         },
         {
+            "Key": "ec60db65-3123-4c48-94c4-363d53af6758",
+            "Value": {
+                "id": "2e7e8df0-12cc-49c4-8cac-b31d66a188e7",
+                "resourcePath": "sprites\\s_Soldier_Pistol_East\\s_Soldier_Pistol_East.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f2df931e-4926-4250-b590-821f31e2a513",
             "Value": {
                 "id": "7bb545e8-9708-4b69-a27b-dadc44427ba5",
@@ -1503,6 +1567,14 @@
             }
         },
         {
+            "Key": "f868ef2b-7b72-4b17-a32c-5fd2fb507a35",
+            "Value": {
+                "id": "091c1e00-a8ce-4dea-a68d-1bc24ba5ed06",
+                "resourcePath": "views\\f868ef2b-7b72-4b17-a32c-5fd2fb507a35.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f8e9610b-d110-437e-81cd-1005264654e5",
             "Value": {
                 "id": "2d083aef-e272-4b36-8a18-10eb289303a8",
@@ -1524,6 +1596,14 @@
                 "id": "9e034e0d-7856-409d-bc1b-735af90d240c",
                 "resourcePath": "objects\\o_Soldier\\o_Soldier.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fac42f89-93ab-48dc-bde6-4144c05b18de",
+            "Value": {
+                "id": "3e864ddf-8193-445f-9331-bcca609d1476",
+                "resourcePath": "scripts\\toggleTargetsDisplay\\toggleTargetsDisplay.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1567,9 +1647,8 @@
         "0ee70efb-bd3b-4b6a-8b51-e4d1c0d2ebf0",
         "95a0eda5-083b-4c6e-9105-9eb8c5e581a3",
         "434859ba-9ca9-458e-baf2-a99de847b7c2",
+        "d9e9a9db-d3f0-4ccc-9407-ccb827b4bef8",
         "1df3b082-79f4-4917-815f-c3d1e299b9b4",
-        "b8203ce3-6837-4e5f-9945-3ba2ed3ab9f0",
-        "260cce52-f421-4dea-a623-f105a877d89c",
         "90398c2e-9f5f-4cc4-82e1-9e926bee864d",
         "5e04f50c-f39c-4dfb-a71e-2628c34f9375",
         "d6c281d6-1d24-4c38-b0d0-69a37f808de9",
@@ -1578,8 +1657,7 @@
         "e8e52768-9ec4-4f55-b296-bdbb8da6c86e",
         "ec09ccba-fc25-478d-a4e4-249f00b32ece",
         "4ce3666e-bb50-472b-ae61-be0390b760ee",
-        "c960a186-b760-48b0-bebc-8ea3a6068ae1",
-        "181b66a7-5d04-46d5-a0c2-13cc4316efe1",
+        "bc10811b-ec50-4c72-853f-9feeeb3705d1",
         "566dae80-e620-4b69-803d-ba7095ae4536",
         "35abb6a2-032a-43ec-bd6c-90e13a30c481",
         "d609c086-eddd-4f5d-99ad-73b59cb4bdd7",
@@ -1606,6 +1684,9 @@
         "0edd50be-40f9-4c43-b80a-92dc56035dd4",
         "a7b2608a-dfa2-4cad-9cfa-508b7a4c0cef",
         "23508a0c-651a-40d8-ba9a-76bb92621db7",
+        "c960a186-b760-48b0-bebc-8ea3a6068ae1",
+        "181b66a7-5d04-46d5-a0c2-13cc4316efe1",
+        "fac42f89-93ab-48dc-bde6-4144c05b18de",
         "6bcab372-61b0-4a3f-aeff-5d936a2cd99c",
         "6da22d1e-60c4-474e-be50-3970fac65db2",
         "6dc4fb96-99be-44db-a290-ed0390083fdd",
@@ -1617,6 +1698,8 @@
         "172c5f47-e92f-4350-9474-9318a8e394c0",
         "fcd273af-4428-4413-a16f-e525cafa7416",
         "5c2c39da-6ed8-4a15-8b17-96812bb85304",
+        "037a3d98-af2b-43a8-a354-ec8b1177060b",
+        "a96049c7-5faa-43c8-ac84-62d9df3ad05e",
         "3aed2b66-608a-427c-9c76-7d4454e5a29d"
     ],
     "tutorial": ""

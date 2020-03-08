@@ -3,4 +3,4 @@
 
 
 hunger += 5
-hasMoved = false
+movementRange = maxMovement

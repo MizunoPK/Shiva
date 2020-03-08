@@ -14,6 +14,9 @@ if ( isMoving ) {
 else if ( isAttacking and !passiveUnit ) {
 	status = "In Combat"
 }
+else if ( moveable ) {
+	status = string(movementRange) + " Movement Remaining"
+}
 else if ( !passiveUnit ) {
 	status = "Ready to Fight"
 }

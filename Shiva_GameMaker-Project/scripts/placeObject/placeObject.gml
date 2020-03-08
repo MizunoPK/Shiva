@@ -11,7 +11,8 @@ if ( object_get_parent(tile.object_index) == obj_Tile and tile.occupier == noone
 
 	newObj = instance_create_layer( tile.x, tile.y, "Units", obj ) // create the object
 	with (newObj) {
-		location = global.currentSelectedObject
+		tileLocation = global.currentSelectedObject
+		changeWeapon(PISTOL) // temp
 	}
 	with (tile) {
 		occupier = other.newObj

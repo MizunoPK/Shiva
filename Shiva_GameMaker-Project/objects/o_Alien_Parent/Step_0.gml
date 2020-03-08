@@ -1,3 +1,4 @@
-unitStep()
+checkHealth()
+checkTarget()
 checkStatus()
 unitMove()
