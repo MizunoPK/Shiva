@@ -6,7 +6,7 @@
 tile = argument0
 range = argument1
 
-ds_list_clear(global.targetsList)
-ds_list_clear(global.targetsDistanceList)
-ds_list_clear(global.visitedList)
+targetsList = ds_list_create()
+targetsDistanceList = ds_list_create()
+visitedList = ds_list_create()
 findAllTargets(tile, range)

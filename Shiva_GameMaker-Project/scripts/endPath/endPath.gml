@@ -1,0 +1,17 @@
+/// @func endPath
+/// @description called during the end path event to clean up moving units
+
+// if we have reached the tile we want to be moving to
+if ( currentTarget == tileMovingTo ) {
+	tileMovingTo = noone
+}
+
+isMoving = false
+image_speed = idleSpeed
+
+with (currentTarget) {
+	occupier = self
+}
+tileLocation = currentTarget
+
+currentTarget = noone

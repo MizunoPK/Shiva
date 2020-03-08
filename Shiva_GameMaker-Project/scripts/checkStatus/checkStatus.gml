@@ -14,7 +14,7 @@ if ( isMoving ) {
 else if ( isAttacking and !passiveUnit ) {
 	status = "In Combat"
 }
-else if ( moveable ) {
+else if ( movementSpeed != MOVEMENT_VELOCITY_0 ) {
 	status = string(movementRange) + " Movement Remaining"
 }
 else if ( !passiveUnit ) {

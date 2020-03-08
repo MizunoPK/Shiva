@@ -7,18 +7,19 @@
 /// @param isFriendly boolean for if it's a friendly unit (true), or an enemy unit (false)
 /// @param maxHealth maximum health of the unit
 /// @param passiveUnit passivity (true if it's a non-attacking unit, and false if its an attacking unit)
-/// @param moveable is the unit able to move? true/false
+/// @param movementSpeed how fast the unit moves (based on macros)
 
 name = argument0 // the name of the unit
 isFriendly = argument1 // is this a player unit or an alien
 maxHealth = argument2 // health of the unit
 currentHealth = maxHealth
 passiveUnit = argument3 // is the unit an attacking unit or a non-attacking unit?
-moveable = argument4 // is the unit able to move?
+movementSpeed = argument4 // how fast the unit moves (used to start paths in checkMovement)
 
 isAttacking = false // keeps track of if the entity is currently attacking something
 canAttack = true // keeps track of if the unit is on attack cooldown
 currentTarget = noone // storing the unit's current target
+tileMovingTo = noone // the tile the unit is moving towards
 
 status = "Inactive" // the status of the unit shown in the unit's info dialog
 

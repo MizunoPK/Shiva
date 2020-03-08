@@ -5,7 +5,7 @@
 if ( selectingTarget and global.currentSelectedObject != self ) {
 	if ( global.currentSelectedObject != noone and object_get_parent(global.currentSelectedObject.object_index) == obj_Tile ) {
 		
-		currentTarget = global.currentSelectedObject
+		tileMovingTo = global.currentSelectedObject
 		
 	}
 	selectingTarget = false
