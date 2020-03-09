@@ -1,1 +1,1 @@
-global.roundNumber++
+newRound()

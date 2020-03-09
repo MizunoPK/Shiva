@@ -30,10 +30,11 @@ for ( var i=0 ; i < ds_list_size(adjTiles) ; i++ ) {
 		}
 	}
 	// otherwise, add the enemy on the tile to the list of enemies if valid
-	else if ( tileBeingChecked != tileLocation and object_get_parent(tileBeingChecked.occupier.object_index) != obj_Tile ) {
+	else if ( tileBeingChecked != tileLocation ) {
 		var otherFriendly = tileBeingChecked.occupier.isFriendly
+		var otherAttackable = tileBeingChecked.occupier.attackable
 		
-		if ( (isFriendly and not otherFriendly) or (not isFriendly and otherFriendly) ) {
+		if ( otherAttackable and ( (isFriendly and not otherFriendly) or (not isFriendly and otherFriendly) ) ) {
 			var index = ds_list_find_index(enemyList, tileBeingChecked.occupier )
 			var length = maxRange + 1 - range
 			if ( index == -1 and tileBeingChecked != tileLocation  ) {
@@ -49,6 +50,7 @@ for ( var i=0 ; i < ds_list_size(adjTiles) ; i++ ) {
 	
 }
 
+// check the tiles adj to each of the tiles we just checked
 for ( var i=0 ; i < ds_list_size(adjTiles) ; i++ ) {
 	var tileBeingChecked = ds_list_find_value(adjTiles, i)
 	// if the range is greater than 1, recursively check the adj list of this tile as well

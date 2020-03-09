@@ -1,7 +1,7 @@
 // check if we need to reset due to a new round
-if ( instance_round != global.roundNumber ) {
+if ( instanceRound != global.invasionRound ) {
 	newRoundHuman()
-	instance_round = global.roundNumber
+	instanceRound = global.invasionRound
 }
 
 // check the unit's health

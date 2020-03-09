@@ -8,6 +8,7 @@ global.homeBase = noone // the instance of the home base
 global.groundTroops = ds_list_create() // a list of the ground troops
 	ds_list_add( global.groundTroops, o_Soldier, o_Alien_Rudra )
 
+global.invasionRound = false // is the game currently on an invasion round?
 global.roundNumber = 1 // the round the user is on
 global.researchPoints = 0 // the amount of research points the player has accumulated
 global.food = 0 // the amount of food the player has accumulated
@@ -17,5 +18,3 @@ global.food = 0 // the amount of food the player has accumulated
 global.board = ds_list_create()
 global.adjacencyList = ds_map_create()
 
-// Inventory
-global.inventory = ds_map_create()

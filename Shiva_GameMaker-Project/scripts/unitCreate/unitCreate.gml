@@ -24,7 +24,8 @@ isAttacking = false // keeps track of if the entity is currently attacking somet
 canAttack = true // keeps track of if the unit is on attack cooldown
 currentTarget = noone // storing the unit's current target
 tileMovingTo = noone // the tile the unit is moving towards
-enemyInstance = noone
+enemyInstance = noone // store the instance of the enemy currently attacking
+attackable = true // all units being passed this function can be attacked
 
 status = "Inactive" // the status of the unit shown in the unit's info dialog
 

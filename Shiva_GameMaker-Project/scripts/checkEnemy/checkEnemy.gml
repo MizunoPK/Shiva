@@ -3,8 +3,12 @@
 // @Author: Kai Mizuno
 
 // if the target was destroyed, make sure the unit doesn't continue to try to attack
-if ( !instance_exists(enemyInstance) ) {
+if ( enemyInstance != noone and not instance_exists(enemyInstance) ) {
 	if ( isAttacking )
 		changeAttackMode()
 	enemyInstance = noone
+	
+	if (object_index == o_Soldier) {
+		movementRange = invasionRoundMovementRange
+	}
 }

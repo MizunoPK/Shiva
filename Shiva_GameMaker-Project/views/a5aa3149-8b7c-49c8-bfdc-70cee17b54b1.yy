@@ -7,8 +7,8 @@
         "566dae80-e620-4b69-803d-ba7095ae4536",
         "35abb6a2-032a-43ec-bd6c-90e13a30c481",
         "d609c086-eddd-4f5d-99ad-73b59cb4bdd7",
-        "a7318c02-6dde-410b-9dcd-4e377ea933c5",
-        "cd63100a-db25-489f-8f23-6a849747135c"
+        "cd63100a-db25-489f-8f23-6a849747135c",
+        "a1750407-ec4d-4bcb-9566-6efcdf99fd6a"
     ],
     "filterType": "GMScript",
     "folderName": "Shots",

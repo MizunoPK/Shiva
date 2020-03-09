@@ -6,7 +6,8 @@
     "children": [
         "48e88cd8-a3f6-4e55-95c3-b41d5c38d67e",
         "98fc039b-de9b-476b-9b49-fcdae5ff7ba8",
-        "91818a7f-18e3-40a4-995e-cdcec4959519"
+        "91818a7f-18e3-40a4-995e-cdcec4959519",
+        "d882fd88-3308-4ff3-bbe5-a8657bdd3325"
     ],
     "filterType": "GMSprite",
     "folderName": "Traps",

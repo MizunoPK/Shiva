@@ -10,7 +10,7 @@ isMoving = false
 image_speed = idleSpeed
 
 with (currentTarget) {
-	occupier = self
+	occupier = other
 }
 tileLocation = currentTarget
 

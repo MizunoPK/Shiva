@@ -70,6 +70,12 @@
 #macro ATTACK_RANGE_3 3
 
 // Base Movement Range
+#macro BASE_MOVEMENT_0 0
+#macro BASE_MOVEMENT_1 1
+#macro BASE_MOVEMENT_2 3
+#macro BASE_MOVEMENT_3 5
+#macro BASE_MOVEMENT_4 6
+#macro BASE_MOVEMENT_5 8
 
 // Invasion Movement Range (amount of tiles the unit can move during invasion rounds to seek out targets)
 #macro INVASION_MOVEMENT_0 0

@@ -1,1 +1,1 @@
-shotSetup(s_Shot_Laser_Firing, s_Shot_Laser_Explosion)
+shotSetup(s_Shot_Laser_Explosion)

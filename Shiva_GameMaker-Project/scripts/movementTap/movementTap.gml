@@ -13,6 +13,8 @@ with (currentTarget) {
 	else {
 		selectingTarget = true
 		calcTargets(tileLocation, movementRange)
+		movementTargets = targetsList
+		movementTargetsDistance = targetsDistanceList
 		toggleTargetsDisplay()
 		other.sprite_index = xButton
 	}

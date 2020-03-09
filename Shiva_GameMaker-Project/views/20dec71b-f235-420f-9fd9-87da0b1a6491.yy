@@ -9,7 +9,8 @@
         "a59f3527-0a1d-461b-9fb5-fe03057613c0",
         "d1f53c00-d39b-4c0e-9d58-56b594898ccc",
         "90167937-87cf-4516-a8ca-dcc654975b2f",
-        "6311bf17-5865-4348-81b3-cc6cee3a15dc"
+        "6311bf17-5865-4348-81b3-cc6cee3a15dc",
+        "83cb45a7-bb82-47c3-ae6e-6f5eb47b4efc"
     ],
     "filterType": "GMObject",
     "folderName": "temp",
