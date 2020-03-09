@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "25f2ced0-7667-4d97-a435-be71c97e3b70",
+            "Value": {
+                "id": "a268b805-d80c-4edb-bedd-ce2255471ef1",
+                "resourcePath": "sprites\\s_SpawnPod\\s_SpawnPod.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "25feb9ce-6f54-4851-b52e-0d4ec1f19635",
             "Value": {
                 "id": "f76b9856-5dd8-4bf0-8722-224a12fbc3f8",
