@@ -13,6 +13,8 @@ southeastSprite = s_Soldier_Pistol_SouthEast // south east facing sprite
 southSprite = s_Soldier_Pistol_South // south facing sprite
 sprite_index = eastSprite // base sprite
 
+invasionRoundMovementRange = INVASION_MOVEMENT_2 // the amount of tiles this unit can move to seek out a target between rounds
+
 damage = ATTACK_DAMAGE_3 // the amount of damage this unit deals
 secondsBetweenHits = ATTACK_SPEED_3 // seconds between each hit
 velocityMultiplier = SHOT_SPEED_3 // multiplier affecting the speed of the shots

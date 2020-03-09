@@ -69,6 +69,13 @@
 #macro ATTACK_RANGE_2 2
 #macro ATTACK_RANGE_3 3
 
+// Base Movement Range
+
+// Invasion Movement Range (amount of tiles the unit can move during invasion rounds to seek out targets)
+#macro INVASION_MOVEMENT_0 0
+#macro INVASION_MOVEMENT_1 1
+#macro INVASION_MOVEMENT_2 2
+
 // Soldier Weapons
 #macro NO_WEAPON "Unarmed Soldier"
 #macro PISTOL "Pistol Soldier"
