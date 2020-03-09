@@ -9,7 +9,7 @@ checkHealth()
 // check hunger
 checkHunger()
 // check the unit's target
-checkTarget()
+checkEnemy()
 // check the status
 checkStatus()
 // check the movement button

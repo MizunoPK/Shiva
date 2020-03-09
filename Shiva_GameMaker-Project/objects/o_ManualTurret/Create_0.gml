@@ -3,6 +3,6 @@
 // Argument 2: Health
 // Argument 3: Passive -> True, Attacking -> False
 // Argument 4: Moveable -> true, Immobile -> false
-unitCreate( STANDARD_TURRET, true, 200, true, MOVEMENT_VELOCITY_0)
+unitCreate( STANDARD_TURRET, true, 200, true, MOVEMENT_VELOCITY_0, SIGHT_2, ATTACK_RANGE_2)
 manualTurretSetup()
 standardTurretSetup()

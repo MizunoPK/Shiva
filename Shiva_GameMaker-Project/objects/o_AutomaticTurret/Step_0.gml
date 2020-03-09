@@ -1,4 +1,4 @@
 checkHealth()
-checkTarget()
+checkEnemy()
 fireShot()
 checkStatus()

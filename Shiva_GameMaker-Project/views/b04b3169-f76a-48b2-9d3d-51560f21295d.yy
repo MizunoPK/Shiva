@@ -6,7 +6,8 @@
     "children": [
         "79e40345-d1f7-4599-a556-fed8c20bb294",
         "8a57712c-2a62-484f-8411-a4904aa731b2",
-        "b1d10926-d621-4f08-85e6-31ddb8a99982"
+        "b1d10926-d621-4f08-85e6-31ddb8a99982",
+        "72f1135d-9146-4a0f-9ee3-b62d5e4a1e52"
     ],
     "filterType": "GMObject",
     "folderName": "Map",

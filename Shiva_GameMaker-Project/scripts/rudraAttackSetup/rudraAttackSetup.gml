@@ -4,11 +4,13 @@
 // Date Created: 2/23/19
 // Last Updated: 2/23/19
 
-leftwardSprite = s_Alien_Rudra_Attack_Left // sprite facing rightward
-sprite_index = leftwardSprite // base sprite
+eastSprite = s_Alien_Rudra_Attack_East // east facing sprite
+northeastSprite = s_Alien_Rudra_Attack_NorthEast // northeast facing sprite
+northSprite = s_Alien_Rudra_Attack_North // north facing sprite
+southeastSprite = s_Alien_Rudra_Attack_SouthEast // south east facing sprite
+southSprite = s_Alien_Rudra_Attack_South // south facing sprite
+sprite_index = eastSprite // base sprite
 
-damage = ATTACK_DAMAGE_2
+damage = ATTACK_DAMAGE_4
 secondsBetweenHits = ATTACK_SPEED_3
 image_speed = 1 / secondsBetweenHits
-
-vectorVelocty = MOVEMENT_VELOCITY_0 // the velocity of the unit in the direction of targetAngle

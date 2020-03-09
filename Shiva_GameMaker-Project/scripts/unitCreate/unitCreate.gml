@@ -1,4 +1,4 @@
-/// @func unitCreate(name, isFriendly, maxHealth, passiveUnit, moveable )
+/// @func unitCreate(name, isFriendly, maxHealth, passiveUnit, movementSpeed, sightRange, attackRange )
 /// @description This is called during the create event of units, and initializes the common variables for each alien
 // @Author: Kai Mizuno
 
@@ -8,6 +8,8 @@
 /// @param maxHealth maximum health of the unit
 /// @param passiveUnit passivity (true if it's a non-attacking unit, and false if its an attacking unit)
 /// @param movementSpeed how fast the unit moves (based on macros)
+/// @param sightRange how far away the unit can spot an enemy
+/// @param attackRange how many tiles away from the enemy the unit needs to be within in order to attack
 
 name = argument0 // the name of the unit
 isFriendly = argument1 // is this a player unit or an alien
@@ -15,11 +17,14 @@ maxHealth = argument2 // health of the unit
 currentHealth = maxHealth
 passiveUnit = argument3 // is the unit an attacking unit or a non-attacking unit?
 movementSpeed = argument4 // how fast the unit moves (used to start paths in checkMovement)
+sightRange = argument5 // how many tiles away the unit can see enemies
+attackRange = argument6 // how many tiles away from the enemy the unit needs to be within in order to attack
 
 isAttacking = false // keeps track of if the entity is currently attacking something
 canAttack = true // keeps track of if the unit is on attack cooldown
 currentTarget = noone // storing the unit's current target
 tileMovingTo = noone // the tile the unit is moving towards
+enemyInstance = noone
 
 status = "Inactive" // the status of the unit shown in the unit's info dialog
 

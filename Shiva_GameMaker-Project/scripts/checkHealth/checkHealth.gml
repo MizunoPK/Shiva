@@ -5,5 +5,9 @@
 // Last Updated: 2/19/19
 
 if ( currentHealth <= 0 ) {
+	with (tileLocation) {
+		occupier = noone
+	}
+	
 	instance_destroy(self)
 } 

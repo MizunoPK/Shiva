@@ -16,13 +16,29 @@
 #macro ENEMY_DIALOG_COLOR c_red
 #macro DIALOG_FONT f_dialog
 
+// Health
+#macro HEALTH_1 50
+#macro HEALTH_2 100
+#macro HEALTH_3 125
+#macro HEALTH_4 150
+#macro HEALTH_5 200
+#macro HEALTH_HOME_BASE 500
+
+// Sight Range
+#macro SIGHT_1 1
+#macro SIGHT_2 2
+#macro SIGHT_3 3
+#macro SIGHT_4 4
+#macro SIGHT_5 5
+#macro SIGHT_6 6
+
 // Attack Damage (health per hit)
 #macro ATTACK_DAMAGE_0 0
 #macro ATTACK_DAMAGE_1 0.2
-#macro ATTACK_DAMAGE_2 1
-#macro ATTACK_DAMAGE_3 5
-#macro ATTACK_DAMAGE_4 10
-#macro ATTACK_DAMAGE_5 20
+#macro ATTACK_DAMAGE_2 5
+#macro ATTACK_DAMAGE_3 10
+#macro ATTACK_DAMAGE_4 20
+#macro ATTACK_DAMAGE_5 50
 
 // Attack Speed (seconds between hits)
 #macro ATTACK_SPEED_0 0
@@ -33,7 +49,6 @@
 #macro ATTACK_SPEED_5 0.05
 
 // Shot Velocity Multiplier (affects how fast projectiles travel)
-#macro SHOT_SPEED_0 0
 #macro SHOT_SPEED_1 1
 #macro SHOT_SPEED_2 2
 #macro SHOT_SPEED_3 3
@@ -48,17 +63,11 @@
 #macro MOVEMENT_VELOCITY_4 4
 #macro MOVEMENT_VELOCITY_5 5
 
-// Angles
-#macro DIRECTION_EAST 0
-#macro DIRECTION_NORTH_EAST 45
-#macro DIRECTION_NORTH 90
-#macro DIRECTION_NORTH_WEST 135
-#macro DIRECTION_WEST 180
-#macro DIRECTION_SOUTH_WEST 225
-#macro DIRECTION_SOUTH 270
-#macro DIRECTION_SOUTH_EAST 315
-global.directionList = ds_list_create()
-ds_list_add(global.directionList, DIRECTION_EAST, DIRECTION_NORTH_EAST, DIRECTION_NORTH, DIRECTION_NORTH_WEST, DIRECTION_WEST, DIRECTION_SOUTH_WEST, DIRECTION_SOUTH, DIRECTION_SOUTH_EAST )
+// Attack Range
+#macro ATTACK_RANGE_0 0
+#macro ATTACK_RANGE_1 1
+#macro ATTACK_RANGE_2 2
+#macro ATTACK_RANGE_3 3
 
 // Soldier Weapons
 #macro NO_WEAPON "Unarmed Soldier"

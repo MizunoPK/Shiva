@@ -55,22 +55,6 @@
             }
         },
         {
-            "Key": "01cee3ae-653c-455e-a51e-812adc1605e8",
-            "Value": {
-                "id": "18dc63ca-07cf-4c0c-b9af-cbd063448a45",
-                "resourcePath": "sprites\\s_Alien_Rudra_Idle_Left\\s_Alien_Rudra_Idle_Left.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "02d28dbf-fffd-4cef-9615-0758c5071ff5",
-            "Value": {
-                "id": "5abde6ab-59e1-4a5a-84ea-64e3197bef54",
-                "resourcePath": "sprites\\s_Alien_Rudra_Attack_Left\\s_Alien_Rudra_Attack_Left.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "037a3d98-af2b-43a8-a354-ec8b1177060b",
             "Value": {
                 "id": "ebdefdfc-b64d-4225-97d8-c488e9d2497f",
@@ -167,6 +151,14 @@
             }
         },
         {
+            "Key": "14565e10-1416-4f9b-9b57-43b2eb125259",
+            "Value": {
+                "id": "9a382d67-4854-4a1d-9c2b-61c8c29ba965",
+                "resourcePath": "sprites\\s_Alien_Rudra_Attack_East\\s_Alien_Rudra_Attack_East.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "15253300-0026-4a31-a947-c60c02269684",
             "Value": {
                 "id": "672dcfa8-9d45-4184-8f39-1eeaf77b5880",
@@ -180,6 +172,14 @@
                 "id": "55dc947e-b458-4f84-8ebb-4b03396b5d2f",
                 "resourcePath": "scripts\\checkHunger\\checkHunger.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "17d423ca-b5a4-4823-b5b5-be23d6574c2c",
+            "Value": {
+                "id": "3c2e9aab-e9ca-45c0-916d-05217f4a1d47",
+                "resourcePath": "sprites\\s_Alien_Rudra_Attack_South\\s_Alien_Rudra_Attack_South.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "2b0e685e-f8fd-4bfa-a8d6-fcc1e9d83756",
+            "Value": {
+                "id": "a7c6ba94-5aec-43bf-8ae8-62369d98f419",
+                "resourcePath": "scripts\\findEnemy\\findEnemy.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2b8ab765-dea3-4391-9d9a-1a75c7f24f0c",
             "Value": {
                 "id": "249ff5fe-daf3-47e5-b1fc-fcba8862dbab",
@@ -391,11 +399,27 @@
             }
         },
         {
+            "Key": "32064f3c-cddc-4bef-998d-be8efbbe5951",
+            "Value": {
+                "id": "b67e89c3-93e9-41dc-8f72-9a7da4e4be31",
+                "resourcePath": "sprites\\s_Alien_Rudra_Attack_NorthEast\\s_Alien_Rudra_Attack_NorthEast.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "321f9cc7-c76a-4e07-8ecc-c52f0dd0514f",
             "Value": {
                 "id": "22ba5e52-1600-48fa-bdbc-a832ba1ac2c4",
                 "resourcePath": "sprites\\s_PlaceSoldier\\s_PlaceSoldier.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "355e9ef4-bf46-4fc0-aba5-0817717b3a5b",
+            "Value": {
+                "id": "a6e45f24-0f58-4dd7-9f9a-88c06e577bda",
+                "resourcePath": "views\\355e9ef4-bf46-4fc0-aba5-0817717b3a5b.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -411,6 +435,14 @@
             "Value": {
                 "id": "cce4b090-675a-4a76-9230-6183be970ba2",
                 "resourcePath": "sprites\\s_Move\\s_Move.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3a4fb9b6-07c0-42c1-94fd-140d107c88d0",
+            "Value": {
+                "id": "0ca1a7a9-68b0-42e1-8635-d8886b400b29",
+                "resourcePath": "sprites\\s_Alien_Rudra_Idle_NorthEast\\s_Alien_Rudra_Idle_NorthEast.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -471,10 +503,26 @@
             }
         },
         {
+            "Key": "47db9e89-d70e-4a5c-b061-c9b664d057ab",
+            "Value": {
+                "id": "6a4b7df5-90b0-4cf5-a8e1-aded623e319c",
+                "resourcePath": "scripts\\findClosestTile\\findClosestTile.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4837c276-fa77-4d6a-b341-0e4c50f69412",
             "Value": {
                 "id": "a53324b3-d6c1-4868-b604-a3770b504dc6",
                 "resourcePath": "sprites\\sprite44\\sprite44.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4843798e-c403-4bac-a810-16c548f554dc",
+            "Value": {
+                "id": "1be957ee-2570-4000-8f7e-9a66266e9f35",
+                "resourcePath": "sprites\\s_Alien_Rudra_Idle_South\\s_Alien_Rudra_Idle_South.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -642,7 +690,7 @@
             "Key": "5e04f50c-f39c-4dfb-a71e-2628c34f9375",
             "Value": {
                 "id": "026146a4-b030-422d-ad1b-e38e163bcb38",
-                "resourcePath": "scripts\\checkTarget\\checkTarget.yy",
+                "resourcePath": "scripts\\checkEnemy\\checkEnemy.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -660,6 +708,14 @@
                 "id": "77baa7f1-8706-47ca-92ba-02a7994136c8",
                 "resourcePath": "views\\630febcc-49f7-4c84-8684-72bea8a0c7e0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6311bf17-5865-4348-81b3-cc6cee3a15dc",
+            "Value": {
+                "id": "a2945a70-9288-4c2b-8e15-85ffaa4fcf6d",
+                "resourcePath": "objects\\o_NewAlien\\o_NewAlien.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -740,6 +796,14 @@
                 "id": "5607ddac-ac52-4180-8e61-189baaa38e1f",
                 "resourcePath": "scripts\\newRoundHuman\\newRoundHuman.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "72f1135d-9146-4a0f-9ee3-b62d5e4a1e52",
+            "Value": {
+                "id": "ca85fa6e-0db6-4ccf-9274-1387bc03263b",
+                "resourcePath": "objects\\o_HomeBase\\o_HomeBase.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -882,7 +946,7 @@
             "Key": "90167937-87cf-4516-a8ca-dcc654975b2f",
             "Value": {
                 "id": "93c78f60-ca76-43b9-93e9-6e571b1fbb72",
-                "resourcePath": "objects\\o_Inventory\\o_Inventory.yy",
+                "resourcePath": "objects\\o_NewSoldier\\o_NewSoldier.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -911,6 +975,14 @@
             }
         },
         {
+            "Key": "93e57e5e-7187-4076-869a-a53242e2b23a",
+            "Value": {
+                "id": "9ae31d83-88d0-4fd1-a076-26fde3c1d5a2",
+                "resourcePath": "sprites\\s_Alien_Rudra_Attack_SouthEast\\s_Alien_Rudra_Attack_SouthEast.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9480b911-cdbb-4cc0-a5d0-3dac78985ab4",
             "Value": {
                 "id": "7fde6295-bab7-4650-b87d-5a18c1d7f744",
@@ -932,6 +1004,14 @@
                 "id": "ef7215e3-19b6-44e1-b46a-cfa5d478005a",
                 "resourcePath": "scripts\\manualTurretSetup\\manualTurretSetup.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "970f0de4-3e2b-4be4-8856-32be2fb72f45",
+            "Value": {
+                "id": "9a176236-1058-4f61-ac2d-54c5ea6c7d71",
+                "resourcePath": "sprites\\s_Alien_Rudra_Attack_North\\s_Alien_Rudra_Attack_North.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -980,6 +1060,14 @@
                 "id": "3a133d6b-b4d7-4980-8651-0447693aca81",
                 "resourcePath": "sprites\\s_Soldier_Pistol_SouthEast\\s_Soldier_Pistol_SouthEast.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a3e23b12-926e-4861-8922-aa6fe012a9c8",
+            "Value": {
+                "id": "ae4bade7-5183-4562-b50b-31e4d4123e0b",
+                "resourcePath": "scripts\\createHomeBase\\createHomeBase.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1079,6 +1167,14 @@
             }
         },
         {
+            "Key": "ac15fed4-0a97-4e87-8a2b-a8f6437bbf4e",
+            "Value": {
+                "id": "2646d970-45c0-4fe7-9bb6-e0aa6427f972",
+                "resourcePath": "scripts\\findSmallestIndex\\findSmallestIndex.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ace4faf7-86f4-44e9-b42b-487dcc84eefd",
             "Value": {
                 "id": "b69560a0-e557-434a-ba15-c30cab2ba018",
@@ -1092,6 +1188,14 @@
                 "id": "f77e9af3-5715-4352-973d-83f61c829257",
                 "resourcePath": "sprites\\s_Soldier_Laser_Right\\s_Soldier_Laser_Right.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ae2b2943-e612-4323-bc93-fa0eae9abcd3",
+            "Value": {
+                "id": "92c77c90-6d75-42af-99fa-ae76afdf8f5a",
+                "resourcePath": "views\\ae2b2943-e612-4323-bc93-fa0eae9abcd3.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1196,6 +1300,14 @@
                 "id": "da6d69b4-aed1-40d1-bf26-f4948b80b22c",
                 "resourcePath": "scripts\\changeAttackMode\\changeAttackMode.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c0436aac-886a-46b7-bf5a-41e9c86c9ec5",
+            "Value": {
+                "id": "ac173397-9a84-4205-97e2-8255469a596d",
+                "resourcePath": "sprites\\s_Alien_Rudra_Idle_North\\s_Alien_Rudra_Idle_North.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1319,6 +1431,14 @@
             }
         },
         {
+            "Key": "cd07bc58-ba63-40de-aa5a-04481503ab1d",
+            "Value": {
+                "id": "0b296962-2798-40a1-825f-1a608c595f82",
+                "resourcePath": "scripts\\alienSetup\\alienSetup.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cd63100a-db25-489f-8f23-6a849747135c",
             "Value": {
                 "id": "1aa9601b-012a-4280-8796-553d40d2c7fe",
@@ -1415,6 +1535,14 @@
             }
         },
         {
+            "Key": "d7c71d51-7a50-4da7-beb8-913258b89601",
+            "Value": {
+                "id": "bab689c2-3949-4874-9bea-c975dbf4c8db",
+                "resourcePath": "views\\d7c71d51-7a50-4da7-beb8-913258b89601.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "d7e9b34d-21ee-40d0-b17b-a3b5df0af24d",
             "Value": {
                 "id": "934915e8-82be-4e8d-b187-5029b53886a7",
@@ -1447,6 +1575,14 @@
             }
         },
         {
+            "Key": "db7c5d92-e287-4e3b-bb2d-8114ea8edd0d",
+            "Value": {
+                "id": "1e50163d-07e1-41c4-9729-5909750f2e2a",
+                "resourcePath": "sprites\\s_HomeBase\\s_HomeBase.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e13d6c94-4660-4026-a2a4-e6a3eb4e08c2",
             "Value": {
                 "id": "b0cb0e23-7ae9-4b67-aa7b-fc0a9aa2edbb",
@@ -1468,6 +1604,14 @@
                 "id": "823c4c18-b3ad-4a37-92fd-a333e0d995ee",
                 "resourcePath": "views\\e3b92f04-40b2-4b16-9c67-69caa0c833fa.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e68da6ed-145f-47c1-9e38-fb260652a8f2",
+            "Value": {
+                "id": "15aaf3ad-0bd7-4c14-b54f-5a4a0fa46288",
+                "resourcePath": "sprites\\s_Alien_Rudra_Idle_East\\s_Alien_Rudra_Idle_East.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1507,6 +1651,14 @@
             "Value": {
                 "id": "daea3a9a-b2e0-4e2d-996e-47c77dee1398",
                 "resourcePath": "views\\eae0e6d7-819f-43c8-95e3-62cdf6ce5396.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ebcf044f-249d-4855-a45f-93d9dabc00df",
+            "Value": {
+                "id": "116cb0f2-3984-4003-98fe-5d968e317c6a",
+                "resourcePath": "views\\ebcf044f-249d-4855-a45f-93d9dabc00df.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1631,6 +1783,14 @@
             }
         },
         {
+            "Key": "fcfdb05f-bc58-4026-8677-3b2166f2244a",
+            "Value": {
+                "id": "6ade495c-0fc4-461c-a502-337822623327",
+                "resourcePath": "sprites\\s_Alien_Rudra_Idle_SouthEast\\s_Alien_Rudra_Idle_SouthEast.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "fecbce75-66ad-4974-80cf-f211ba2eb1fe",
             "Value": {
                 "id": "979014cf-24fb-4718-815c-04be19440b78",
@@ -1656,9 +1816,9 @@
         "95a0eda5-083b-4c6e-9105-9eb8c5e581a3",
         "434859ba-9ca9-458e-baf2-a99de847b7c2",
         "d9e9a9db-d3f0-4ccc-9407-ccb827b4bef8",
+        "ac15fed4-0a97-4e87-8a2b-a8f6437bbf4e",
         "1df3b082-79f4-4917-815f-c3d1e299b9b4",
         "90398c2e-9f5f-4cc4-82e1-9e926bee864d",
-        "5e04f50c-f39c-4dfb-a71e-2628c34f9375",
         "d6c281d6-1d24-4c38-b0d0-69a37f808de9",
         "c66100c3-5a48-41a8-bd03-cb2d6ba0e98a",
         "7d9ed3a8-7547-4f1b-a02f-1c1a5a26626e",
@@ -1667,6 +1827,8 @@
         "4ce3666e-bb50-472b-ae61-be0390b760ee",
         "bc10811b-ec50-4c72-853f-9feeeb3705d1",
         "c8fd1268-613a-4c8e-aae7-9e98b312be6c",
+        "2b0e685e-f8fd-4bfa-a8d6-fcc1e9d83756",
+        "47db9e89-d70e-4a5c-b061-c9b664d057ab",
         "566dae80-e620-4b69-803d-ba7095ae4536",
         "35abb6a2-032a-43ec-bd6c-90e13a30c481",
         "d609c086-eddd-4f5d-99ad-73b59cb4bdd7",
@@ -1674,6 +1836,7 @@
         "cd63100a-db25-489f-8f23-6a849747135c",
         "2b8ab765-dea3-4391-9d9a-1a75c7f24f0c",
         "bedc4b97-f020-4096-b650-8d7081252203",
+        "5e04f50c-f39c-4dfb-a71e-2628c34f9375",
         "f5bac534-bb59-44f8-9898-f8cb52cfcbca",
         "5d95bbde-298a-450f-b723-fec88361ddcf",
         "30e00750-ccd2-4e17-931e-1172c91ce943",
@@ -1686,6 +1849,7 @@
         "c69fbee2-d09a-4d2e-8f9f-9b7184a2d781",
         "7d0c8d30-7709-476b-8e6b-1176bb7c1643",
         "436bfdb8-eded-4965-98a8-848116d47b3e",
+        "cd07bc58-ba63-40de-aa5a-04481503ab1d",
         "9c3a6464-4323-4a9a-a451-d40d1902c13c",
         "4adba082-dd0c-4dc9-9826-44cc6b37358a",
         "aab7031c-ac19-48f3-afb5-569f9cb8116b",
@@ -1696,6 +1860,7 @@
         "c960a186-b760-48b0-bebc-8ea3a6068ae1",
         "181b66a7-5d04-46d5-a0c2-13cc4316efe1",
         "fac42f89-93ab-48dc-bde6-4144c05b18de",
+        "a3e23b12-926e-4861-8922-aa6fe012a9c8",
         "6bcab372-61b0-4a3f-aeff-5d936a2cd99c",
         "6da22d1e-60c4-474e-be50-3970fac65db2",
         "6dc4fb96-99be-44db-a290-ed0390083fdd",

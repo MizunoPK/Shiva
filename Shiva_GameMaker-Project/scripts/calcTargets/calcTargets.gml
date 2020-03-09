@@ -3,10 +3,12 @@
 /// @param tile The tile that needs a target list generated for
 /// @param range the range of possible targets
 
-tile = argument0
-range = argument1
+var tile = argument0
+var range = argument1
 
 targetsList = ds_list_create()
 targetsDistanceList = ds_list_create()
+enemyList = ds_list_create()
+enemyDistanceList = ds_list_create()
 visitedList = ds_list_create()
-findAllTargets(tile, range)
+findAllTargets(tile, range, range)

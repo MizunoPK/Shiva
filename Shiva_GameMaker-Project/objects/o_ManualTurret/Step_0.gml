@@ -1,5 +1,5 @@
 checkHealth()
-checkTarget()
+checkEnemy()
 fireShot()
 checkStatus()
 checkForSoldier()

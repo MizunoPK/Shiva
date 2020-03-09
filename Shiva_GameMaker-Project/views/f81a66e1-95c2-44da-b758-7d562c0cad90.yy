@@ -6,7 +6,8 @@
     "children": [
         "a7b2608a-dfa2-4cad-9cfa-508b7a4c0cef",
         "23508a0c-651a-40d8-ba9a-76bb92621db7",
-        "f868ef2b-7b72-4b17-a32c-5fd2fb507a35"
+        "f868ef2b-7b72-4b17-a32c-5fd2fb507a35",
+        "355e9ef4-bf46-4fc0-aba5-0817717b3a5b"
     ],
     "filterType": "GMScript",
     "folderName": "Map",
