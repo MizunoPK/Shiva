@@ -1,6 +1,10 @@
 /// @func findEnemy()
 /// @description checks for the closest enemy within the range of the unit
 
+if ( not global.invasionRound ) { 
+	return	
+}
+
 // Pick a Target
 calcTargets(tileLocation, sightRange) // get the targets within range
 enemyInstance = noone
@@ -36,3 +40,4 @@ if (enemyInstance != noone) {
 		tileMovingTo = findClosestTile(tileLocation) 
 	}
 }
+

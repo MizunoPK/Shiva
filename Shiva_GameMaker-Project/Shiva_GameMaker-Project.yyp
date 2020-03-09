@@ -487,6 +487,14 @@
             }
         },
         {
+            "Key": "3ef2b1d7-2d83-4def-b99d-2b938333a098",
+            "Value": {
+                "id": "9cb43fe3-da8a-4f3c-af60-79b709f2b4c2",
+                "resourcePath": "scripts\\newRoundPod\\newRoundPod.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3fa890e7-d25b-4b1a-9747-9a770e1ed954",
             "Value": {
                 "id": "31cb1b12-d7b3-42e7-a14f-81ac212d2b8e",
@@ -839,6 +847,14 @@
             }
         },
         {
+            "Key": "770417c5-1152-4ca6-b4e5-aca1230c7633",
+            "Value": {
+                "id": "7d18c086-5155-4028-bbcf-d04adad3b3dd",
+                "resourcePath": "scripts\\placeSpawnPod\\placeSpawnPod.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "77268aaa-8631-409a-a8dc-19b738f3bcfa",
             "Value": {
                 "id": "6444f981-d50f-4779-bb77-beda1a42a960",
@@ -908,6 +924,14 @@
                 "id": "9bef6a0c-1beb-41b2-8b66-306a7ebe68ed",
                 "resourcePath": "scripts\\machineGunSetup\\machineGunSetup.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8219d5c5-add0-4cac-8c16-b784c867a944",
+            "Value": {
+                "id": "fcb4ff17-cef4-4cd9-b2fe-b289b4143498",
+                "resourcePath": "objects\\o_SpawnPod\\o_SpawnPod.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1239,6 +1263,14 @@
             }
         },
         {
+            "Key": "ae386a0d-b355-4c2d-8e4b-5c56f2d44429",
+            "Value": {
+                "id": "7e32e36e-eb66-401e-b9ed-ecf06f92db2d",
+                "resourcePath": "views\\ae386a0d-b355-4c2d-8e4b-5c56f2d44429.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "aed564c3-83f5-43e7-9dcf-4ac306044ee1",
             "Value": {
                 "id": "93440d85-aa63-4e2e-b7af-d194363fbb3b",
@@ -1323,6 +1355,14 @@
             "Value": {
                 "id": "a3cbecbd-0e89-42eb-a43e-e02bd5358c5c",
                 "resourcePath": "scripts\\manualTurretDialog\\manualTurretDialog.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "be2bc381-e1df-40f5-ad3d-a47f36120651",
+            "Value": {
+                "id": "f184c18c-87ae-4cf7-b13e-a8c19a788736",
+                "resourcePath": "scripts\\placeNewAlien\\placeNewAlien.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1663,6 +1703,14 @@
             }
         },
         {
+            "Key": "e5b479fb-3bd5-4b58-9e41-83c7abede2fd",
+            "Value": {
+                "id": "3d53156b-0b4e-4e14-ada3-7573983a67f8",
+                "resourcePath": "scripts\\initializePods\\initializePods.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e68da6ed-145f-47c1-9e38-fb260652a8f2",
             "Value": {
                 "id": "15aaf3ad-0bd7-4c14-b54f-5a4a0fa46288",
@@ -1910,6 +1958,10 @@
         "9c3a6464-4323-4a9a-a451-d40d1902c13c",
         "4adba082-dd0c-4dc9-9826-44cc6b37358a",
         "aab7031c-ac19-48f3-afb5-569f9cb8116b",
+        "770417c5-1152-4ca6-b4e5-aca1230c7633",
+        "e5b479fb-3bd5-4b58-9e41-83c7abede2fd",
+        "be2bc381-e1df-40f5-ad3d-a47f36120651",
+        "3ef2b1d7-2d83-4def-b99d-2b938333a098",
         "aac63abd-87bc-4aaf-98af-40d7365ae2b5",
         "0edd50be-40f9-4c43-b80a-92dc56035dd4",
         "8839ad1f-460b-4d95-98d1-fed396b90b36",

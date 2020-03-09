@@ -12,7 +12,7 @@ global.invasionRound = false // is the game currently on an invasion round?
 global.roundNumber = 1 // the round the user is on
 global.researchPoints = 0 // the amount of research points the player has accumulated
 global.food = 0 // the amount of food the player has accumulated
-
+global.spawnPods = 3 // the number of spawn pods on the map, and this is the initial amount of spawn pods
 
 // Tiles
 global.board = ds_list_create()

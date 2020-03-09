@@ -10,3 +10,4 @@ occupier = instance_create_layer(x,y,"Instances",o_HomeBase)
 with (occupier) {
 	tileLocation = other
 }
+

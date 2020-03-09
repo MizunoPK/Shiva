@@ -3,10 +3,12 @@
 
 if(isGenerating == 1) {
 
-for(rings = 1; rings <= 15; rings++) {
+for(rings = 1; rings <= 8; rings++) {
 	scr_generateRing(rings);	
 }
 
 isGenerating = 0;
 calculateAdjacencies()
+// place spawn pods
+initializePods()
 }
