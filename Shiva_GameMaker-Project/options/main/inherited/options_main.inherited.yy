@@ -3,7 +3,9 @@
         "Value": 4278190080
     },
     "option_gameguid": "65b363c7-f126-4a43-9ccf-9d725a246909",
-    "option_game_speed": 60
+    "option_game_speed": 60,
+    "option_lastchanged": "09 March 2020 10:21:26",
+    "option_sci_usesci": true
 }←be5f1418-b31b-48af-a023-f04cdf6e5121|{
     "textureGroups": {
         "Additions": [
