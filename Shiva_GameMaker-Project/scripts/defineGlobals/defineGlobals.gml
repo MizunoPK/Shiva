@@ -17,4 +17,5 @@ global.spawnPods = 3 // the number of spawn pods on the map, and this is the ini
 // Tiles
 global.board = ds_list_create()
 global.adjacencyList = ds_map_create()
+global.isGenerating = 0;
 
