@@ -1,1 +1,1 @@
-newRound()
+newInvasionRound()

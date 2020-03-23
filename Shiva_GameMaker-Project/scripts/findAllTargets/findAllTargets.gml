@@ -34,7 +34,10 @@ for ( var i=0 ; i < ds_list_size(adjTiles) ; i++ ) {
 		var otherFriendly = tileBeingChecked.occupier.isFriendly
 		var otherAttackable = tileBeingChecked.occupier.attackable
 		
-		if ( otherAttackable and ( (isFriendly and not otherFriendly) or (not isFriendly and otherFriendly) ) ) {
+		// condtions:
+		//		other unit is attackable and the two units are enemies
+		//		OR the other unit is a spawn pod and it's a prep phase
+		if ( (otherAttackable and isFriendly != otherFriendly) or (object_get_name(tileBeingChecked.occupier.object_index) == "o_SpawnPod" and not global.invasionRound) ) {
 			var index = ds_list_find_index(enemyList, tileBeingChecked.occupier )
 			var length = maxRange + 1 - range
 			if ( index == -1 and tileBeingChecked != tileLocation  ) {

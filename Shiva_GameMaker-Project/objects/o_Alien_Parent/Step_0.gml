@@ -1,5 +1,5 @@
 // check the alien's health
-checkHealth()
+checkAlienHealth()
 // check if the alien's enemy was killed
 checkEnemy()
 // check the status of the alien

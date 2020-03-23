@@ -6,7 +6,7 @@ with (moveButton) {
 	y = other.y + other.sprite_height
 }
 
-if ( buttonVisable and global.currentSelectedObject != self or movementRange == 0 ) {
+if ( buttonVisable and global.currentSelectedObject != self ) {
 	instance_deactivate_object(moveButton)
 	buttonVisable = false
 }

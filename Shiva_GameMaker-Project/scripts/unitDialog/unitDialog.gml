@@ -17,7 +17,7 @@ if ( global.currentSelectedObject == self ) {
 	
 }
 // otherwise just show the health of the unit if it isn't at 100%
-else if ( currentHealth < maxHealth ) {
+else if ( attackable and currentHealth < maxHealth ) {
 	draw_set_halign(fa_center)
 	draw_text(x, y - sprite_height, currentHealth)
 }

@@ -1,8 +1,8 @@
 {
-    "id": "a6a2d2d4-af8d-46ab-9c59-f959d9cd40f1",
+    "id": "b44d0b93-d055-4633-b898-f4a4cb7eb6d4",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "newRound",
+    "name": "newInvasionRound",
     "IsCompatibility": false,
     "IsDnD": false
 }

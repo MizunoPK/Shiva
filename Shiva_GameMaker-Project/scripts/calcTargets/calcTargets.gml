@@ -11,4 +11,8 @@ targetsDistanceList = ds_list_create()
 enemyList = ds_list_create()
 enemyDistanceList = ds_list_create()
 visitedList = ds_list_create()
+
+if ( range == 0 ) {
+	return
+}
 findAllTargets(tile, range, range)

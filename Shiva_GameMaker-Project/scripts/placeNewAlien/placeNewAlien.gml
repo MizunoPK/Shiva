@@ -18,4 +18,6 @@ if ( not placedAlien and global.invasionRound ) {
 	
 	// indicate we finished placing an alien
 	placedAlien = true
+	global.enemiesOnBoard++
+	global.aliensInvaded = true
 }

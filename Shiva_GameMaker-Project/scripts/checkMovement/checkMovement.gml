@@ -3,6 +3,11 @@
 
 // if we have not reached the destination yet: find the next tile to move to
 if ( not isMoving and tileMovingTo != noone and tileMovingTo != tileLocation ) {
+	// reset the current target
+		if ( currentTarget != noone) {
+			currentTarget.occupier = noone
+		}
+	
 	// find the next tile
 		calcTargets(tileLocation, 1) // get the tiles the unit can currently move to
 		currentTarget = findClosestTile(tileMovingTo)
@@ -13,8 +18,11 @@ if ( not isMoving and tileMovingTo != noone and tileMovingTo != tileLocation ) {
 		with (tileLocation ) {
 			occupier = noone
 		}
+		// establish that the target's occupier is this unit, so that another unit doesn't move there at the same time
+		currentTarget.occupier = self
+		// update movement range
 		if (isFriendly) {
-			movementRange = movementRange - 1 // update movement range
+			movementRange = movementRange - 1
 		}
 		// make a path
 		myPath = path_add()
