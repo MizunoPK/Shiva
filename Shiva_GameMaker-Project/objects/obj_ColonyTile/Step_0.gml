@@ -46,7 +46,5 @@ global.isGenerating++;
 
 if(global.isGenerating == 100) {
 	calculateAdjacencies();	
-	// place spawn pods
-	initializePods()
 }
 

@@ -11,3 +11,4 @@ do {
 var newPod = instance_create_layer( potentialSpawnPoint.x, potentialSpawnPoint.y, "Units", o_SpawnPod )
 newPod.tileLocation = potentialSpawnPoint
 potentialSpawnPoint.occupier = newPod
+global.spawnPods++

@@ -1,6 +1,8 @@
 /// @func: newRoundHuman
 /// @description: This is called between rounds for humans
 
+justExplored = false
+
 if ( not global.invasionRound) {
 	hunger += 5
 	movementRange = maxMovement

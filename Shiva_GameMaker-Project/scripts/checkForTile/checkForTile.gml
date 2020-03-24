@@ -26,6 +26,7 @@ if ( selectingTarget and potentialTarg != self ) {
 		}
 	}
 	selectingTarget = false
+	global.currentSelectedObject = noone
 	
 	toggleTargetsDisplay()
 	moveButton.sprite_index = moveButton.moveSprite
