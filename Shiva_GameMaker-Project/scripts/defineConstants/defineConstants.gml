@@ -85,11 +85,12 @@
 #macro INVASION_MOVEMENT_2 2
 
 // Soldier Weapons
-#macro NO_WEAPON "Unarmed Soldier"
-#macro PISTOL "Pistol Soldier"
-#macro MACHINE_GUN "Machine Gun Soldier"
-#macro LASER "Alien Laser Soldier"
-#macro CANNON "Alien Cannon Soldier"
+#macro NO_WEAPON "Unarmed"
+#macro PISTOL "Pistol"
+#macro MACHINE_GUN "Machine Gun"
+#macro LASER "Alien Laser"
+#macro CANNON "Alien Cannon"
+#macro SOLDIER "Soldier"
 
 // Turrets
 #macro STANDARD_TURRET "Manual Turret"

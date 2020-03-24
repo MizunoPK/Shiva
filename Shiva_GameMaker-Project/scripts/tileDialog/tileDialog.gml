@@ -8,7 +8,7 @@ var prevDepth = depth
 depth = -1000
 
 // if the unit is selected: show the info dialog
-if ( global.currentSelectedObject == self ) {
+if ( global.currentSelectedObject == self and occupier == noone ) {
 	// creates a dialog showing the name, health, and status of the unit
 	draw_set_halign(fa_left);
 	draw_set_valign(fa_top);

@@ -1,1 +1,2 @@
 endPath()
+exploreTile()

@@ -1,24 +1,24 @@
-/// @func: changeWeapon(name)
+/// @func: changeWeapon(newWeapon)
 /// @description: This is called whenever a soldier changes the weapon they are holding
 // @Author: Kai Mizuno
 // Date Created: 2/21/19
 // Last Updated: 2/21/19
 
 //Arguements:
-//. @param name new weapon type (based off constant)
+//. @param newWeapon new weapon type (based off constant)
 
-name = argument0
+var newWeapon = argument0
 
-if ( name == PISTOL ) {
+if ( newWeapon == PISTOL ) {
 	pistolSetup()
 }
-else if ( name == MACHINE_GUN ) {
+else if ( newWeapon == MACHINE_GUN ) {
 	machineGunSetup()	
 }
-else if ( name == LASER ) {
+else if ( newWeapon == LASER ) {
 	laserSetup()
 }
-else if ( name == CANNON ) {
+else if ( newWeapon == CANNON ) {
 	cannonSetup()
 }
 else {

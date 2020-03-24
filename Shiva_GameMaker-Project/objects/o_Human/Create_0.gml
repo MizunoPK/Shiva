@@ -2,4 +2,5 @@
 
 hunger = 0
 instanceRound = global.invasionRound
+justExplored = false
 createMovementButton()

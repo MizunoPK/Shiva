@@ -4,6 +4,9 @@
 // Date Created: 2/21/19
 // Last Updated: 2/21/19
 
+weapon = NO_WEAPON
+name = weapon + " " + SOLDIER
+
 passiveUnit = true
 
 eastSprite = s_Soldier_Unarmed_East // east facing sprite
