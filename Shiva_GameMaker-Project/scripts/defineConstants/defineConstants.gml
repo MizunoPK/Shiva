@@ -12,6 +12,8 @@
 #macro BOARD_RINGS 8
 
 // Dialog Colors
+#macro VISITED_DIALOG_COLOR c_green
+#macro UNVISITED_DIALOG_COLOR c_orange
 #macro FRIENDLY_DIALOG_COLOR c_white
 #macro ENEMY_DIALOG_COLOR c_red
 #macro DIALOG_FONT f_dialog

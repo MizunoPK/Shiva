@@ -1911,6 +1911,14 @@
             }
         },
         {
+            "Key": "da339de5-c217-40ef-b9dd-7aafdfdf1c41",
+            "Value": {
+                "id": "587babf0-1638-437b-bd78-3646cef9e400",
+                "resourcePath": "scripts\\updateTileDialog\\updateTileDialog.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "db7c5d92-e287-4e3b-bb2d-8114ea8edd0d",
             "Value": {
                 "id": "1e50163d-07e1-41c4-9729-5909750f2e2a",
@@ -2036,6 +2044,14 @@
                 "id": "2e7e8df0-12cc-49c4-8cac-b31d66a188e7",
                 "resourcePath": "sprites\\s_Soldier_Pistol_East\\s_Soldier_Pistol_East.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f0c883f3-747f-48e0-b1b7-a2c4d211d56f",
+            "Value": {
+                "id": "fa6e1a9d-90d3-413f-b3e5-d36db155e905",
+                "resourcePath": "scripts\\tileDialog\\tileDialog.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2248,6 +2264,8 @@
         "4cce62d0-45d1-4a8a-9a27-659148237d67",
         "a184e9d7-3277-4bf4-8030-95e29faf746d",
         "0f08f251-7f95-4296-a1e2-3895d47e7ab4",
+        "da339de5-c217-40ef-b9dd-7aafdfdf1c41",
+        "f0c883f3-747f-48e0-b1b7-a2c4d211d56f",
         "6bcab372-61b0-4a3f-aeff-5d936a2cd99c",
         "6da22d1e-60c4-474e-be50-3970fac65db2",
         "6dc4fb96-99be-44db-a290-ed0390083fdd",
