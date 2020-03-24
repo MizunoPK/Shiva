@@ -3,6 +3,7 @@
 
 // if we have reached the tile we want to be moving to
 if ( currentTarget == tileMovingTo ) {
+	tileMovingTo.beingMovedTo = false
 	tileMovingTo = noone
 }
 

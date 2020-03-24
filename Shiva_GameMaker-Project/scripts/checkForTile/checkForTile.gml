@@ -20,6 +20,7 @@ if ( selectingTarget and potentialTarg != self ) {
 			// otherwise, set the tile to be the one being moved to if we can move there
 			else if ( canMoveHere(potentialTarg) ) {
 				tileMovingTo = potentialTarg
+				tileMovingTo.beingMovedTo = true
 			}
 		
 		}

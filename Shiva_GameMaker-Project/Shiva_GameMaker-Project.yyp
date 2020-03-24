@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "28d4382b-df66-4cf0-88cc-4b3e5688ad44",
+            "Value": {
+                "id": "2e7c811b-d35e-419c-b0c1-ec590f68740f",
+                "resourcePath": "scripts\\discoveredHumanWeapon\\discoveredHumanWeapon.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "29a11019-df5a-4c2f-8cee-9dbc8662dda7",
             "Value": {
                 "id": "3cb2d055-deac-4c8e-8bf9-720566313214",
@@ -863,6 +871,14 @@
             }
         },
         {
+            "Key": "63389650-d7dc-466f-b379-a76e02d54d9a",
+            "Value": {
+                "id": "94ebd9bc-ff93-41d1-a2e8-3f0d53d60a40",
+                "resourcePath": "scripts\\discoveredResearch\\discoveredResearch.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6356a619-3238-4212-b286-7fa1b7c011f9",
             "Value": {
                 "id": "0f75d7d6-de23-42ad-ac7f-4f1211d10bab",
@@ -1163,6 +1179,14 @@
             "Value": {
                 "id": "321a8979-b9c9-4dee-9ff0-3b91a6211e43",
                 "resourcePath": "scripts\\destroyPod\\destroyPod.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8e1670a5-28a2-4019-b1a9-75f79194682a",
+            "Value": {
+                "id": "09e9401f-3458-47a0-be14-d8f24cfece45",
+                "resourcePath": "scripts\\discoveredFood\\discoveredFood.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2039,6 +2063,14 @@
             }
         },
         {
+            "Key": "e3b96e8a-8c53-42bf-86bd-6378fd95753f",
+            "Value": {
+                "id": "1a1eead7-6438-4cec-b05a-2ddfc055ce3d",
+                "resourcePath": "scripts\\discoveredAlienWeapon\\discoveredAlienWeapon.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e5b479fb-3bd5-4b58-9e41-83c7abede2fd",
             "Value": {
                 "id": "3d53156b-0b4e-4e14-ada3-7573983a67f8",
@@ -2365,6 +2397,10 @@
         "ab138996-a647-4553-baa7-fd5684941391",
         "a9ffa34e-29aa-416a-b823-5787db578bc4",
         "b118f06d-9f0e-47d1-adfd-e0ddbafee7c6",
+        "28d4382b-df66-4cf0-88cc-4b3e5688ad44",
+        "e3b96e8a-8c53-42bf-86bd-6378fd95753f",
+        "8e1670a5-28a2-4019-b1a9-75f79194682a",
+        "63389650-d7dc-466f-b379-a76e02d54d9a",
         "3aed2b66-608a-427c-9c76-7d4454e5a29d"
     ],
     "tutorial": ""

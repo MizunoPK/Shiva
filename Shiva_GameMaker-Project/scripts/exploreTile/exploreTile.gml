@@ -29,21 +29,22 @@ with (tileLocation) {
 			 with other discoveredHuman()
 		}
 		else if ( foundResource == humanWeapon ) {
-			with other discoveredHuman()
+			with other discoveredHumanWeapon()
 		}
 		else if ( foundResource == alienWeapon ) {
-			with other discoveredHuman()
+			with other discoveredAlienWeapon()
 		}
 		else if ( foundResource == food ) {
-			with other discoveredHuman()
+			with other discoveredFood()
 		}
 		else if ( foundResource == research ) {
-			with other discoveredHuman()
+			with other discoveredResearch()
 		}
-		show_debug_message(string(foundResource))
+		
 		// acknowledge we finished exploring this tile
 		explored = true
 		// only show exploration dialog if something was actually discovered
+		// also stop moving if something was discovered
 		if ( foundResource != none ) {
 			other.justExplored = true
 			other.lastThingClicked = global.currentSelectedObject

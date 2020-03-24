@@ -3,6 +3,8 @@ overlaySprite = s_TileOverlay
 enemyOverlaySprite = s_EnemyTileOverlay
 friendlyOverlaySprite = s_FriendlyTileOverlay
 
+beingMovedTo = false // boolean indicating whether or not the tile is being moved to by a human
+
 dialogColor = UNVISITED_DIALOG_COLOR
 explored = false
 // Resource Discovery:
