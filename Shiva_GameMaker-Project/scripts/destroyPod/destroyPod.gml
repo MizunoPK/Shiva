@@ -4,5 +4,6 @@
 
 var pod = argument0
 pod.tileLocation.occupier = noone
-instance_destroy(pod)
 global.spawnPods = global.spawnPods - 1
+pod.exploding = true
+pod.sprite_index = pod.explosionSprite
