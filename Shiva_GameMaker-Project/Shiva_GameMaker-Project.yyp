@@ -1199,6 +1199,14 @@
             }
         },
         {
+            "Key": "8a7aa495-6de6-4702-97af-f88506ccaa3b",
+            "Value": {
+                "id": "82384e66-842e-466b-adbc-814a853d7c0c",
+                "resourcePath": "scripts\\humanSetup\\humanSetup.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8d6d5a4e-6cd2-4fac-8274-2cdc60c92942",
             "Value": {
                 "id": "321a8979-b9c9-4dee-9ff0-3b91a6211e43",
@@ -2413,12 +2421,21 @@
         "0f08f251-7f95-4296-a1e2-3895d47e7ab4",
         "da339de5-c217-40ef-b9dd-7aafdfdf1c41",
         "f0c883f3-747f-48e0-b1b7-a2c4d211d56f",
+        "0513f8c9-8f0a-4eda-a6bd-4a3fcc7e3479",
+        "ab138996-a647-4553-baa7-fd5684941391",
+        "a9ffa34e-29aa-416a-b823-5787db578bc4",
+        "b118f06d-9f0e-47d1-adfd-e0ddbafee7c6",
+        "28d4382b-df66-4cf0-88cc-4b3e5688ad44",
+        "e3b96e8a-8c53-42bf-86bd-6378fd95753f",
+        "8e1670a5-28a2-4019-b1a9-75f79194682a",
+        "63389650-d7dc-466f-b379-a76e02d54d9a",
         "6bcab372-61b0-4a3f-aeff-5d936a2cd99c",
         "6da22d1e-60c4-474e-be50-3970fac65db2",
         "6dc4fb96-99be-44db-a290-ed0390083fdd",
         "81cb5b62-e59a-417f-ae6d-d27b6e7a07c6",
         "9e0a1a91-2a4d-4985-9841-3e19b78f4061",
         "e8b1100e-deeb-40b2-8ccb-28614afa805b",
+        "8a7aa495-6de6-4702-97af-f88506ccaa3b",
         "9480b911-cdbb-4cc0-a5d0-3dac78985ab4",
         "72b85877-6754-4afe-a0d0-f951f313d7c6",
         "172c5f47-e92f-4350-9474-9318a8e394c0",
@@ -2428,14 +2445,6 @@
         "a96049c7-5faa-43c8-ac84-62d9df3ad05e",
         "66863313-1784-4729-bf10-7f764805c9bb",
         "baf21179-3f32-435d-9200-f82605837cb5",
-        "0513f8c9-8f0a-4eda-a6bd-4a3fcc7e3479",
-        "ab138996-a647-4553-baa7-fd5684941391",
-        "a9ffa34e-29aa-416a-b823-5787db578bc4",
-        "b118f06d-9f0e-47d1-adfd-e0ddbafee7c6",
-        "28d4382b-df66-4cf0-88cc-4b3e5688ad44",
-        "e3b96e8a-8c53-42bf-86bd-6378fd95753f",
-        "8e1670a5-28a2-4019-b1a9-75f79194682a",
-        "63389650-d7dc-466f-b379-a76e02d54d9a",
         "3aed2b66-608a-427c-9c76-7d4454e5a29d"
     ],
     "tutorial": ""

@@ -13,6 +13,7 @@ image_speed = idleSpeed
 with (currentTarget) {
 	occupier = other
 }
+previousTile = tileLocation
 tileLocation = currentTarget
 
 currentTarget = noone

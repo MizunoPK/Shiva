@@ -21,3 +21,32 @@ global.board = ds_list_create()
 global.adjacencyList = ds_map_create()
 global.isGenerating = 0;
 
+// Resource Lists for Explorable Tiles
+	// each value in the resourceList corresponds to a % chance of that resource getting discovered
+	// values should add up to 100
+	// format for the resource list:
+	// [NOTHING, HUMAN, HUMAN WEAPON, ALIEN WEAPON, FOOD, RESARCH POINTS]
+global.BATTLE_RESOURCES = ds_list_create() // resource list for battlefields
+	ds_list_add(global.BATTLE_RESOURCES, 0, 20, 25, 25, 5, 25)
+		
+global.CITY_RESOURCES = ds_list_create() // resource list for cities
+	ds_list_add(global.CITY_RESOURCES, 0, 30, 15, 10, 30, 15)
+		
+global.FOREST_RESOURCES = ds_list_create() // resource list for forests
+	ds_list_add(global.FOREST_RESOURCES, 30, 20, 15, 5, 20, 10)
+		
+global.LANDING_RESOURCES = ds_list_create() // resource list for landing sites
+	ds_list_add(global.LANDING_RESOURCES, 0, 0, 5, 55, 0, 40)
+		
+global.PLAINS_RESOURCES = ds_list_create() // resource list for plains
+	ds_list_add(global.PLAINS_RESOURCES, 75, 6, 8, 2, 5, 4)
+	
+// Probability Lists for the resource types
+global.HUMAN_CHANCES = ds_list_create()				 // odds for each type of human being found
+	ds_list_add(global.HUMAN_CHANCES, 0, 60, 25, 0) // format: [Civilian, Unarmed, Pistol, Machine Gun]
+	
+global.HUMAN_WEAPON_CHANCES = ds_list_create()				 // odds for each type of human weapon being found
+	ds_list_add(global.HUMAN_WEAPON_CHANCES, 100, 0, 0, 0) // format: [Pistol, Machine Gun, Manual Turret, Wall]
+	
+global.ALIEN_WEAPON_CHANCES = ds_list_create()				 // odds for each type of alien weapon being found
+	ds_list_add(global.ALIEN_WEAPON_CHANCES, 100, 0, 0, 0) // format: [Laser Gun, Cannon, Automatic Laser Turret, Manual Cannon Turret]

@@ -8,7 +8,8 @@
         "f868ef2b-7b72-4b17-a32c-5fd2fb507a35",
         "355e9ef4-bf46-4fc0-aba5-0817717b3a5b",
         "2e589352-997b-4be6-afee-83eff9b8b9ca",
-        "ff50eccd-fe57-486a-9683-80269caab41a"
+        "ff50eccd-fe57-486a-9683-80269caab41a",
+        "6356a619-3238-4212-b286-7fa1b7c011f9"
     ],
     "filterType": "GMScript",
     "folderName": "Map",

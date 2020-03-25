@@ -5,6 +5,10 @@
 // Sprites
 #macro xButton s_X
 
+// Resources
+#macro MAX_FOOD 5 // the maximum amount of food that can be found at once
+#macro MAX_RESEARCH_POINTS 5 // the maximum amount of research points that can be found at once
+
 // Tiles
 #macro tileDiameter 64
 #macro tileRadius (tileDiameter / 2)

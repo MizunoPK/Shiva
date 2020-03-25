@@ -41,6 +41,9 @@ with (tileLocation) {
 			with other discoveredResearch()
 		}
 		
+		// DEBUG MESSAGE
+		show_debug_message("DEBUG: Explored tile and found resource at index " + string(foundResource) + " in resourceList" )
+		
 		// acknowledge we finished exploring this tile
 		explored = true
 		// only show exploration dialog if something was actually discovered
