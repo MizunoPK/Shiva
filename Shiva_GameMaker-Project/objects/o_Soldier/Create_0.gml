@@ -5,3 +5,4 @@ unitCreate( NO_WEAPON, true, HEALTH_2, true, MOVEMENT_VELOCITY_2, SIGHT_3, ATTAC
 maxMovement = BASE_MOVEMENT_3
 movementRange = maxMovement
 unarmedSetup()
+ds_list_add(global.listOfSoldiers, self)

@@ -1,0 +1,1 @@
+global.inventory.inventoryOpen = false

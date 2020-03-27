@@ -18,7 +18,7 @@ for ( var i=0 ; i < ds_list_size(adjTiles) ; i++ ) {
 	ds_list_add(visitedList, tileBeingChecked)
 	
 	// if the tile is valid, add it to the targets list
-	if ( tileBeingChecked.occupier == noone and tileBeingChecked.isWalkable ) {
+	if ( tileBeingChecked.occupier == noone ) {
 		var index = ds_list_find_index(targetsList, tileBeingChecked )
 		var length = maxRange + 1 - range
 		if ( index == -1 and tileBeingChecked != tileLocation  ) {

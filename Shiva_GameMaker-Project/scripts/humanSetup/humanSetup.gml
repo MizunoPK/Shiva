@@ -6,3 +6,4 @@ instanceRound = global.invasionRound
 justExplored = false
 previousTile = noone
 createMovementButton()
+ds_list_add(global.listOfHumans, self)

@@ -1,1 +1,3 @@
+checkIfOpen()
 checkButtons()
+checkForSelection()

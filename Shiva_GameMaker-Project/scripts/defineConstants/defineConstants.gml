@@ -6,6 +6,7 @@
 
 // Sprites
 #macro xButton s_X
+#macro MENU_EXIT_BUTTON_WIDTH 64
 
 // Resources
 #macro MAX_FOOD 5 // the maximum amount of food that can be found at once
@@ -105,10 +106,13 @@
 #macro LASER_TURRET "Automatic Alien Laser"
 
 // Inventory
-#macro BUTTON_SIZE 32 // the pixel width and height of buttons
+#macro INVENTORY_BUTTON_SIZE 32 // the pixel width and height of buttons
 #macro MAX_BUTTONS_PER_ROW 5 // the amount of buttons shown in each row of the inventory
 #macro INVENTORY_BUTTON_LAYER "Inventory_Buttons"
 #macro INVENTORY_LAYER "Inventory"
+#macro WEAPON_LABEL "Weapon"
+#macro BUILDING_LABEL "Building"
+#macro NOTHING_LABEL "Nothing"
 
 // Aliens
 #macro RUDRA "Rudra"

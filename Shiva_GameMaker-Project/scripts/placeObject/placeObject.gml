@@ -15,7 +15,7 @@ if ( object_get_parent(tile.object_index) == obj_Tile and tile.occupier == noone
 		tileLocation = global.currentSelectedObject
 		// if it's a human, explore the tile it was placed on
 		if ( object_get_parent(object_index) == o_Human ) {
-			changeWeapon(PISTOL) // temp
+			//changeWeapon(PISTOL) // temp
 			exploreTile()
 		}
 	}
