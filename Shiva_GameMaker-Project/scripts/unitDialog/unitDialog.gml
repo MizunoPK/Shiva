@@ -4,6 +4,7 @@
 
 draw_set_font(DIALOG_FONT)
 draw_set_color(dialogColor)
+var preDepth = depth
 depth = -1000
 
 // if the unit is selected: show the info dialog
@@ -20,4 +21,4 @@ else if ( attackable and currentHealth < maxHealth ) {
 	draw_text(x, y - sprite_height, currentHealth)
 }
 
-depth = 0
+depth = preDepth

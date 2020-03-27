@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "07a5a3f9-332b-4fcd-bdc8-4cd4cdddad70",
+            "Value": {
+                "id": "6ac8f760-3c00-4ffd-a4bd-0b7bb49bc3aa",
+                "resourcePath": "sprites\\s_LaserTurret_Inventory\\s_LaserTurret_Inventory.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "07d8a142-a1c4-4935-b53b-1a8095f587e7",
             "Value": {
                 "id": "a0373b0b-4b04-4c93-a879-874fae498413",
@@ -116,6 +124,14 @@
                 "id": "aa7e01a8-c340-4a6b-abdf-f9efb63f8869",
                 "resourcePath": "views\\0aa116e8-85ad-447d-9e62-a790d3e68522.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "0b7e9ddd-6364-41e4-8bad-c86e2f482729",
+            "Value": {
+                "id": "18502e96-9713-4074-9e51-92078da2c53e",
+                "resourcePath": "sprites\\s_Wall_Inventory\\s_Wall_Inventory.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -195,6 +211,14 @@
             "Value": {
                 "id": "9a382d67-4854-4a1d-9c2b-61c8c29ba965",
                 "resourcePath": "sprites\\s_Alien_Rudra_Attack_East\\s_Alien_Rudra_Attack_East.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "14632d0b-3324-4a60-92a2-21d59aed0f1d",
+            "Value": {
+                "id": "2dfb0b07-d237-4e98-aec1-fa8d20b5c6a9",
+                "resourcePath": "sprites\\s_ExitMenu\\s_ExitMenu.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -308,6 +332,14 @@
                 "id": "6deb128b-34e6-410c-ad9c-d318560c7271",
                 "resourcePath": "scripts\\unitCreate\\unitCreate.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1dfaddf6-91d1-4edd-8e80-65c50c2fbd8b",
+            "Value": {
+                "id": "80689775-0533-42fe-9580-bfd219500b51",
+                "resourcePath": "sprites\\s_CannonTurret_Inventory\\s_CannonTurret_Inventory.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -551,6 +583,14 @@
             }
         },
         {
+            "Key": "379f7fce-23e9-4659-b5b4-dba80522d583",
+            "Value": {
+                "id": "55560b73-fe40-4236-89a8-d8588ab4bc5f",
+                "resourcePath": "objects\\o_Inventory\\o_Inventory.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "38df5a62-5d45-48e1-a266-3b0bd0a4c77d",
             "Value": {
                 "id": "cce4b090-675a-4a76-9230-6183be970ba2",
@@ -603,6 +643,14 @@
             "Value": {
                 "id": "31cb1b12-d7b3-42e7-a14f-81ac212d2b8e",
                 "resourcePath": "views\\3fa890e7-d25b-4b1a-9747-9a770e1ed954.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "40623a28-f54b-4402-8df4-2ba38a7e348c",
+            "Value": {
+                "id": "59a3c414-27f2-477f-8780-6051e95b51ad",
+                "resourcePath": "views\\40623a28-f54b-4402-8df4-2ba38a7e348c.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -668,6 +716,14 @@
                 "id": "30e74b2d-ab0f-410b-ac95-a25b5ab6b073",
                 "resourcePath": "sprites\\s_Trap_Barbwire\\s_Trap_Barbwire.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "499cc9c1-3efb-46ff-b301-b8c8a02ae7ac",
+            "Value": {
+                "id": "3d27303d-c5bf-41e6-ad61-e80965bea3b4",
+                "resourcePath": "objects\\o_InventoryButton\\o_InventoryButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -863,6 +919,14 @@
             }
         },
         {
+            "Key": "6300931b-28c6-4b23-a1a0-bc27a8624936",
+            "Value": {
+                "id": "0a6e9677-9ae2-42aa-be54-ab2ffffa1eb8",
+                "resourcePath": "sprites\\s_Pistol_Inventory\\s_Pistol_Inventory.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "630febcc-49f7-4c84-8684-72bea8a0c7e0",
             "Value": {
                 "id": "77baa7f1-8706-47ca-92ba-02a7994136c8",
@@ -903,6 +967,14 @@
             }
         },
         {
+            "Key": "672c5948-bcfb-4fa3-9945-aec79578b0c8",
+            "Value": {
+                "id": "d49090f3-6aa2-4a81-9d8a-994fb1b52724",
+                "resourcePath": "sprites\\s_Laser_Inventory\\s_Laser_Inventory.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "69f8d934-5f9f-4435-b93b-455634497a3b",
             "Value": {
                 "id": "58cf42a7-dfeb-4b38-9443-9d0f9590ec97",
@@ -916,6 +988,14 @@
                 "id": "ca5b5663-cf82-4ed7-ab97-bcca35e7bed2",
                 "resourcePath": "views\\6a1177f9-1dfa-4f47-a008-08947b2212f9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6a20ddd1-f2f3-4f05-95f9-88ad61c06fff",
+            "Value": {
+                "id": "f21e9ebf-f08b-4ef3-ad62-6f291213ebd9",
+                "resourcePath": "scripts\\checkButtons\\checkButtons.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -951,6 +1031,14 @@
             }
         },
         {
+            "Key": "6e3ffcef-a21b-45cf-a32b-a7747c6ed849",
+            "Value": {
+                "id": "f85f9eda-5914-466a-adaf-d70d8be387ef",
+                "resourcePath": "scripts\\buttonDialog\\buttonDialog.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6f69666e-b992-4faf-a488-583cc1191341",
             "Value": {
                 "id": "f1581921-af32-45ec-9b79-0439ba35c7a2",
@@ -972,6 +1060,14 @@
                 "id": "43c337b2-4d22-4d64-82d0-015cbed8c1d9",
                 "resourcePath": "scripts\\msg_dynamic\\msg_dynamic.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "72a56c1d-76f1-4944-84ce-16a681e46ca2",
+            "Value": {
+                "id": "3e4a5423-a782-4473-800f-f80828ee9cbc",
+                "resourcePath": "objects\\o_ExitButton\\o_ExitButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1031,6 +1127,14 @@
             }
         },
         {
+            "Key": "7755a537-09cf-45b5-82a0-c8815e68a2be",
+            "Value": {
+                "id": "90dbcdca-3989-4306-b544-6f121bbe6df8",
+                "resourcePath": "views\\7755a537-09cf-45b5-82a0-c8815e68a2be.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "788cbcfd-3264-43b4-9a79-3371556e4e5c",
             "Value": {
                 "id": "e27376cb-6dac-449f-a875-be97bf055dfc",
@@ -1055,6 +1159,14 @@
             }
         },
         {
+            "Key": "7cbe2e80-48df-4fcd-91d2-357a76471203",
+            "Value": {
+                "id": "7a4e8721-96c1-43ec-8eb3-ca85b69083fc",
+                "resourcePath": "sprites\\s_Inventory_Background\\s_Inventory_Background.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7d0c8d30-7709-476b-8e6b-1176bb7c1643",
             "Value": {
                 "id": "440324e8-b546-4997-8912-ac5d2201deb7",
@@ -1076,6 +1188,14 @@
                 "id": "db337125-d111-4988-a803-966291e963c5",
                 "resourcePath": "scripts\\toggleSelection\\toggleSelection.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7f5590ce-d13f-4238-8903-9828e501e2a4",
+            "Value": {
+                "id": "bf1de4a3-9fe9-49e9-9af7-75bc5beaf95d",
+                "resourcePath": "views\\7f5590ce-d13f-4238-8903-9828e501e2a4.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1204,6 +1324,14 @@
                 "id": "82384e66-842e-466b-adbc-814a853d7c0c",
                 "resourcePath": "scripts\\humanSetup\\humanSetup.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8bdccbbf-8ac8-457e-b6a4-c03829c45e95",
+            "Value": {
+                "id": "4a4e0f64-709b-478c-8637-330527f080de",
+                "resourcePath": "objects\\o_PistolButton\\o_PistolButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1379,6 +1507,14 @@
             "Value": {
                 "id": "3a133d6b-b4d7-4980-8651-0447693aca81",
                 "resourcePath": "sprites\\s_Soldier_Pistol_SouthEast\\s_Soldier_Pistol_SouthEast.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a2680509-2597-4205-9855-0e88babcdc77",
+            "Value": {
+                "id": "5b4c1c74-8c27-47f6-8ee2-f7b35488dff6",
+                "resourcePath": "sprites\\s_Cannon_Inventory\\s_Cannon_Inventory.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1683,6 +1819,14 @@
             "Value": {
                 "id": "3b905aae-a242-4702-89a4-1cefb6cce196",
                 "resourcePath": "scripts\\checkMovement\\checkMovement.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "bd36a5a3-b4dc-437f-a457-2579b5951512",
+            "Value": {
+                "id": "94954a17-9439-48d3-a840-9f45046362e2",
+                "resourcePath": "scripts\\buttonCreate\\buttonCreate.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2159,6 +2303,14 @@
             }
         },
         {
+            "Key": "eaa8c109-9b58-4605-899a-3da07544db03",
+            "Value": {
+                "id": "c6e247a8-9b64-4f61-b1b4-09fdfcfb9e8e",
+                "resourcePath": "scripts\\inventoryCreate\\inventoryCreate.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "eae0e6d7-819f-43c8-95e3-62cdf6ce5396",
             "Value": {
                 "id": "daea3a9a-b2e0-4e2d-996e-47c77dee1398",
@@ -2303,11 +2455,27 @@
             }
         },
         {
+            "Key": "fc0523db-fa1f-4d1e-afea-aba500a27b68",
+            "Value": {
+                "id": "7e7d562e-268e-46a4-94ef-263fd2faedde",
+                "resourcePath": "sprites\\s_MachineGun_Inventory\\s_MachineGun_Inventory.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "fcd273af-4428-4413-a16f-e525cafa7416",
             "Value": {
                 "id": "0dc7c859-8d77-47e9-abbf-3c9ffa18cfba",
                 "resourcePath": "scripts\\createMovementButton\\createMovementButton.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "fcd63bca-62f2-4ab3-9ee7-dfa65eee4462",
+            "Value": {
+                "id": "26ff746a-5ff5-4413-8a47-d6a8c67cfd41",
+                "resourcePath": "sprites\\s_Turret_Inventory\\s_Turret_Inventory.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2445,7 +2613,11 @@
         "a96049c7-5faa-43c8-ac84-62d9df3ad05e",
         "66863313-1784-4729-bf10-7f764805c9bb",
         "baf21179-3f32-435d-9200-f82605837cb5",
-        "3aed2b66-608a-427c-9c76-7d4454e5a29d"
+        "3aed2b66-608a-427c-9c76-7d4454e5a29d",
+        "bd36a5a3-b4dc-437f-a457-2579b5951512",
+        "6e3ffcef-a21b-45cf-a32b-a7747c6ed849",
+        "eaa8c109-9b58-4605-899a-3da07544db03",
+        "6a20ddd1-f2f3-4f05-95f9-88ad61c06fff"
     ],
     "tutorial": ""
 }

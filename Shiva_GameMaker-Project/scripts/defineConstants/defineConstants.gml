@@ -1,6 +1,8 @@
 /// @func: defineConstants
 /// @description: This is called at the start of the game and establishes all the constants we want to define
 
+// Engine
+#macro ENGINE_OBJECTS_LAYER "Engine"
 
 // Sprites
 #macro xButton s_X
@@ -95,11 +97,18 @@
 #macro LASER "Alien Laser"
 #macro CANNON "Alien Cannon"
 #macro SOLDIER "Soldier"
+#macro WALL "WALL"
 
 // Turrets
 #macro STANDARD_TURRET "Manual Turret"
 #macro CANNON_TURRET "Manual Alien Burst Cannon"
 #macro LASER_TURRET "Automatic Alien Laser"
+
+// Inventory
+#macro BUTTON_SIZE 32 // the pixel width and height of buttons
+#macro MAX_BUTTONS_PER_ROW 5 // the amount of buttons shown in each row of the inventory
+#macro INVENTORY_BUTTON_LAYER "Inventory_Buttons"
+#macro INVENTORY_LAYER "Inventory"
 
 // Aliens
 #macro RUDRA "Rudra"

@@ -16,6 +16,8 @@ global.researchPoints = 0 // the amount of research points the player has accumu
 global.food = 0 // the amount of food the player has accumulated
 global.spawnPods = 0 // the number of spawn pods on the map, and this is the initial amount of spawn pods
 
+//global.inventory = instance_create_layer(0,0, INVENTORY_LAYER, o_Inventory)
+
 // Tiles
 global.board = ds_list_create()
 global.adjacencyList = ds_map_create()
