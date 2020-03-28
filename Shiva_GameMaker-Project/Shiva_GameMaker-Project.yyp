@@ -343,6 +343,14 @@
             }
         },
         {
+            "Key": "1dc9a2e4-6c06-48ad-8503-2bf751bc31df",
+            "Value": {
+                "id": "b91c06db-fb32-44b2-a746-57419e164644",
+                "resourcePath": "sprites\\s_Soldier_Cannon_SouthEast\\s_Soldier_Cannon_SouthEast.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1df3b082-79f4-4917-815f-c3d1e299b9b4",
             "Value": {
                 "id": "6deb128b-34e6-410c-ad9c-d318560c7271",
@@ -420,6 +428,14 @@
                 "id": "68dae46a-c03e-4b8c-8ddd-58bf6032c3ba",
                 "resourcePath": "views\\21b060cd-20cd-4331-8105-8ab99a9d1e64.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2282d629-512b-44d5-b637-3dcc519af2d8",
+            "Value": {
+                "id": "51fbb085-7511-40f1-8959-80ea0e62ac93",
+                "resourcePath": "sprites\\s_Soldier_Cannon_South\\s_Soldier_Cannon_South.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -647,6 +663,14 @@
             }
         },
         {
+            "Key": "39a22dfa-9ff2-4906-a793-ac6e583d889d",
+            "Value": {
+                "id": "1b5148ce-5c83-4423-9b0d-517df23cdcfa",
+                "resourcePath": "sprites\\s_Soldier_Laser_South\\s_Soldier_Laser_South.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3a4fb9b6-07c0-42c1-94fd-140d107c88d0",
             "Value": {
                 "id": "0ca1a7a9-68b0-42e1-8635-d8886b400b29",
@@ -700,6 +724,22 @@
                 "id": "59a3c414-27f2-477f-8780-6051e95b51ad",
                 "resourcePath": "views\\40623a28-f54b-4402-8df4-2ba38a7e348c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "41428b37-b9f1-4300-a91d-425f0ec468ca",
+            "Value": {
+                "id": "4686a166-d138-41e2-872a-6f0175d6f28c",
+                "resourcePath": "sprites\\s_Soldier_Laser_NorthEast\\s_Soldier_Laser_NorthEast.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4177564f-121b-48f9-ad7b-feae0cd4f3ae",
+            "Value": {
+                "id": "6815e7f1-fd4e-473f-90ed-9d53921fcf81",
+                "resourcePath": "sprites\\s_Soldier_Cannon_NorthEast\\s_Soldier_Cannon_NorthEast.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1207,11 +1247,27 @@
             }
         },
         {
+            "Key": "77de1aa4-69d7-43e3-b8c5-7ac3f83772b0",
+            "Value": {
+                "id": "083627bd-c40b-4421-a4f5-4910cc5c8c06",
+                "resourcePath": "sprites\\s_Soldier_Laser_SouthEast\\s_Soldier_Laser_SouthEast.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "788cbcfd-3264-43b4-9a79-3371556e4e5c",
             "Value": {
                 "id": "e27376cb-6dac-449f-a875-be97bf055dfc",
                 "resourcePath": "sprites\\spr_msg_more0\\spr_msg_more0.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "793cf086-1c32-41dd-a096-4c7ab3335fba",
+            "Value": {
+                "id": "4ecffe80-bc71-476e-ac6d-374860ea1207",
+                "resourcePath": "objects\\o_MachineGunButton\\o_MachineGunButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1396,6 +1452,14 @@
                 "id": "cb64f755-5776-4e43-9d23-0c66171c308e",
                 "resourcePath": "views\\89c7b919-bf3a-4c22-87b0-2989639eebda.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8a260201-408b-4937-80a5-f0c9071deef6",
+            "Value": {
+                "id": "2f0c3d06-4b98-4e45-818c-b75057da1963",
+                "resourcePath": "sprites\\s_Soldier_Laser_East\\s_Soldier_Laser_East.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1679,14 +1743,6 @@
             }
         },
         {
-            "Key": "a7cade7b-bb47-4fd1-a47a-5cfb6e3a9f8f",
-            "Value": {
-                "id": "954c6d5e-36de-4b30-95f3-b12e4bf9d79c",
-                "resourcePath": "sprites\\s_Soldier_Cannon_Right\\s_Soldier_Cannon_Right.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "a87d9594-d28c-414d-9a3c-a85eb8909ab3",
             "Value": {
                 "id": "9771ffb0-6685-438a-83c2-7c9e19483aa3",
@@ -1772,14 +1828,6 @@
                 "id": "b69560a0-e557-434a-ba15-c30cab2ba018",
                 "resourcePath": "scripts\\defineConstants\\defineConstants.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "ad322106-0c28-4817-87c9-a7a89af8ea61",
-            "Value": {
-                "id": "f77e9af3-5715-4352-973d-83f61c829257",
-                "resourcePath": "sprites\\s_Soldier_Laser_Right\\s_Soldier_Laser_Right.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -1891,6 +1939,14 @@
             "Value": {
                 "id": "5ee461c3-a521-4f78-98fd-8f10e60a7a19",
                 "resourcePath": "sprites\\spr_WaterTile\\spr_WaterTile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ba72a5f0-5d07-4a0a-ba29-176101a15ccc",
+            "Value": {
+                "id": "a9bff247-df15-4bd9-9a36-ffb19428ee3d",
+                "resourcePath": "sprites\\s_Soldier_Cannon_North\\s_Soldier_Cannon_North.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2079,11 +2135,27 @@
             }
         },
         {
+            "Key": "c4368cb5-ce7e-4b02-a493-3a10fbfaef29",
+            "Value": {
+                "id": "f1690563-ce1c-4671-a189-ceb465795354",
+                "resourcePath": "objects\\o_CannonButton\\o_CannonButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c441eaf3-1dc0-4d56-a7f2-cdcdde8da77e",
             "Value": {
                 "id": "66a5296d-139c-4012-ac18-3d9ceecaa83e",
                 "resourcePath": "views\\c441eaf3-1dc0-4d56-a7f2-cdcdde8da77e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c5c649a4-f46c-48fc-92a9-f632536c2345",
+            "Value": {
+                "id": "2afb56c7-8925-4bbf-aa86-7ddb032b66fc",
+                "resourcePath": "sprites\\s_Soldier_MachineGun_NorthEast\\s_Soldier_MachineGun_NorthEast.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2148,6 +2220,14 @@
                 "id": "44e7b020-d3d9-4c69-8c82-fedadbe42e77",
                 "resourcePath": "scripts\\calcTargets\\calcTargets.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "cb5e2bbe-fb04-4e24-8f17-9f85b0741a53",
+            "Value": {
+                "id": "53f84ed6-c458-4fe1-a36f-88a362e2321e",
+                "resourcePath": "sprites\\s_Soldier_MachineGun_SouthEast\\s_Soldier_MachineGun_SouthEast.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2279,6 +2359,14 @@
             }
         },
         {
+            "Key": "d7797bf2-cd52-44ac-accd-a2583f113c0f",
+            "Value": {
+                "id": "41200899-4af0-4733-9db7-542d9c70c81b",
+                "resourcePath": "sprites\\s_Soldier_MachineGun_South\\s_Soldier_MachineGun_South.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d7c71d51-7a50-4da7-beb8-913258b89601",
             "Value": {
                 "id": "bab689c2-3949-4874-9bea-c975dbf4c8db",
@@ -2316,14 +2404,6 @@
                 "id": "181fd00d-230f-423e-b35a-5591dc83d28a",
                 "resourcePath": "scripts\\top_instance_position\\top_instance_position.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "da0682a6-4061-48d1-84f6-df9092021190",
-            "Value": {
-                "id": "60d512e9-e671-4b14-9640-bbf72da3d32e",
-                "resourcePath": "sprites\\s_Soldier_MachineGun_Right\\s_Soldier_MachineGun_Right.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -2476,6 +2556,14 @@
                 "id": "2e7e8df0-12cc-49c4-8cac-b31d66a188e7",
                 "resourcePath": "sprites\\s_Soldier_Pistol_East\\s_Soldier_Pistol_East.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ed391269-021f-483f-8265-8b6aaa546bae",
+            "Value": {
+                "id": "6560ce3a-209c-466d-8852-b09274096ae5",
+                "resourcePath": "scripts\\openInventory\\openInventory.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2653,6 +2741,22 @@
                 "resourcePath": "views\\ff50eccd-fe57-486a-9683-80269caab41a.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "fff75953-dc77-44b6-a567-b6480a98cbfb",
+            "Value": {
+                "id": "38554a30-a7f9-4acb-a22c-4c61064883e9",
+                "resourcePath": "sprites\\s_Soldier_Cannon_East\\s_Soldier_Cannon_East.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fff87c92-31e9-4193-9465-c3cd26ee1bdf",
+            "Value": {
+                "id": "4b7f3112-e8d6-472b-a2c7-3bd7d4d89385",
+                "resourcePath": "sprites\\s_Soldier_Laser_North\\s_Soldier_Laser_North.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "script_order": [
@@ -2767,7 +2871,8 @@
         "bd302803-b6b3-44c9-bc75-849396836c7a",
         "56def9b4-83c4-48e1-96aa-68d3fbf85b46",
         "c38756f1-b08e-4f98-9cc7-f83564618869",
-        "b38ae21f-1c3a-4264-a602-6aed41dfbf8b"
+        "b38ae21f-1c3a-4264-a602-6aed41dfbf8b",
+        "ed391269-021f-483f-8265-8b6aaa546bae"
     ],
     "tutorial": ""
 }

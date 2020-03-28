@@ -16,9 +16,14 @@ global.researchPoints = 0 // the amount of research points the player has accumu
 global.food = 0 // the amount of food the player has accumulated
 global.spawnPods = 0 // the number of spawn pods on the map, and this is the initial amount of spawn pods
 
-global.inventory = instance_create_layer(0,0, INVENTORY_LAYER, o_Inventory)
-global.listOfSoldiers = ds_list_create()
+// Inventory
+global.humanButtons = ds_list_create() // list of the buttons corresponding to human things
+ds_list_add(global.humanButtons, o_PistolButton, o_MachineGunButton)
+global.alienButtons = ds_list_create() // list of the buttons corresponding to alien things
+ds_list_add(global.alienButtons, o_LaserButton, o_CannonButton)
+global.listOfSoldiers = ds_list_create() 
 global.listOfHumans = ds_list_create()
+global.inventory = instance_create_layer(0,0, INVENTORY_LAYER, o_Inventory) // make this last so that the create event can access the prior global variables
 
 // Tiles
 global.board = ds_list_create()

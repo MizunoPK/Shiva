@@ -7,8 +7,12 @@ name = weapon + " " + SOLDIER
 
 passiveUnit = false
 
-rightwardSprite = s_Soldier_Laser_Right // sprite facing rightward
-sprite_index = rightwardSprite // base sprite
+eastSprite = s_Soldier_Laser_East // east facing sprite
+northeastSprite = s_Soldier_Laser_NorthEast // northeast facing sprite
+northSprite = s_Soldier_Laser_North // north facing sprite
+southeastSprite = s_Soldier_Laser_SouthEast // south east facing sprite
+southSprite = s_Soldier_Laser_South // south facing sprite
+sprite_index = eastSprite // base sprite
 
 damage = ATTACK_DAMAGE_1 // the amount of damage this unit deals
 secondsBetweenHits = ATTACK_SPEED_5 // seconds between each hit

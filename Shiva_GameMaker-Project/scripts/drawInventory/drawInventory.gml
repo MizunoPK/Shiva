@@ -13,7 +13,7 @@ if ( inventoryOpen ) {
 	draw_set_valign(fa_top)
 	draw_set_font(bannerFont)
 	draw_set_color(FRIENDLY_DIALOG_COLOR)
-	draw_text(x + widthBetweenButtons, y + topMargin, banner )
+	draw_text(x + sideMargin, y + topMargin, banner )
 	
 	// update the positions of buttons
 	for (var i=0; i < ds_list_size(inventoryButtonsKeys); i++ ) {

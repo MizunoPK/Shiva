@@ -1,9 +1,3 @@
-// check if we need to reset due to a new round
-if ( instanceRound != global.invasionRound ) {
-	newRoundHuman()
-	instanceRound = global.invasionRound
-}
-
 // check the unit's health
 checkHealth()
 // check hunger
@@ -20,3 +14,10 @@ updateDirection()
 checkForTile()
 // try to start a movement path
 checkMovement()
+
+
+// check if we need to reset due to a new round
+if ( instanceRound != global.invasionRound ) {
+	newRoundHuman()
+	instanceRound = global.invasionRound
+}

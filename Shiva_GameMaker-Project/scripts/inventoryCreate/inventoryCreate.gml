@@ -13,21 +13,17 @@ bannerFont = f_menu
 inventoryButtons = ds_map_create()
 inventoryButtonsKeys = ds_list_create() // a list of the keys in the inventoryButtons map, used to iterate through the map
 
-// Create objects for all the inventory buttons and store them in the map
-var humanButtonList = ds_list_create()
-ds_list_add(humanButtonList, o_PistolButton) // list of the buttons for human entities
-var alienButtonList = ds_list_create()
-ds_list_add(alienButtonList, o_LaserButton) // list of the buttons for alien entities
-
+// variables to be used for figuring out the location of each button relative to the inventory's top left corner
 var row = 1
 var buttonsInRow = 0 // keep track of the number of buttons in the row currently being made
-widthBetweenButtons = INVENTORY_BUTTON_SIZE
+widthBetweenButtons = INVENTORY_BUTTON_SIZE * 3
 heightBetweenButtons = INVENTORY_BUTTON_SIZE * 2.5
 topMargin = INVENTORY_BUTTON_SIZE / 2 
+sideMargin = widthBetweenButtons / 2
 var mostButtonsInARow = 0 // variable to keep track of the most buttons found in a row
 
 // create the human buttons
-for ( var i=0; i < ds_list_size(humanButtonList); i++ ) {
+for ( var i=0; i < ds_list_size(global.humanButtons); i++ ) {
 	// go down a row if needed
 	if ( buttonsInRow >= MAX_BUTTONS_PER_ROW ) {
 		row++
@@ -35,15 +31,16 @@ for ( var i=0; i < ds_list_size(humanButtonList); i++ ) {
 		mostButtonsInARow = MAX_BUTTONS_PER_ROW
 	}
 	
-	var buttonX = widthBetweenButtons + (INVENTORY_BUTTON_SIZE + widthBetweenButtons)*buttonsInRow
+	var buttonX = sideMargin + (INVENTORY_BUTTON_SIZE + widthBetweenButtons)*buttonsInRow
 	var buttonY = topMargin + (heightBetweenButtons + INVENTORY_BUTTON_SIZE)*row
-	var newButton = instance_create_layer(buttonX, buttonY, INVENTORY_BUTTON_LAYER, ds_list_find_value(humanButtonList, i))
+	var newButton = instance_create_layer(buttonX, buttonY, INVENTORY_BUTTON_LAYER, ds_list_find_value(global.humanButtons, i))
 	newButton.owningInventory = self
 	newButton.invX = buttonX
 	newButton.invY = buttonY
 	instance_deactivate_object(newButton)
 	ds_map_add(inventoryButtons, newButton.itemName, newButton)
 	ds_list_add(inventoryButtonsKeys, newButton.itemName)
+	buttonsInRow++
 }
 
 if ( buttonsInRow > mostButtonsInARow ) {
@@ -53,7 +50,7 @@ if ( buttonsInRow > mostButtonsInARow ) {
 // create alien buttons
 row++
 buttonsInRow = 0
-for ( var i=0; i < ds_list_size(alienButtonList); i++ ) {
+for ( var i=0; i < ds_list_size(global.alienButtons); i++ ) {
 	// go down a row if needed
 	if ( buttonsInRow >= MAX_BUTTONS_PER_ROW ) {
 		row++
@@ -61,15 +58,16 @@ for ( var i=0; i < ds_list_size(alienButtonList); i++ ) {
 		mostButtonsInARow = MAX_BUTTONS_PER_ROW
 	}
 	
-	var buttonX = widthBetweenButtons + (INVENTORY_BUTTON_SIZE + widthBetweenButtons)*buttonsInRow
+	var buttonX = sideMargin + (INVENTORY_BUTTON_SIZE + widthBetweenButtons)*buttonsInRow
 	var buttonY = topMargin + (heightBetweenButtons + INVENTORY_BUTTON_SIZE)*row
-	var newButton = instance_create_layer(buttonX, buttonY, INVENTORY_BUTTON_LAYER, ds_list_find_value(alienButtonList, i))
+	var newButton = instance_create_layer(buttonX, buttonY, INVENTORY_BUTTON_LAYER, ds_list_find_value(global.alienButtons, i))
 	newButton.owningInventory = self
 	newButton.invX = buttonX
 	newButton.invY = buttonY
 	instance_deactivate_object(newButton)
 	ds_map_add(inventoryButtons, newButton.itemName, newButton)
 	ds_list_add(inventoryButtonsKeys, newButton.itemName)
+	buttonsInRow++
 }
 
 if ( buttonsInRow > mostButtonsInARow ) {
@@ -77,8 +75,8 @@ if ( buttonsInRow > mostButtonsInARow ) {
 }
 
 // figure out the width of button rows
-var topRowWidth = widthBetweenButtons + bannerWidth + widthBetweenButtons + MENU_EXIT_BUTTON_WIDTH + widthBetweenButtons
-var maxButtonRowWidth = (widthBetweenButtons + INVENTORY_BUTTON_SIZE) * mostButtonsInARow + widthBetweenButtons
+var topRowWidth = sideMargin + bannerWidth + INVENTORY_BUTTON_SIZE + MENU_EXIT_BUTTON_WIDTH + sideMargin
+var maxButtonRowWidth = sideMargin + (INVENTORY_BUTTON_SIZE * mostButtonsInARow) + (widthBetweenButtons * (mostButtonsInARow - 1)) + sideMargin
 if ( topRowWidth < maxButtonRowWidth ) {
 	rowWidth = maxButtonRowWidth
 }
@@ -89,7 +87,7 @@ else {
 columnHeight = 2 * topMargin + (heightBetweenButtons + INVENTORY_BUTTON_SIZE)*row + INVENTORY_BUTTON_SIZE
 
 // create the exit button
-exitButton = instance_create_layer( x + (INVENTORY_BUTTON_SIZE + widthBetweenButtons)*MAX_BUTTONS_PER_ROW*2, y + heightBetweenButtons, INVENTORY_BUTTON_LAYER, o_ExitButton )
-exitButton.invX = rowWidth - widthBetweenButtons
+exitButton = instance_create_layer( x + ( rowWidth - sideMargin ), y + topMargin, INVENTORY_BUTTON_LAYER, o_ExitButton )
+exitButton.invX = rowWidth - sideMargin
 exitButton.invY = topMargin
 instance_deactivate_object(exitButton)

@@ -8,7 +8,7 @@ if ( enemyInstance != noone and not instance_exists(enemyInstance) ) {
 		changeAttackMode()
 	enemyInstance = noone
 	
-	if (object_index == o_Soldier) {
+	if (object_index == o_Soldier and global.invasionRound) {
 		movementRange = invasionRoundMovementRange
 	}
 }
