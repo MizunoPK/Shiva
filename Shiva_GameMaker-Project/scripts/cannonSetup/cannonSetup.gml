@@ -12,6 +12,9 @@ northeastSprite = s_Soldier_Cannon_NorthEast // northeast facing sprite
 northSprite = s_Soldier_Cannon_North // north facing sprite
 southeastSprite = s_Soldier_Cannon_SouthEast // south east facing sprite
 southSprite = s_Soldier_Cannon_South // south facing sprite
+westSprite = s_Soldier_Cannon_West // west facing sprite
+northwestSprite = s_Soldier_Cannon_NorthWest // north west facing sprite
+southwestSprite = s_Soldier_Cannon_SouthWest // south west facing sprite
 sprite_index = eastSprite // base sprite
 
 damage = ATTACK_DAMAGE_4 // the amount of damage this unit deals

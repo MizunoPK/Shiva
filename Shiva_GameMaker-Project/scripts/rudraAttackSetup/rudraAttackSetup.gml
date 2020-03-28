@@ -9,6 +9,9 @@ northeastSprite = s_Alien_Rudra_Attack_NorthEast // northeast facing sprite
 northSprite = s_Alien_Rudra_Attack_North // north facing sprite
 southeastSprite = s_Alien_Rudra_Attack_SouthEast // south east facing sprite
 southSprite = s_Alien_Rudra_Attack_South // south facing sprite
+westSprite = s_Alien_Rudra_Attack_West // west facing sprite
+northwestSprite = s_Alien_Rudra_Attack_NorthWest // north west facing sprite
+southwestSprite = s_Alien_Rudra_Attack_SouthWest // south west facing sprite
 sprite_index = eastSprite // base sprite
 
 damage = ATTACK_DAMAGE_4

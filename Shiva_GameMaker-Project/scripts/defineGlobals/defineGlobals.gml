@@ -14,7 +14,7 @@ global.enemiesOnBoard = -1 // the number of enemies on the board... -1 when duri
 global.aliensInvaded = false // boolean to detect when the aliens have finished exiting spawn pods and started invading
 global.roundNumber = 1 // the round the user is on
 global.researchPoints = 0 // the amount of research points the player has accumulated
-global.food = 100 // the amount of food the player has accumulated
+global.food = 0 // the amount of food the player has accumulated
 global.spawnPods = 0 // the number of spawn pods on the map, and this is the initial amount of spawn pods
 
 // Inventory

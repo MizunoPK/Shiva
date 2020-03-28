@@ -12,6 +12,9 @@ northeastSprite = s_Soldier_Pistol_NorthEast // northeast facing sprite
 northSprite = s_Soldier_Pistol_North // north facing sprite
 southeastSprite = s_Soldier_Pistol_SouthEast // south east facing sprite
 southSprite = s_Soldier_Pistol_South // south facing sprite
+westSprite = s_Soldier_Pistol_West // west facing sprite
+northwestSprite = s_Soldier_Pistol_NorthWest // north west facing sprite
+southwestSprite = s_Soldier_Pistol_SouthWest // south west facing sprite
 sprite_index = eastSprite // base sprite
 
 invasionRoundMovementRange = INVASION_MOVEMENT_2 // the amount of tiles this unit can move to seek out a target between rounds
