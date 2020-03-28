@@ -18,6 +18,7 @@
 #macro tileRadius (tileDiameter / 2)
 #macro tileEdgeWidth 51
 #macro BOARD_RINGS 8
+#macro SAFE_RADIUS 2 // the amount of tiles from the home base the player can place objects
 
 // Dialog Colors
 #macro VISITED_DIALOG_COLOR c_green

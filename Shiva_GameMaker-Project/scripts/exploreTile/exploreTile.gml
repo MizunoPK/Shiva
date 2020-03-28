@@ -1,6 +1,7 @@
 /// @func exploreTile()
 /// @description called at the end of a path for a human and allows the player to discover what is hidden in the tile
 
+// explore the tile location
 with (tileLocation) {
 	// if the tile they are now on is explorable, has not been explored, and it is a prep phase, then proceed with exploring
 	if ( not explored and explorable and not global.invasionRound ) {

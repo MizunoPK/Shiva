@@ -4,6 +4,7 @@
 
 global.currentSelectedObject = noone // the currently selected object by the user
 global.homeBase = noone // the instance of the home base
+global.homeBaseNearbyTiles = ds_list_create() // a list storing the tiles within SAFE_RADIUS of the home base
 
 global.groundTroops = ds_list_create() // a list of the ground troops
 	ds_list_add( global.groundTroops, o_Soldier, o_Alien_Rudra )

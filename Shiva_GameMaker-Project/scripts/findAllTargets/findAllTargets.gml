@@ -18,7 +18,7 @@ for ( var i=0 ; i < ds_list_size(adjTiles) ; i++ ) {
 	ds_list_add(visitedList, tileBeingChecked)
 	
 	// if the tile is valid, add it to the targets list
-	if ( tileBeingChecked.occupier == noone ) {
+	if ( tileBeingChecked.occupier == noone and tileBeingChecked.isWalkable ) {
 		var index = ds_list_find_index(targetsList, tileBeingChecked )
 		var length = maxRange + 1 - range
 		if ( index == -1 and tileBeingChecked != tileLocation  ) {
@@ -57,7 +57,7 @@ for ( var i=0 ; i < ds_list_size(adjTiles) ; i++ ) {
 for ( var i=0 ; i < ds_list_size(adjTiles) ; i++ ) {
 	var tileBeingChecked = ds_list_find_value(adjTiles, i)
 	// if the range is greater than 1, recursively check the adj list of this tile as well
-	if (range > 1 and tileBeingChecked != tileLocation ) {
+	if (range > 1 and tileBeingChecked != tileLocation and tileBeingChecked.isWalkable and tileBeingChecked.occupier == noone ) {
 		findAllTargets(tileBeingChecked, range - 1, maxRange)
 	}
 	ds_list_delete(visitedList, ds_list_find_index(visitedList, tileBeingChecked))
