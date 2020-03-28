@@ -13,7 +13,7 @@ global.enemiesOnBoard = -1 // the number of enemies on the board... -1 when duri
 global.aliensInvaded = false // boolean to detect when the aliens have finished exiting spawn pods and started invading
 global.roundNumber = 1 // the round the user is on
 global.researchPoints = 0 // the amount of research points the player has accumulated
-global.food = 0 // the amount of food the player has accumulated
+global.food = 100 // the amount of food the player has accumulated
 global.spawnPods = 0 // the number of spawn pods on the map, and this is the initial amount of spawn pods
 
 // Inventory
@@ -52,10 +52,10 @@ global.PLAINS_RESOURCES = ds_list_create() // resource list for plains
 	
 // Probability Lists for the resource types
 global.HUMAN_CHANCES = ds_list_create()				 // odds for each type of human being found
-	ds_list_add(global.HUMAN_CHANCES, 0, 60, 25, 0) // format: [Civilian, Unarmed, Pistol, Machine Gun]
+	ds_list_add(global.HUMAN_CHANCES, 0, 60, 25, 15) // format: [Civilian, Unarmed, Pistol, Machine Gun]
 	
 global.HUMAN_WEAPON_CHANCES = ds_list_create()				 // odds for each type of human weapon being found
-	ds_list_add(global.HUMAN_WEAPON_CHANCES, 100, 0, 0, 0) // format: [Pistol, Machine Gun, Manual Turret, Wall]
+	ds_list_add(global.HUMAN_WEAPON_CHANCES, 75, 25, 0, 0) // format: [Pistol, Machine Gun, Manual Turret, Wall]
 	
 global.ALIEN_WEAPON_CHANCES = ds_list_create()				 // odds for each type of alien weapon being found
-	ds_list_add(global.ALIEN_WEAPON_CHANCES, 100, 0, 0, 0) // format: [Laser Gun, Cannon, Automatic Laser Turret, Manual Cannon Turret]
+	ds_list_add(global.ALIEN_WEAPON_CHANCES, 75, 25, 0, 0) // format: [Laser Gun, Cannon, Automatic Laser Turret, Manual Cannon Turret]

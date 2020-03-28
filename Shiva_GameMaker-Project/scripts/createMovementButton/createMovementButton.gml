@@ -6,5 +6,5 @@ with(moveButton) {
 	currentTarget = other
 }
 instance_deactivate_object(moveButton)
-buttonVisable = false
+moveButtonVisable = false
 selectingTarget = false

@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "0745225a-fc03-4544-abec-6792adec9312",
+            "Value": {
+                "id": "9e9c85c0-c6cb-4f04-945c-186e734e1de5",
+                "resourcePath": "scripts\\disarmTap\\disarmTap.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "07a5a3f9-332b-4fcd-bdc8-4cd4cdddad70",
             "Value": {
                 "id": "6ac8f760-3c00-4ffd-a4bd-0b7bb49bc3aa",
@@ -323,6 +331,14 @@
             "Value": {
                 "id": "db0f01c5-357b-4048-892e-04cc6a56de00",
                 "resourcePath": "views\\1b8b24ee-c7b5-471d-9b97-ba0f66d13301.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1bbd313c-63e9-4b15-997e-ec453fa5ea58",
+            "Value": {
+                "id": "4c29af19-86df-4a3b-a7a1-a4072976f1db",
+                "resourcePath": "views\\1bbd313c-63e9-4b15-997e-ec453fa5ea58.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -951,6 +967,14 @@
             }
         },
         {
+            "Key": "593b74d8-39ea-4263-a573-207536911b4a",
+            "Value": {
+                "id": "0797f553-ae98-4433-9a36-11fadc662d2a",
+                "resourcePath": "objects\\o_DisarmButton\\o_DisarmButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5a611007-3fb4-47e3-9945-de379111df00",
             "Value": {
                 "id": "3fbe4098-433f-41a2-8a47-c66466d28177",
@@ -963,6 +987,14 @@
             "Value": {
                 "id": "548a8ef9-0cb0-4088-9ec8-912de3433ba4",
                 "resourcePath": "sprites\\spr_msg_arrow\\spr_msg_arrow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5b600578-346b-426f-b58f-cc6876376d8c",
+            "Value": {
+                "id": "fe106a6a-f243-4b12-96cb-f71eeaaa8223",
+                "resourcePath": "sprites\\s_Disarm\\s_Disarm.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1599,6 +1631,14 @@
             }
         },
         {
+            "Key": "986b74a8-d0aa-4eb1-b041-3f79a92c08eb",
+            "Value": {
+                "id": "5f8c9b29-bfcd-419f-b900-cd76975fa080",
+                "resourcePath": "views\\986b74a8-d0aa-4eb1-b041-3f79a92c08eb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "98fc039b-de9b-476b-9b49-fcdae5ff7ba8",
             "Value": {
                 "id": "08d58619-29a6-4e89-8e76-0221b7847234",
@@ -2063,6 +2103,14 @@
             }
         },
         {
+            "Key": "bef027e6-82cc-415e-8718-668fe00298c9",
+            "Value": {
+                "id": "7cac34cd-c583-490a-9171-fef48be9e3b6",
+                "resourcePath": "sprites\\s_Food\\s_Food.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bf5593d2-4d0c-49d4-8a25-761b097426a3",
             "Value": {
                 "id": "e1ba87ab-3937-45af-9edc-8a52d6285f54",
@@ -2100,6 +2148,14 @@
                 "id": "7192890c-080f-440e-8a72-87e80cf8f1a2",
                 "resourcePath": "views\\c1c0242f-ed94-46b7-b34c-6359fefa4aab.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c2c54acd-07df-4d53-a5cf-f589c399c9a9",
+            "Value": {
+                "id": "aaf77092-91a0-4c91-9b48-5f1968f34c87",
+                "resourcePath": "scripts\\foodTap\\foodTap.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2327,6 +2383,14 @@
             }
         },
         {
+            "Key": "d54df3f5-b62e-4773-b3c8-f18a3940194f",
+            "Value": {
+                "id": "78f29ff7-a5ee-47dd-8d8f-44ed52ada458",
+                "resourcePath": "scripts\\checkFoodButton\\checkFoodButton.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d55fa130-28bb-4984-8b1d-f28d24e5a0bb",
             "Value": {
                 "id": "df0fed04-e480-4836-b604-3e228ad9e9ab",
@@ -2423,6 +2487,14 @@
             }
         },
         {
+            "Key": "dedb21f9-bf9b-4243-88e2-c4827fe0be13",
+            "Value": {
+                "id": "e753b54c-6ed1-4fda-9a78-b0462050686c",
+                "resourcePath": "scripts\\createFoodButton\\createFoodButton.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e05efa23-c8a4-4885-b04f-32f0133ab469",
             "Value": {
                 "id": "d4720a05-89e0-4cb3-8aa5-e80b681e293c",
@@ -2508,6 +2580,14 @@
                 "id": "2ab473a1-4fe0-48d5-af17-95a4c018d101",
                 "resourcePath": "scripts\\checkStatus\\checkStatus.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e8ee9da9-9dc4-439b-9077-eb68f0b1da86",
+            "Value": {
+                "id": "ca1fce11-8fec-4ccc-b67d-f49d59ccc88f",
+                "resourcePath": "objects\\o_FoodButton\\o_FoodButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2862,6 +2942,10 @@
         "a96049c7-5faa-43c8-ac84-62d9df3ad05e",
         "66863313-1784-4729-bf10-7f764805c9bb",
         "baf21179-3f32-435d-9200-f82605837cb5",
+        "dedb21f9-bf9b-4243-88e2-c4827fe0be13",
+        "d54df3f5-b62e-4773-b3c8-f18a3940194f",
+        "c2c54acd-07df-4d53-a5cf-f589c399c9a9",
+        "0745225a-fc03-4544-abec-6792adec9312",
         "3aed2b66-608a-427c-9c76-7d4454e5a29d",
         "bd36a5a3-b4dc-437f-a457-2579b5951512",
         "6e3ffcef-a21b-45cf-a32b-a7747c6ed849",

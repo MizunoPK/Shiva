@@ -8,6 +8,8 @@ checkEnemy()
 checkStatus()
 // check the movement button
 checkMovementButton()
+// check the food button
+checkFoodButton()
 // check the unit's direction
 updateDirection()
 // check if the unit has been provided a tile target
