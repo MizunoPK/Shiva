@@ -1,23 +1,23 @@
 {
-    "id": "593b74d8-39ea-4263-a573-207536911b4a",
+    "id": "35a2672d-64d9-428c-9be0-1503bfee656f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_DisarmButton",
+    "name": "o_FriendlyButton",
     "eventList": [
         {
-            "id": "1181f3ea-b0b3-4ee3-8683-1a35c4f10a66",
+            "id": "12998535-b8fe-4ac1-99b2-54dd502d2973",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 13,
-            "m_owner": "593b74d8-39ea-4263-a573-207536911b4a"
+            "eventtype": 8,
+            "m_owner": "35a2672d-64d9-428c-9be0-1503bfee656f"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "35a2672d-64d9-428c-9be0-1503bfee656f",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "5b600578-346b-426f-b58f-cc6876376d8c",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

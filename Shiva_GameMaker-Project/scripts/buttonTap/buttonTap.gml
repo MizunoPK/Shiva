@@ -1,7 +1,7 @@
 /// @func itemTap()
 /// @description tap function for inventory buttons
 
-if ( itemQuantity > 0 ) {
+if ( itemQuantity > 0 and not global.invasionRound ) {
 	with (owningInventory) {
 		selectingTarget = true
 		inventoryOpen = false

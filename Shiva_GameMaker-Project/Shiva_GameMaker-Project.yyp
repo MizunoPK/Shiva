@@ -311,6 +311,14 @@
             }
         },
         {
+            "Key": "196d6768-200b-4c44-b8bc-851e4ba6137d",
+            "Value": {
+                "id": "8d48e545-5298-41e4-b691-8a33e9e92e54",
+                "resourcePath": "scripts\\createDisarmButton\\createDisarmButton.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "19b94ab5-5416-44dc-9d55-d100dede8d68",
             "Value": {
                 "id": "916129c9-9a51-4f4e-a618-278804b6d2f6",
@@ -644,6 +652,14 @@
                 "id": "a6e45f24-0f58-4dd7-9f9a-88c06e577bda",
                 "resourcePath": "views\\355e9ef4-bf46-4fc0-aba5-0817717b3a5b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "35a2672d-64d9-428c-9be0-1503bfee656f",
+            "Value": {
+                "id": "4a71a67b-61db-42c8-8706-d330f39714d2",
+                "resourcePath": "objects\\o_FriendlyButton\\o_FriendlyButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1999,6 +2015,14 @@
             }
         },
         {
+            "Key": "bb112e43-3c49-4f2f-98b9-4ef0074aef25",
+            "Value": {
+                "id": "37c53b18-0e57-45b2-8713-7c05dddc107b",
+                "resourcePath": "scripts\\checkDisarmButton\\checkDisarmButton.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "bba6716e-a588-40b6-bd7f-1125c9993637",
             "Value": {
                 "id": "3ec59b1c-eb98-45de-a1a0-ca453164f6fe",
@@ -2519,6 +2543,14 @@
             }
         },
         {
+            "Key": "e17711b8-8f78-4bcb-a3e6-7dc0a2de4061",
+            "Value": {
+                "id": "77a6a8a3-85ee-4d0b-9731-bb9904796b53",
+                "resourcePath": "scripts\\soldierSetup\\soldierSetup.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e192b5cf-6b12-4b62-a3cd-87ec1a51eb37",
             "Value": {
                 "id": "e19e69cb-070a-44db-8111-2d52d3d50b58",
@@ -2926,6 +2958,7 @@
         "e3b96e8a-8c53-42bf-86bd-6378fd95753f",
         "8e1670a5-28a2-4019-b1a9-75f79194682a",
         "63389650-d7dc-466f-b379-a76e02d54d9a",
+        "e17711b8-8f78-4bcb-a3e6-7dc0a2de4061",
         "6bcab372-61b0-4a3f-aeff-5d936a2cd99c",
         "6da22d1e-60c4-474e-be50-3970fac65db2",
         "6dc4fb96-99be-44db-a290-ed0390083fdd",
@@ -2945,6 +2978,8 @@
         "dedb21f9-bf9b-4243-88e2-c4827fe0be13",
         "d54df3f5-b62e-4773-b3c8-f18a3940194f",
         "c2c54acd-07df-4d53-a5cf-f589c399c9a9",
+        "196d6768-200b-4c44-b8bc-851e4ba6137d",
+        "bb112e43-3c49-4f2f-98b9-4ef0074aef25",
         "0745225a-fc03-4544-abec-6792adec9312",
         "3aed2b66-608a-427c-9c76-7d4454e5a29d",
         "bd36a5a3-b4dc-437f-a457-2579b5951512",
