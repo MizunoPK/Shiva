@@ -3,6 +3,7 @@
 
 // Engine
 #macro ENGINE_OBJECTS_LAYER "Engine"
+#macro STARTING_SURROUNDING_SOLDIERS 2 // the amount of pistol soldiers to spawn around the home base at the start of the game
 
 // Sprites
 #macro xButton s_X
