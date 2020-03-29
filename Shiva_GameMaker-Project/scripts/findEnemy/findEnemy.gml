@@ -37,7 +37,8 @@ if (enemyInstance != noone) {
 	}
 	else {
 		calcTargets( enemyInstance.tileLocation, 1 )
-		tileMovingTo = findClosestTile(tileLocation) 
+		tileMovingTo = findClosestTile(tileLocation)
+		if (tileMovingTo == noone) tileMovingTo = global.homeBase
 	}
 }
 

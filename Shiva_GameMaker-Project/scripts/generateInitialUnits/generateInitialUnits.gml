@@ -5,7 +5,7 @@
 var soldiersSpawned = 0
 var tilesTried = ds_list_create() // list of the tiles attempted to be placed on already
 while (soldiersSpawned < STARTING_SURROUNDING_SOLDIERS and ds_list_size(tilesTried) < ds_list_size(global.homeBaseNearbyTiles)) {
-	var index = irandom( ds_list_size(global.homeBaseNearbyTiles) ) // get a random spot around the base
+	var index = irandom( ds_list_size(global.homeBaseNearbyTiles) - 1 ) // get a random spot around the base
 	var nearbyTile = ds_list_find_value(global.homeBaseNearbyTiles, index) // get the tile at that spot
 	
 	// check if the tile has already been looked at

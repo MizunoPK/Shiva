@@ -8,6 +8,7 @@ maxHealth = 1000 // health of the unit
 currentHealth = maxHealth
 isFriendly = true
 attackable = true
+currentTarget = noone
 
 status = "Inactive" // the status of the unit shown in the unit's info dialog
 

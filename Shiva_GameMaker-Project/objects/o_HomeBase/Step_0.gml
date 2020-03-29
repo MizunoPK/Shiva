@@ -1,4 +1,4 @@
 if ( currentHealth < 100 ) {
-	currentHealth = maxHealth
+	startGameOver()
 }
 checkHealth()

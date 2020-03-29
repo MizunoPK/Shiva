@@ -10,8 +10,12 @@ if ( not isMoving and tileMovingTo != noone and tileMovingTo != tileLocation ) {
 	
 	// find the next tile
 		calcTargets(tileLocation, 1) // get the tiles the unit can currently move to
+		var previousTileIndex = ds_list_find_index(targetsList, previousTile)
+		if ( previousTileIndex != -1 and ds_list_size(targetsList) > 1) {
+			ds_list_delete( targetsList, previousTileIndex )
+		}
 		currentTarget = findClosestTile(tileMovingTo)
-	
+		
 	// move to the chosen tile
 		isMoving = true // indicate we are moving again
 		// remove the unit from the tile it was just on

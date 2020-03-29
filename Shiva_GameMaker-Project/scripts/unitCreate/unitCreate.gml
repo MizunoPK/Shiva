@@ -34,6 +34,8 @@ idleSpeed = image_speed // store the speed that the unit animates at when idled
 isSlowed = false // is the unit currently being slowed down by something?
 movementMultiplier = 3 // how much you multiply the idle speed by when moving
 
+previousTile = noone
+
 // set variables according to if it's a friendly unit or an enemy unit
 if ( isFriendly ) {
 	dialogColor = FRIENDLY_DIALOG_COLOR // the color that the unit's health will be displayed as

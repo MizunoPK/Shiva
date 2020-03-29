@@ -12,6 +12,7 @@ for (var i=0; i < ds_list_size(targetsList); i++ ) {
 		returnTile = baseTile
 		break
 	}
+	
 	// check the tile's length to the end tile
 	potentialLength = 0
 	with (potentialTarget) {

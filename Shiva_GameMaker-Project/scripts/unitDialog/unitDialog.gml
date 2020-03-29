@@ -5,7 +5,7 @@
 draw_set_font(DIALOG_FONT)
 draw_set_color(dialogColor)
 var preDepth = depth
-depth = -1000
+depth = preDepth + 10
 
 // if the unit is selected: show the info dialog
 if ( global.currentSelectedObject == self ) {

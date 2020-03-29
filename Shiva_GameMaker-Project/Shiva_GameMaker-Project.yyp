@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "04c80f1b-6b22-4c6d-86c1-a8264f531e09",
+            "Value": {
+                "id": "4119081b-5a3b-4062-8d52-0235be7cf425",
+                "resourcePath": "fonts\\f_mainMenus\\f_mainMenus.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "0513f8c9-8f0a-4eda-a6bd-4a3fcc7e3479",
             "Value": {
                 "id": "91816173-dd39-4fde-979a-e96d4bbc4e15",
@@ -267,6 +275,14 @@
             "Value": {
                 "id": "70c45074-54ea-41dc-b560-d9cafa1b1cc5",
                 "resourcePath": "sprites\\s_Alien_Rudra_Idle_SouthWest\\s_Alien_Rudra_Idle_SouthWest.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "156dea3f-82d0-4f59-9bdc-58fe301a8ccb",
+            "Value": {
+                "id": "63add80f-7790-4d50-889e-af36942f0716",
+                "resourcePath": "sprites\\s_QuitGame\\s_QuitGame.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -615,10 +631,26 @@
             }
         },
         {
+            "Key": "2d8bae33-3796-4ab0-be8b-b261d7c315f7",
+            "Value": {
+                "id": "1ada0214-83ca-43f6-b49e-1337f4ae21f2",
+                "resourcePath": "scripts\\createGameOverMenu\\createGameOverMenu.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2e589352-997b-4be6-afee-83eff9b8b9ca",
             "Value": {
                 "id": "550c4fd3-731c-41e1-9125-5a0d92d172db",
                 "resourcePath": "views\\2e589352-997b-4be6-afee-83eff9b8b9ca.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2f6b430c-6824-45c8-9a91-06c1c1be6dfd",
+            "Value": {
+                "id": "c4c8a180-6e90-4805-a5bc-0e0c3353cd3e",
+                "resourcePath": "views\\2f6b430c-6824-45c8-9a91-06c1c1be6dfd.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -999,6 +1031,14 @@
             }
         },
         {
+            "Key": "56c3ed13-6fb0-4c70-868a-8ad76e27a7d2",
+            "Value": {
+                "id": "d0f7df2a-ccc8-44cf-ae7a-596725c5c086",
+                "resourcePath": "scripts\\startGameOver\\startGameOver.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "56def9b4-83c4-48e1-96aa-68d3fbf85b46",
             "Value": {
                 "id": "fc49336b-9455-4386-b633-131f3e48e521",
@@ -1076,6 +1116,14 @@
                 "id": "dc63bcba-9462-4e1e-8a1c-555a72024298",
                 "resourcePath": "views\\5bc530ca-70e7-454c-abb3-6f65cd59ec1b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5bdc795b-03f2-4e32-b86a-e18a2c6b46d2",
+            "Value": {
+                "id": "b012f4f4-de6b-46a7-b7e4-dd8a5a3a36ce",
+                "resourcePath": "objects\\o_RestartGame\\o_RestartGame.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1487,6 +1535,14 @@
             }
         },
         {
+            "Key": "83130c0d-7aa5-49a7-9a56-42675fb27830",
+            "Value": {
+                "id": "b09f18a4-708e-4d38-9ecd-4f9ab810ddab",
+                "resourcePath": "objects\\o_ExitGame\\o_ExitGame.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8357f7c6-a790-4d90-826e-8fbc6f164328",
             "Value": {
                 "id": "d37248a6-9073-4c45-91d9-93bf68223a96",
@@ -1530,7 +1586,7 @@
             "Key": "858528c6-0d49-4623-9886-ec88b1ac9d8e",
             "Value": {
                 "id": "693b6b71-a27a-408d-beb9-19b20efe89e8",
-                "resourcePath": "fonts\\f_menu\\f_menu.yy",
+                "resourcePath": "fonts\\f_inventoryMenu\\f_inventoryMenu.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -1835,6 +1891,14 @@
             "Value": {
                 "id": "5b4c1c74-8c27-47f6-8ee2-f7b35488dff6",
                 "resourcePath": "sprites\\s_Cannon_Inventory\\s_Cannon_Inventory.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a38ab2a0-ff3d-43cf-983b-d0215a5820c7",
+            "Value": {
+                "id": "5a70d80a-94e2-4bae-a9c0-d9c3f9e607d2",
+                "resourcePath": "sprites\\s_RestartGame\\s_RestartGame.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2287,6 +2351,14 @@
             }
         },
         {
+            "Key": "c1495261-8e17-4197-8411-cea1b3a8cf66",
+            "Value": {
+                "id": "fea47804-dd5d-4852-966f-e6c7feff44f2",
+                "resourcePath": "objects\\o_GameOverMenu\\o_GameOverMenu.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c1c0242f-ed94-46b7-b34c-6359fefa4aab",
             "Value": {
                 "id": "7192890c-080f-440e-8a72-87e80cf8f1a2",
@@ -2591,6 +2663,14 @@
             }
         },
         {
+            "Key": "d758dd55-91d1-4e19-be11-1434ac60f764",
+            "Value": {
+                "id": "35aca9ba-39d4-425c-b94b-2b2b67777f4e",
+                "resourcePath": "scripts\\drawGameOver\\drawGameOver.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d7797bf2-cd52-44ac-accd-a2583f113c0f",
             "Value": {
                 "id": "41200899-4af0-4733-9db7-542d9c70c81b",
@@ -2852,6 +2932,14 @@
                 "id": "b83fcc6e-f759-4720-9c73-751418f25521",
                 "resourcePath": "sprites\\s_Soldier_MachineGun_SouthWest\\s_Soldier_MachineGun_SouthWest.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ef8f56fd-ad7d-4ca1-8de8-dae3ffbb8981",
+            "Value": {
+                "id": "d3e9aa24-12d8-4337-8913-ee9758a605d4",
+                "resourcePath": "views\\ef8f56fd-ad7d-4ca1-8de8-dae3ffbb8981.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -3186,7 +3274,10 @@
         "56def9b4-83c4-48e1-96aa-68d3fbf85b46",
         "c38756f1-b08e-4f98-9cc7-f83564618869",
         "b38ae21f-1c3a-4264-a602-6aed41dfbf8b",
-        "ed391269-021f-483f-8265-8b6aaa546bae"
+        "ed391269-021f-483f-8265-8b6aaa546bae",
+        "2d8bae33-3796-4ab0-be8b-b261d7c315f7",
+        "56c3ed13-6fb0-4c70-868a-8ad76e27a7d2",
+        "d758dd55-91d1-4e19-be11-1434ac60f764"
     ],
     "tutorial": ""
 }

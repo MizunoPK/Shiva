@@ -8,6 +8,8 @@
 // Sprites
 #macro xButton s_X
 #macro MENU_EXIT_BUTTON_WIDTH 64
+#macro BIG_BUTTON_HEIGHT 96
+#macro BIG_BUTTON_WIDTH 128
 
 // Resources
 #macro MAX_FOOD 5 // the maximum amount of food that can be found at once

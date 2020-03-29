@@ -9,7 +9,7 @@ whatsBeingPlaced = NOTHING_LABEL // the thing actually getting placed, this will
 
 banner = "Inventory"
 bannerWidth = 126
-bannerFont = f_menu
+bannerFont = f_inventoryMenu
 inventoryButtons = ds_map_create()
 inventoryButtonsKeys = ds_list_create() // a list of the keys in the inventoryButtons map, used to iterate through the map
 

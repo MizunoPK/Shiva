@@ -1,6 +1,7 @@
 /// @func: defineGlobals()
 /// @description: This is called at the start of the game and establishes all the global variables we want to define
 
+global.gameOverMenu = instance_create_layer(0,0,"GameOver",o_GameOverMenu)
 
 global.currentSelectedObject = noone // the currently selected object by the user
 global.homeBase = noone // the instance of the home base
