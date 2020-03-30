@@ -1,3 +1,4 @@
+/// @description This step function handles the board generation centered on the colony tile.
 if (global.isGenerating <= 100) {
 
 	if(global.isGenerating == 0) {
@@ -12,20 +13,27 @@ if (global.isGenerating <= 100) {
 		tileLocation = other
 	}
 
-	for(rings = 1; rings <= BOARD_RINGS; rings++) {
+	// Generate 2 static rings around the colony. These cannot be replaced.
+	for(rings = 1; rings <= 2; rings++) {
+		generateStaticRing(rings);	
+		}
+	
+	// Generate the rest of the rings around the colony. These can be replaced.
+	for(rings = 3; rings <= BOARD_RINGS; rings++) {
 		generateRing(rings);	
 		}
+
 	}
 
-	if(global.isGenerating >= 1 && global.isGenerating <= 30) {
+	if(global.isGenerating >= 1 && global.isGenerating <= 20) {
 		generateForest();	
 	}
 
-	if(global.isGenerating >= 31 && global.isGenerating <= 45) {
+	if(global.isGenerating >= 31 && global.isGenerating <= 40) {
 		generateMountain();	
 	}
 
-	if(global.isGenerating >= 46 && global.isGenerating <= 55) {
+	if(global.isGenerating >= 46 && global.isGenerating <= 52) {
 		generateLake();	
 	}
 

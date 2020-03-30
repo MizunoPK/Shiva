@@ -1671,6 +1671,14 @@
             }
         },
         {
+            "Key": "8ab3b342-d4d9-4e9e-a41c-94d6b9266408",
+            "Value": {
+                "id": "ea2e98a1-461a-45df-a381-4bb640c9a038",
+                "resourcePath": "objects\\obj_PlainsStaticTile\\obj_PlainsStaticTile.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8bdccbbf-8ac8-457e-b6a4-c03829c45e95",
             "Value": {
                 "id": "4a4e0f64-709b-478c-8637-330527f080de",
@@ -2132,6 +2140,14 @@
                 "id": "e0eee554-0c24-4322-bf8b-9b66956f9cae",
                 "resourcePath": "objects\\obj_Tile\\obj_Tile.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b24f9862-fa16-4d81-bd33-712d40f95adf",
+            "Value": {
+                "id": "46c7ad2b-c0fc-4576-aa37-cb9ddd8dc2c2",
+                "resourcePath": "scripts\\generateStaticRing\\generateStaticRing.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -3229,6 +3245,7 @@
         "4cce62d0-45d1-4a8a-9a27-659148237d67",
         "a184e9d7-3277-4bf4-8030-95e29faf746d",
         "0f08f251-7f95-4296-a1e2-3895d47e7ab4",
+        "b24f9862-fa16-4d81-bd33-712d40f95adf",
         "da339de5-c217-40ef-b9dd-7aafdfdf1c41",
         "f0c883f3-747f-48e0-b1b7-a2c4d211d56f",
         "0513f8c9-8f0a-4eda-a6bd-4a3fcc7e3479",
