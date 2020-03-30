@@ -61,3 +61,7 @@ global.HUMAN_WEAPON_CHANCES = ds_list_create()				 // odds for each type of huma
 	
 global.ALIEN_WEAPON_CHANCES = ds_list_create()				 // odds for each type of alien weapon being found
 	ds_list_add(global.ALIEN_WEAPON_CHANCES, 75, 25, 0, 0) // format: [Laser Gun, Cannon, Automatic Laser Turret, Manual Cannon Turret]
+
+// Camera globals
+global.halfViewWidth = camera_get_view_width(view_camera[0]) / 2;
+global.halfViewHeight = camera_get_view_height(view_camera[0]) / 2;

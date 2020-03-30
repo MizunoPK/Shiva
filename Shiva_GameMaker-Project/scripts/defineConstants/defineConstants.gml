@@ -5,6 +5,10 @@
 #macro ENGINE_OBJECTS_LAYER "Engine"
 #macro STARTING_SURROUNDING_SOLDIERS 3 // the amount of pistol soldiers to spawn around the home base at the start of the game
 
+// Camera
+#macro CAMERA_SPEED 5 // the speed the camera center object moves at
+
+
 // Sprites
 #macro xButton s_X
 #macro MENU_EXIT_BUTTON_WIDTH 64

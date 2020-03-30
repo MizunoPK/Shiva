@@ -871,6 +871,14 @@
             }
         },
         {
+            "Key": "44ef93f3-d7b0-44c4-afdf-a28d957704ec",
+            "Value": {
+                "id": "9904737f-50fa-4a02-b749-bfea3d58d776",
+                "resourcePath": "objects\\o_background\\o_background.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "46094779-d7f4-4626-ab5f-79c84f51b133",
             "Value": {
                 "id": "164f11ec-2595-408f-b253-c471ff3ed484",
@@ -890,7 +898,7 @@
             "Key": "4837c276-fa77-4d6a-b341-0e4c50f69412",
             "Value": {
                 "id": "a53324b3-d6c1-4868-b604-a3770b504dc6",
-                "resourcePath": "sprites\\sprite44\\sprite44.yy",
+                "resourcePath": "sprites\\spr_GUIBackground\\spr_GUIBackground.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2402,7 +2410,7 @@
             "Key": "c37a70b2-b0d0-4a26-ba02-a2536ab96d3b",
             "Value": {
                 "id": "df97ad1a-50c6-4d80-a1b1-0e59f175e0ec",
-                "resourcePath": "sprites\\sprite5111\\sprite5111.yy",
+                "resourcePath": "sprites\\spr_GUI_NextRoundButton\\spr_GUI_NextRoundButton.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2548,6 +2556,14 @@
                 "id": "e9b29415-d6dd-4958-8fde-e6258fba7fab",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ccb44e49-06ad-4622-8727-2202bf2ae572",
+            "Value": {
+                "id": "b72e3c9b-a86f-4211-8ad3-6678ff7e2813",
+                "resourcePath": "objects\\o_guiParent\\o_guiParent.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2756,6 +2772,14 @@
                 "id": "1e50163d-07e1-41c4-9729-5909750f2e2a",
                 "resourcePath": "sprites\\s_HomeBase\\s_HomeBase.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dd68853c-77ac-4ba3-82ab-b14e9a9828a2",
+            "Value": {
+                "id": "89af0a64-9a14-4325-811b-e8cf1bcf161c",
+                "resourcePath": "views\\dd68853c-77ac-4ba3-82ab-b14e9a9828a2.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -2978,7 +3002,7 @@
             "Key": "f406a4bf-e8e3-4a2c-89a7-1fc96715c355",
             "Value": {
                 "id": "b4dc0810-f974-4bba-92c6-fca8527da1a9",
-                "resourcePath": "sprites\\sprite51112\\sprite51112.yy",
+                "resourcePath": "sprites\\spr_GUI_InvButton\\spr_GUI_InvButton.yy",
                 "resourceType": "GMSprite"
             }
         },
