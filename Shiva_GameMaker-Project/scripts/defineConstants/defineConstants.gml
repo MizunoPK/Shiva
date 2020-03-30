@@ -8,11 +8,13 @@
 // Camera
 #macro CAMERA_SPEED 5 // the speed the camera center object moves at
 
+// GUI
+#macro GUI_HEIGHT 42
 
 // Sprites
 #macro xButton s_X
 #macro MENU_EXIT_BUTTON_WIDTH 64
-#macro BIG_BUTTON_HEIGHT 96
+#macro BIG_BUTTON_HEIGHT 64
 #macro BIG_BUTTON_WIDTH 128
 
 // Resources

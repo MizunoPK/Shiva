@@ -9,7 +9,7 @@ isGameOver = false
 bannerText = "Game Over!"
 bannerFont = f_mainMenus
 bannerColor = ENEMY_DIALOG_COLOR
-bannerDedicatedHeight = 2* BIG_BUTTON_HEIGHT 
+bannerDedicatedHeight = 1.5 * BIG_BUTTON_HEIGHT 
 topMargin = BIG_BUTTON_HEIGHT / 4
 
 buttonList = ds_list_create()

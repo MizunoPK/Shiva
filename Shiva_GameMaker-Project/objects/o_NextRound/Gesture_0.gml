@@ -1,1 +1,3 @@
-newInvasionRound()
+if (not global.invasionRound ) {
+	newInvasionRound()
+}

@@ -4,3 +4,4 @@
 calculateAdjacencies()
 with (global.homeBase) findNearbyTiles()
 generateInitialUnits()
+startGameOver()

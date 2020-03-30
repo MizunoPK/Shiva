@@ -1,0 +1,1 @@
+draw_sprite_stretched_ext( spr_GUIBackground, 0, x, y, 2 * global.halfViewWidth, GUI_HEIGHT, c_white, 0.95)

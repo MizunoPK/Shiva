@@ -2,12 +2,12 @@
 /// @description draw the game over screen if it's game over
 
 if (isGameOver) {
-	var centerX = view_wport[view_current] / 2
-	var centerY = view_hport[view_current] / 3
+	var centerX = global.halfViewWidth
+	var centerY = 2 * global.halfViewHeight / 3
 	
 	// draw the background
-	x = view_xport[view_current] + (centerX / 2)
-	y = view_yport[view_current] + (centerY / 2)
+	x = camera_get_view_x(view_camera[0]) + (centerX / 2)
+	y = camera_get_view_y(view_camera[0]) + (centerY / 2)
 	draw_sprite_stretched_ext( s_Inventory_Background, 0, x, y, centerX, 2 * centerY, c_orange, 0.9 )
 
 	// draw the banner text

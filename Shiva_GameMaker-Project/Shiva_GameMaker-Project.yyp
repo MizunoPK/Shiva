@@ -1762,7 +1762,7 @@
             "Key": "92c4f5ba-49fe-4b21-8001-08b3016c332a",
             "Value": {
                 "id": "18c48e33-5f57-4b8a-a1da-51840c5625ac",
-                "resourcePath": "rooms\\ObjectTesting\\ObjectTesting.yy",
+                "resourcePath": "rooms\\MainGame\\MainGame.yy",
                 "resourceType": "GMRoom"
             }
         },
