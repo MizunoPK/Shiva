@@ -4,8 +4,8 @@
 if ( inventoryOpen ) {
 
 	// draw the background
-	x = view_xport[view_current] + (view_wport[view_current] / 2) - (rowWidth / 2)
-	y = view_yport[view_current] + (view_hport[view_current] / 2) - (columnHeight / 2)
+	x = camera_get_view_x(view_camera[0]) + global.halfViewWidth - (rowWidth / 2)
+	y = camera_get_view_y(view_camera[0]) + global.halfViewHeight - (columnHeight / 2)
 	draw_sprite_stretched_ext( s_Inventory_Background, 0, x, y, rowWidth, columnHeight, c_white, 0.9 )
 	
 	// write the text

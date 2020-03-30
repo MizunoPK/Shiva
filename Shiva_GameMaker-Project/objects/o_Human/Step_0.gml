@@ -23,3 +23,11 @@ if ( instanceRound != global.invasionRound ) {
 	newRoundHuman()
 	instanceRound = global.invasionRound
 }
+
+//dialog box selection
+if (global.currentSelectedObject) {
+	layer = layer_get_id("SelectedUnit")	
+}
+else {
+	layer = layer_get_id("Units")	
+}

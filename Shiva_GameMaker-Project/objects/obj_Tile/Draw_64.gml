@@ -1,2 +1,0 @@
-updateTileDialog()
-tileDialog()

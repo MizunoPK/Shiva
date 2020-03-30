@@ -3,6 +3,10 @@
 
 global.gameOverMenu = instance_create_layer(0,0,"GameOver",o_GameOverMenu)
 
+global.tileDepth = 900;
+global.unitDepth = 0;
+global.guiDepth = -100;
+
 global.currentSelectedObject = noone // the currently selected object by the user
 global.homeBase = noone // the instance of the home base
 global.homeBaseNearbyTiles = ds_list_create() // a list storing the tiles within SAFE_RADIUS of the home base
