@@ -4,6 +4,7 @@
 // Engine
 #macro ENGINE_OBJECTS_LAYER "Engine"
 #macro STARTING_SURROUNDING_SOLDIERS 3 // the amount of pistol soldiers to spawn around the home base at the start of the game
+#macro KILL_TIME 60 // the amount of seconds after spawning each alien gets killed, just in case it gets stuck
 
 // Camera
 #macro CAMERA_SPEED 5 // the speed the camera center object moves at
