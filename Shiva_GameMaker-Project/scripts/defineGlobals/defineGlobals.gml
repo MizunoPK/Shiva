@@ -24,7 +24,7 @@ global.spawnPods = 0 // the number of spawn pods on the map, and this is the ini
 
 // Inventory
 global.humanButtons = ds_list_create() // list of the buttons corresponding to human things
-ds_list_add(global.humanButtons, o_PistolButton, o_MachineGunButton)
+ds_list_add(global.humanButtons, o_PistolButton, o_MachineGunButton, o_ManualTurretButton, o_WallButton)
 global.alienButtons = ds_list_create() // list of the buttons corresponding to alien things
 ds_list_add(global.alienButtons, o_LaserButton, o_CannonButton)
 global.listOfSoldiers = ds_list_create() 

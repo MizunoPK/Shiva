@@ -1,11 +1,13 @@
 /// @func inventoryCreate()
 /// @description create function for the inventory object
 
+
 inventoryOpen = false // when the inventory button is pressed, this will turn true and begin to show the inventory
 buttonsActive = false // boolean to indicate when we finish activating the buttons when the inventory opens
 selectingTarget = false // is the player currently taking an inventory item and putting it on the board?
 typeBeingPlaced = NOTHING_LABEL // category of what's being placed (nothing, weapon, or building)
-whatsBeingPlaced = NOTHING_LABEL // the thing actually getting placed, this will be a string
+whatsBeingPlaced = NOTHING_LABEL // the thing actually getting placed, this will be a string if a weapon, and an object if a building
+objectBeingPlaced = noone // the object being placed on the map, this will remain noone for weapon buttons
 
 banner = "Inventory"
 bannerWidth = 126

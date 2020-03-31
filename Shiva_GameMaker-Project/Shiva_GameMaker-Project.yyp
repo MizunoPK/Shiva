@@ -2351,6 +2351,14 @@
             }
         },
         {
+            "Key": "bf9ad1cb-d90a-45d6-9cb1-d69542f3ca65",
+            "Value": {
+                "id": "8d366d19-9274-43fe-adbe-4017cbaa6161",
+                "resourcePath": "objects\\o_WallButton\\o_WallButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c0436aac-886a-46b7-bf5a-41e9c86c9ec5",
             "Value": {
                 "id": "ac173397-9a84-4205-97e2-8255469a596d",
@@ -2647,6 +2655,14 @@
             }
         },
         {
+            "Key": "d4772465-fd29-4778-8396-9af99bc875b8",
+            "Value": {
+                "id": "695dc122-4eaa-41c6-8d9b-16dd26c0d960",
+                "resourcePath": "objects\\o_ManualTurretButton\\o_ManualTurretButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d52d04f8-2848-45e6-b095-980c395e3e91",
             "Value": {
                 "id": "785b2a1e-fa89-4296-a581-5533db1af402",
@@ -2732,14 +2748,6 @@
                 "id": "ec186155-9f4a-4fb8-a9a5-180819c201a7",
                 "resourcePath": "sprites\\s_Wall\\s_Wall.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "d8e3b0cd-d8dd-463a-ab78-8254fef9b94d",
-            "Value": {
-                "id": "36c7a1cd-6b59-40de-98f1-51b775c2316d",
-                "resourcePath": "rooms\\MapGeneration\\MapGeneration.yy",
-                "resourceType": "GMRoom"
             }
         },
         {

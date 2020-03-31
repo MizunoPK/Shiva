@@ -16,9 +16,17 @@ if (selectingTarget and global.currentSelectedObject != self) {
 		// update the stock for the weapon just given out
 		updateStock(whatsBeingPlaced, -1)
 	}
+	// if we're placing a building, place it on the tile
+	if ( typeBeingPlaced == BUILDING_LABEL and ds_list_find_index( possibleTilesList, global.currentSelectedObject ) != -1) {
+		var tile = global.currentSelectedObject
+		var newBuilding = placeObject( tile, objectBeingPlaced )
+		global.currentSelectedObject = newBuilding
+		updateStock(whatsBeingPlaced, -1)
+	}
 
 	typeBeingPlaced = NOTHING_LABEL
 	whatsBeingPlaced = NOTHING_LABEL
 	selectingTarget = false
+	objectBeingPlaced = noone
 	toggleMainOverlay(possibleTilesList)
 }

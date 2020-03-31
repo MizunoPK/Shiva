@@ -110,7 +110,7 @@
 #macro LASER "Alien Laser"
 #macro CANNON "Alien Cannon"
 #macro SOLDIER "Soldier"
-#macro WALL "WALL"
+#macro WALL "Wall"
 
 // Turrets
 #macro STANDARD_TURRET "Manual Turret"
