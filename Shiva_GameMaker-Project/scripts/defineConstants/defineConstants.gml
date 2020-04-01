@@ -98,6 +98,10 @@
 #macro BASE_MOVEMENT_4 6
 #macro BASE_MOVEMENT_5 8
 
+// Attack priority
+#macro ATTACK_PRIORITY_LOW "Low"
+#macro ATTACK_PRIORITY_HIGH "High"
+
 // Invasion Movement Range (amount of tiles the unit can move during invasion rounds to seek out targets)
 #macro INVASION_MOVEMENT_0 0
 #macro INVASION_MOVEMENT_1 1

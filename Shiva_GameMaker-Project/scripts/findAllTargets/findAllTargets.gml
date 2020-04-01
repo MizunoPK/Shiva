@@ -33,11 +33,13 @@ for ( var i=0 ; i < ds_list_size(adjTiles) ; i++ ) {
 	else if ( tileBeingChecked != tileLocation and tileBeingChecked.occupier != noone ) {
 		var otherFriendly = tileBeingChecked.occupier.isFriendly
 		var otherAttackable = tileBeingChecked.occupier.attackable
+		var otherAttackPriority = tileBeingChecked.occupier.attackPriority
 		
 		// condtions:
+		//		it's a high priority target and...
 		//		other unit is attackable and the two units are enemies
 		//		OR the other unit is a spawn pod and it's a prep phase
-		if ( (otherAttackable and isFriendly != otherFriendly) or (object_get_name(tileBeingChecked.occupier.object_index) == "o_SpawnPod" and not global.invasionRound) ) {
+		if ( otherAttackPriority == ATTACK_PRIORITY_HIGH and ( (otherAttackable and isFriendly != otherFriendly) or (object_get_name(tileBeingChecked.occupier.object_index) == "o_SpawnPod" and not global.invasionRound) ) ) {
 			var index = ds_list_find_index(enemyList, tileBeingChecked.occupier )
 			var length = maxRange + 1 - range
 			if ( index == -1 and tileBeingChecked != tileLocation  ) {
@@ -46,6 +48,17 @@ for ( var i=0 ; i < ds_list_size(adjTiles) ; i++ ) {
 			}
 			else if ( index != -1 and length < ds_list_find_value(enemyDistanceList, index)) {
 				ds_list_replace(enemyDistanceList, index, length)
+			}
+		}
+		// otherwise if...
+		//		it's a low priority target
+		//		range is 1
+		//		other unit is attackable
+		//		the two units are enemies
+		else if ( otherAttackPriority == ATTACK_PRIORITY_LOW and range == maxRange and otherAttackable and isFriendly != otherFriendly ) {
+			var index = ds_list_find_index(lowPriorityEnemyTileList, tileBeingChecked.occupier )
+			if ( index == -1 and tileBeingChecked != tileLocation ) {
+				ds_list_add(lowPriorityEnemyTileList, tileBeingChecked)
 			}
 		}
 	}

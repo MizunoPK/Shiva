@@ -26,6 +26,7 @@ currentTarget = noone // storing the unit's current target
 tileMovingTo = noone // the tile the unit is moving towards
 enemyInstance = noone // store the instance of the enemy currently attacking
 attackable = true // all units being passed this function can be attacked
+attackPriority = ATTACK_PRIORITY_HIGH // other units seek out this unit to attack
 
 status = "Inactive" // the status of the unit shown in the unit's info dialog
 

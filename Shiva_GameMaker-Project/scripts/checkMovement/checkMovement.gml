@@ -14,7 +14,26 @@ if ( not isMoving and tileMovingTo != noone and tileMovingTo != tileLocation ) {
 		if ( previousTileIndex != -1 and ds_list_size(targetsList) > 1) {
 			ds_list_delete( targetsList, previousTileIndex )
 		}
-		currentTarget = findClosestTile(tileMovingTo)
+	
+		// if there are low priority targets, include those tiles in the target list
+		if ( ds_list_size(lowPriorityEnemyTileList) != 0 ) {
+			for (var i=0; i < ds_list_size(lowPriorityEnemyTileList); i++) {
+				ds_list_add(targetsList, ds_list_find_value(lowPriorityEnemyTileList, i))
+			}
+		}
+		
+		currentTarget = findClosestTile(tileMovingTo) // get the target
+		
+		// if the target tile is occupied, then start attacking the occupier
+		if ( currentTarget.occupier != noone ) {
+			enemyInstance = currentTarget.occupier
+			tileMovingTo = noone
+			currentTarget = noone
+			if ( not isAttacking )
+				changeAttackMode()
+			direction = point_direction(x,y,enemyInstance.x,enemyInstance.y)
+			return
+		}
 		
 	// move to the chosen tile
 		isMoving = true // indicate we are moving again

@@ -1,1 +1,1 @@
-trapSetup(false)
+wallCreate()

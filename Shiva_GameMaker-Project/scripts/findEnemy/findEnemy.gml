@@ -22,7 +22,7 @@ else if (instance_exists(global.homeBase) and not ds_list_empty(enemyList)) {
 		tileMovingTo = noone
 		if ( not isAttacking )
 			changeAttackMode()
-			direction = point_direction(x,y,enemyInstance.x,enemyInstance.y)
+		direction = point_direction(x,y,enemyInstance.x,enemyInstance.y)
 		return
 	}
 }

@@ -3,6 +3,7 @@
 
 isFriendly = false
 attackable = false
+attackPriority = ATTACK_PRIORITY_HIGH
 placedAlien = false
 instanceRound = global.roundNumber
 dialogText = "Alien Spawn Pod"

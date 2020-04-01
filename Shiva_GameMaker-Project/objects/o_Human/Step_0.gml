@@ -25,9 +25,4 @@ if ( instanceRound != global.invasionRound ) {
 }
 
 //dialog box selection
-if (global.currentSelectedObject == self) {
-	layer = layer_get_id("SelectedUnit")	
-}
-else {
-	layer = layer_get_id("Units")	
-}
+unitSelected()
