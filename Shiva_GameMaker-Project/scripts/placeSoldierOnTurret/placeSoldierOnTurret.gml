@@ -6,6 +6,7 @@ soldierInstance = argument0 // the instance of the soldier being placed on the t
 
 // update the soldier's variables so that it's ready to be put on the turret
 with (soldierInstance) {
+	path_end()
 	tileMovingTo.beingMovedTo = false
 	tileMovingTo = noone
 	isMoving = false

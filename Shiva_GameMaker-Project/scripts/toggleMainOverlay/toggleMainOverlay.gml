@@ -1,5 +1,6 @@
 /// @func toggleMainOverlay(tileList)
 /// @description toggles the main overlay for the given list of tiles
+/// @param tileList
 
 var tileList = argument0
 

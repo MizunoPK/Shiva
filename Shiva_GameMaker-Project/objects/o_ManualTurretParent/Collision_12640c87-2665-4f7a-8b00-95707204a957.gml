@@ -1,2 +1,2 @@
-
-placeSoldierOnTurret(other)
+if ( waitingForUnit )
+	placeSoldierOnTurret(other)

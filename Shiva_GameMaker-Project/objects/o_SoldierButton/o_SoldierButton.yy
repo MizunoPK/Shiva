@@ -1,33 +1,23 @@
 {
-    "id": "46094779-d7f4-4626-ab5f-79c84f51b133",
+    "id": "14740f33-83b2-48a9-8958-f20115941de2",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_AutomaticTurret",
+    "name": "o_SoldierButton",
     "eventList": [
         {
-            "id": "10337d74-c6b4-44d3-a83d-a50cc776460e",
+            "id": "f6f844bf-2243-43db-9503-e4085981aef4",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "46094779-d7f4-4626-ab5f-79c84f51b133"
-        },
-        {
-            "id": "96902c3b-6d17-4834-bcc7-23be0e88397c",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "46094779-d7f4-4626-ab5f-79c84f51b133"
+            "eventtype": 13,
+            "m_owner": "14740f33-83b2-48a9-8958-f20115941de2"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "e169d8da-1c7d-4d29-adb7-e7e295c5e2da",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -43,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "2fb25c40-a68c-46a7-bc0f-934f8e14c15f",
+    "spriteId": "321f9cc7-c76a-4e07-8ecc-c52f0dd0514f",
     "visible": true
 }

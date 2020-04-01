@@ -2,4 +2,4 @@ event_inherited()
 mainSprite = spr_MountainTile
 name = "Mountains"
 
-isWalkable = false;
+drain = 2

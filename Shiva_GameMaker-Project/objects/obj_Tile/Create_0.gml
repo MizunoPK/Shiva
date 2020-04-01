@@ -16,5 +16,6 @@ resourceList = ds_list_create()
 	// [NOTHING, HUMAN, HUMAN WEAPON, ALIEN WEAPON, FOOD, RESARCH POINTS]
 	ds_list_add(resourceList, 100, 0, 0, 0, 0, 0)
 
+drain = 1
 isFlyable = true;
 isWalkable = true;

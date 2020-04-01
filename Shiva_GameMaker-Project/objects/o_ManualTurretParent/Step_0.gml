@@ -1,6 +1,9 @@
 event_inherited()
+checkManualTurretHealth()
 checkTurretHunger()
 checkTurretFoodButton()
+checkSoldierButton()
+checkForSoldierButtonTile()
 
 if ( instanceRound != global.roundNumber ) {
 	instanceRound = global.roundNumber

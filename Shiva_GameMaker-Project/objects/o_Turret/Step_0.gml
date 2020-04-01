@@ -1,5 +1,3 @@
-checkHealth()
-
 if ( not passiveUnit ) {
 	checkEnemy()
 	findEnemy()

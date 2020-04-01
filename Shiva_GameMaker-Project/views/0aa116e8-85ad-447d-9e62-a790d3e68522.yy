@@ -9,8 +9,9 @@
         "7d0c8d30-7709-476b-8e6b-1176bb7c1643",
         "b713969b-c774-405a-8824-113f26987600",
         "0cba34fb-dc67-4520-8e0d-def463d35f6a",
-        "31a9a566-108c-4e8c-a1f0-5aef755a5c85",
-        "8e46bfc5-1583-430e-9262-953389b8784e"
+        "e3457044-de92-4bd0-965f-bfacec63f8b5",
+        "7e501869-376f-4342-9c86-fb25c4cc0cc1",
+        "c7b52ee1-4c95-495f-9ceb-67a45e74e8ff"
     ],
     "filterType": "GMScript",
     "folderName": "Manual Turrets",
