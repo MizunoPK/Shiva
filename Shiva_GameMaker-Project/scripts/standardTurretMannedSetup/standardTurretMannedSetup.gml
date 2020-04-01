@@ -1,18 +1,14 @@
 /// @func: standardTurretMannedSetup()
 /// @description: This is called whenever a standard MANNED turret needs to be initialized
-// @Author: Kai Mizuno
-// Date Created: 2/22/19
-// Last Updated: 2/22/19
 
-// argument0 = the instance of the soldier being placed on the turret
-
-soldier = argument0 // the instance of the soldier being placed on the turret
-instance_deactivate_object(soldier) // deactivate the soldier while they are on the turret
-
-passiveUnit = false
-
-rightwardSprite = s_Turret_Manual_Manned_Right // sprite facing rightward
-sprite_index = rightwardSprite // base sprite
+eastSprite = s_Turret_Manual_Manned_East // east facing sprite
+northeastSprite = s_Turret_Manual_Manned_NorthEast // northeast facing sprite
+northSprite = s_Turret_Manual_Manned_North // north facing sprite
+southeastSprite = s_Turret_Manual_Manned_SouthEast // south east facing sprite
+southSprite = s_Turret_Manual_Manned_South // south facing sprite
+westSprite = s_Turret_Manual_Manned_West // west facing sprite
+northwestSprite = s_Turret_Manual_Manned_NorthWest // north west facing sprite
+southwestSprite = s_Turret_Manual_Manned_SouthWest // south west facing sprite
 
 damage = ATTACK_DAMAGE_2 // the amount of damage this unit deals
 secondsBetweenHits = ATTACK_SPEED_4 // seconds between each hit

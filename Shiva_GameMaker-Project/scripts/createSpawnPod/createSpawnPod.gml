@@ -10,3 +10,4 @@ dialogText = "Alien Spawn Pod"
 dialogColor = ENEMY_DIALOG_COLOR
 explosionSprite = s_SpawnPod_Exploding
 exploding = false
+mountable = false

@@ -1,6 +1,0 @@
-checkHealth()
-checkEnemy()
-fireShot()
-checkStatus()
-checkForSoldier()
-unitSelected()

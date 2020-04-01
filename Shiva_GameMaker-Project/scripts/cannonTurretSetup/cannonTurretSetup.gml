@@ -1,8 +1,8 @@
 /// @func: cannonTurretSetup()
 /// @description: This is called whenever a UNMANNED CANNON turret needs to be initialized
 // @Author: Kai Mizuno
-// Date Created: 2/22/19
-// Last Updated: 2/22/19
+
+mountable = true
 
 passiveUnit = true
 

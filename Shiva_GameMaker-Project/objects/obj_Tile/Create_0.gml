@@ -1,7 +1,7 @@
 occupier = noone // the instance occupying the tile
 overlaySprite = s_TileOverlay
 enemyOverlaySprite = s_EnemyTileOverlay
-friendlyOverlaySprite = s_FriendlyTileOverlay
+mountableOverlaySprite = s_MountableTileOverlay
 
 beingMovedTo = false // boolean indicating whether or not the tile is being moved to by a human
 

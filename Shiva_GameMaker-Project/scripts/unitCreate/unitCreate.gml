@@ -36,6 +36,8 @@ isSlowed = false // is the unit currently being slowed down by something?
 movementMultiplier = 3 // how much you multiply the idle speed by when moving
 
 previousTile = noone
+mountable = false
+canMount = false
 
 // set variables according to if it's a friendly unit or an enemy unit
 if ( isFriendly ) {

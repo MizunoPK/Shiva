@@ -16,6 +16,7 @@ if ( not global.invasionRound ) {
 			// get the movement tiles
 			calcTargets(tileLocation, movementRange)
 			movementTargets = targetsList
+			mountableTargets = mountableTiles
 			// get the enemy tiles
 			calcTargets(tileLocation, 1)
 			enemyTargets = ds_list_create()

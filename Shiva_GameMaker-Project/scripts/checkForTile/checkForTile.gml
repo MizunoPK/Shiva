@@ -24,6 +24,13 @@ if ( selectingTarget and potentialTarg != self ) {
 			}
 		
 		}
+		// if it's a mountable...
+		else if ( ds_list_find_index( mountableTargets, potentialTarg.tileLocation ) != -1 ) {
+			if ( object_get_parent(potentialTarg.object_index) == o_ManualTurretParent ) {
+				tileMovingTo = potentialTarg.tileLocation
+				tileMovingTo.beingMovedTo = true
+			}
+		}
 	}
 	selectingTarget = false
 	global.currentSelectedObject = noone

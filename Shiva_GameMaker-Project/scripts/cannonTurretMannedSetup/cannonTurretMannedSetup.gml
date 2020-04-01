@@ -1,15 +1,6 @@
 /// @func: cannonTurretMannedSetup()
 /// @description: This is called whenever a standard MANNED CANNON turret needs to be initialized
-// @Author: Kai Mizuno
-// Date Created: 2/22/19
-// Last Updated: 2/22/19
 
-// argument0 = the instance of the soldier being placed on the turret
-
-soldier = argument0 // the instance of the soldier being placed on the turret
-instance_deactivate_object(soldier) // deactivate the soldier while they are on the turret
-
-passiveUnit = false
 
 rightwardSprite = s_Turret_Cannon_Manned_Right // sprite facing rightward
 sprite_index = rightwardSprite // base sprite

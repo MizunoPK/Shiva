@@ -1,0 +1,2 @@
+
+placeSoldierOnTurret(other)

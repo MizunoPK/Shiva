@@ -34,6 +34,7 @@ for ( var i=0 ; i < ds_list_size(adjTiles) ; i++ ) {
 		var otherFriendly = tileBeingChecked.occupier.isFriendly
 		var otherAttackable = tileBeingChecked.occupier.attackable
 		var otherAttackPriority = tileBeingChecked.occupier.attackPriority
+		var otherMountable = tileBeingChecked.occupier.mountable
 		
 		// condtions:
 		//		it's a high priority target and...
@@ -56,9 +57,17 @@ for ( var i=0 ; i < ds_list_size(adjTiles) ; i++ ) {
 		//		other unit is attackable
 		//		the two units are enemies
 		else if ( otherAttackPriority == ATTACK_PRIORITY_LOW and range == maxRange and otherAttackable and isFriendly != otherFriendly ) {
-			var index = ds_list_find_index(lowPriorityEnemyTileList, tileBeingChecked.occupier )
+			var index = ds_list_find_index(lowPriorityEnemyTileList, tileBeingChecked )
 			if ( index == -1 and tileBeingChecked != tileLocation ) {
 				ds_list_add(lowPriorityEnemyTileList, tileBeingChecked)
+			}
+		}
+		// otherwise if it's mountable and the same friendly level...
+		// then add to mountable list
+		else if ( otherMountable and isFriendly == otherFriendly ) {
+			var index = ds_list_find_index(mountableTiles, tileBeingChecked )
+			if ( index == -1 and tileBeingChecked != tileLocation ) {
+				ds_list_add(mountableTiles, tileBeingChecked)
 			}
 		}
 	}

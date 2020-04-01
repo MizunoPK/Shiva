@@ -1,5 +1,0 @@
-checkHealth()
-checkEnemy()
-fireShot()
-checkStatus()
-unitSelected()

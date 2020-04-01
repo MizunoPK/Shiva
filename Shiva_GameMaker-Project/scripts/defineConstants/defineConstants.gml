@@ -20,6 +20,7 @@
 
 // Resources
 #macro MAX_FOOD 5 // the maximum amount of food that can be found at once
+#macro CHANGE_IN_HUNGER 5 // the amount of hunger humans gain each rounds
 #macro FOOD_REGEN 3
 #macro MAX_RESEARCH_POINTS 5 // the maximum amount of research points that can be found at once
 

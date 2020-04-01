@@ -4,12 +4,12 @@
 toggleMainOverlay(movementTargets)
 
 if (selectingTarget) {
-	// show moveable targets
-	/*for (var i=0; i < ds_list_size(movementTargets); i++) {
-		with( ds_list_find_value(movementTargets, i) ) {
-			currentOverlay = layer_sprite_create(layer_get_id("Tile_Overlays"), x, y, overlaySprite)
+	// show mountable targets
+	for (var i=0; i < ds_list_size(mountableTargets); i++) {
+		with( ds_list_find_value(mountableTargets, i) ) {
+			currentOverlay = layer_sprite_create(layer_get_id("Tile_Overlays"), x, y, mountableOverlaySprite)
 		}
-	}*/
+	}
 	// show enemies
 	for (var i=0; i < ds_list_size(enemyTargets); i++) {
 		with( ds_list_find_value(enemyTargets, i) ) {
@@ -18,12 +18,12 @@ if (selectingTarget) {
 	}
 }
 else {
-	// remove movement overlay
-	/*for (var i=0; i < ds_list_size(movementTargets); i++) {
-		with( ds_list_find_value(movementTargets, i) ) {
+	// remove mountable overlay
+	for (var i=0; i < ds_list_size(mountableTargets); i++) {
+		with( ds_list_find_value(mountableTargets, i) ) {
 			layer_sprite_destroy(currentOverlay)
 		}
-	}*/
+	}
 	// remove enemy overlay
 	for (var i=0; i < ds_list_size(enemyTargets); i++) {
 		with( ds_list_find_value(enemyTargets, i) ) {

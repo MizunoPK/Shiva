@@ -24,8 +24,8 @@ if ( not isMoving and tileMovingTo != noone and tileMovingTo != tileLocation ) {
 		
 		currentTarget = findClosestTile(tileMovingTo) // get the target
 		
-		// if the target tile is occupied, then start attacking the occupier
-		if ( currentTarget.occupier != noone ) {
+		// if the target tile is occupied by an enemy, then start attacking the occupier
+		if ( currentTarget.occupier != noone and isFriendly != currentTarget.occupier.isFriendly ) {
 			enemyInstance = currentTarget.occupier
 			tileMovingTo = noone
 			currentTarget = noone
@@ -35,6 +35,15 @@ if ( not isMoving and tileMovingTo != noone and tileMovingTo != tileLocation ) {
 			return
 		}
 		
+		// check the nearby mountables
+		for ( var i=0; i < ds_list_size(mountableTiles); i++) {
+			var potentialTile = ds_list_find_value(mountableTiles, i)
+			if ( potentialTile == tileMovingTo ) {
+				currentTarget = potentialTile
+				break
+			}
+		}
+		
 	// move to the chosen tile
 		isMoving = true // indicate we are moving again
 		// remove the unit from the tile it was just on
@@ -42,7 +51,9 @@ if ( not isMoving and tileMovingTo != noone and tileMovingTo != tileLocation ) {
 			occupier = noone
 		}
 		// establish that the target's occupier is this unit, so that another unit doesn't move there at the same time
-		currentTarget.occupier = self
+		if ( currentTarget.occupier == noone ) {
+			currentTarget.occupier = self
+		}
 		// update movement range
 		if (isFriendly) {
 			movementRange = movementRange - 1

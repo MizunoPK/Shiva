@@ -11,6 +11,7 @@ targetsDistanceList = ds_list_create()
 enemyList = ds_list_create()
 enemyDistanceList = ds_list_create()
 lowPriorityEnemyTileList = ds_list_create()
+mountableTiles = ds_list_create()
 visitedList = ds_list_create()
 
 if ( range == 0 ) {

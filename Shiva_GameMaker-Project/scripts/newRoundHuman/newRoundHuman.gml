@@ -4,7 +4,7 @@
 justExplored = false
 
 if ( not global.invasionRound) {
-	hunger += 5
+	hunger += CHANGE_IN_HUNGER
 	movementRange = maxMovement
 }
 else {

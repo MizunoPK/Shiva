@@ -10,6 +10,7 @@ isFriendly = true
 attackable = true
 attackPriority = ATTACK_PRIORITY_HIGH
 currentTarget = noone
+mountable = false
 
 status = "Inactive" // the status of the unit shown in the unit's info dialog
 
