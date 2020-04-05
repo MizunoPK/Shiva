@@ -5,8 +5,8 @@ else {
 	status = "Prep Round"
 }
 
-
-depth = -1000
+var preDepth = depth
+depth = preDepth - 10
 draw_set_font(f_dialog)
 draw_set_color(c_black)
 draw_set_halign(fa_left)
@@ -17,3 +17,4 @@ draw_text(sideMargin, topMargin,
 	"\nResearch Points: " + string(global.researchPoints) +
 	"\nFood: " + string(global.food)	
 )
+depth = preDepth

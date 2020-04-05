@@ -69,3 +69,6 @@ global.ALIEN_WEAPON_CHANCES = ds_list_create()				 // odds for each type of alie
 // Camera globals
 global.halfViewWidth = camera_get_view_width(view_camera[0]) / 2;
 global.halfViewHeight = camera_get_view_height(view_camera[0]) / 2;
+
+// Loading screen
+global.loadingScreen = instance_create_layer(2 * global.halfViewWidth, 2 * global.halfViewHeight, "Loading", o_Loading)

@@ -4,3 +4,6 @@
 calculateAdjacencies()
 with (global.homeBase) findNearbyTiles()
 generateInitialUnits()
+
+
+instance_deactivate_object(global.loadingScreen)
