@@ -591,6 +591,14 @@
             }
         },
         {
+            "Key": "24e93069-a70f-4ccb-9094-075cce558cff",
+            "Value": {
+                "id": "f50181c5-98c8-44e5-91aa-d270a87fe78e",
+                "resourcePath": "sprites\\s_Indra_SouthWest\\s_Indra_SouthWest.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "25f2ced0-7667-4d97-a435-be71c97e3b70",
             "Value": {
                 "id": "a268b805-d80c-4edb-bedd-ce2255471ef1",
@@ -831,6 +839,14 @@
             }
         },
         {
+            "Key": "36289679-5bd9-4e25-953e-7a2544265b94",
+            "Value": {
+                "id": "afc09aad-e63d-4aa0-b10d-376b44443fbc",
+                "resourcePath": "sprites\\s_Indra_SouthEast\\s_Indra_SouthEast.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "36dd3b07-fa3a-44e7-823a-09a32ed1a0af",
             "Value": {
                 "id": "60c112b2-db99-4c4d-b76a-937cfc9fbbb9",
@@ -943,6 +959,22 @@
             }
         },
         {
+            "Key": "423946e2-687a-402a-b9ea-47d3f50c6d06",
+            "Value": {
+                "id": "4ba5bb88-f017-4066-a4fd-e811b6e0eb0d",
+                "resourcePath": "objects\\o_Alien_Indra\\o_Alien_Indra.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "43190182-db52-4a9a-b738-995c233774a7",
+            "Value": {
+                "id": "4e71ad78-fcbc-4b8c-b8b3-a20985b349c5",
+                "resourcePath": "sprites\\s_Indra_NorthEast\\s_Indra_NorthEast.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "434859ba-9ca9-458e-baf2-a99de847b7c2",
             "Value": {
                 "id": "d32c0676-abee-4da4-acb2-99a966c8bfd8",
@@ -964,6 +996,14 @@
                 "id": "ef5c4f95-140d-4584-85ad-5c43d92257e2",
                 "resourcePath": "objects\\o_CannonTurret\\o_CannonTurret.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4495a6c1-f502-40dc-82ca-7240feb30ea8",
+            "Value": {
+                "id": "f759c3fc-d320-4cdb-aac1-aee6da3fffea",
+                "resourcePath": "sprites\\s_Indra_NorthWest\\s_Indra_NorthWest.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1084,6 +1124,14 @@
                 "id": "393790b9-7507-4fb6-9cb5-eee1e3e5d9d0",
                 "resourcePath": "scripts\\updateDirection\\updateDirection.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4e5b4d51-c3af-4274-82c3-7c3d0b7a9869",
+            "Value": {
+                "id": "b4bad808-50a8-4328-b5fb-2e42da5c586b",
+                "resourcePath": "views\\4e5b4d51-c3af-4274-82c3-7c3d0b7a9869.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1300,6 +1348,14 @@
                 "id": "be00b6b1-14ed-4fb4-b465-301008f0f942",
                 "resourcePath": "views\\60c1c3ac-252f-48d0-be59-65b0faad0551.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "62882490-96f1-43cc-a513-214a4e1b2a15",
+            "Value": {
+                "id": "d2af2515-8fec-4fe3-a494-eb529705347e",
+                "resourcePath": "sprites\\s_Indra_West\\s_Indra_West.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2807,6 +2863,14 @@
             }
         },
         {
+            "Key": "cff65d14-d36a-471e-a15f-691af8a93d6b",
+            "Value": {
+                "id": "c06d97ba-b40c-4df6-a493-701df979a387",
+                "resourcePath": "scripts\\regenHealth\\regenHealth.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d0cb1eb0-9f02-49a6-8669-251963b0e996",
             "Value": {
                 "id": "033e36bd-32e5-474d-8a45-bbcadc35f110",
@@ -3063,6 +3127,14 @@
             }
         },
         {
+            "Key": "e3725250-eb6a-45bf-b2c8-0f5dde6ca5f5",
+            "Value": {
+                "id": "36567546-d9b9-43cf-ade0-2a562a22332a",
+                "resourcePath": "scripts\\indraSetup\\indraSetup.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e3b92f04-40b2-4b16-9c67-69caa0c833fa",
             "Value": {
                 "id": "823c4c18-b3ad-4a37-92fd-a333e0d995ee",
@@ -3108,6 +3180,14 @@
                 "id": "fb840ecb-a4b1-4a80-9090-66ed80e3b04f",
                 "resourcePath": "scripts\\cannonSetup\\cannonSetup.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e8b97858-31b8-4e02-93bf-26b29680866a",
+            "Value": {
+                "id": "bf06ac4a-6f21-4f58-b417-eb22712f9540",
+                "resourcePath": "sprites\\s_Indra_North\\s_Indra_North.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3263,6 +3343,14 @@
             }
         },
         {
+            "Key": "f4b5677d-32b4-4525-bb5e-6cc71ebc344b",
+            "Value": {
+                "id": "b2d9540c-84f8-4c1b-be49-7c6c8e5e9e57",
+                "resourcePath": "sprites\\s_Indra_East\\s_Indra_East.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f6d5468c-e9f7-4c1d-a5b6-20de2b7b9d8f",
             "Value": {
                 "id": "ec879845-5e94-4d90-a8cb-792046b60ff0",
@@ -3348,6 +3436,14 @@
                 "id": "d22b8e0d-2324-4085-92f1-845ff5ffd918",
                 "resourcePath": "views\\fb74374b-773a-447c-beb4-c649a7e05a8d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fba7fd2a-252c-4d74-ae9c-f280d641065a",
+            "Value": {
+                "id": "50697b4b-08fa-48e4-9a8e-a4cc0cf8cb10",
+                "resourcePath": "sprites\\s_Indra_South\\s_Indra_South.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3454,6 +3550,7 @@
         "47db9e89-d70e-4a5c-b061-c9b664d057ab",
         "2b0e685e-f8fd-4bfa-a8d6-fcc1e9d83756",
         "1dc3b943-f55b-481c-875b-fbc56bec50ab",
+        "cff65d14-d36a-471e-a15f-691af8a93d6b",
         "566dae80-e620-4b69-803d-ba7095ae4536",
         "35abb6a2-032a-43ec-bd6c-90e13a30c481",
         "d609c086-eddd-4f5d-99ad-73b59cb4bdd7",
@@ -3487,6 +3584,7 @@
         "3ef2b1d7-2d83-4def-b99d-2b938333a098",
         "8d6d5a4e-6cd2-4fac-8274-2cdc60c92942",
         "8632bc39-c847-4da7-bb0b-9181d1349125",
+        "e3725250-eb6a-45bf-b2c8-0f5dde6ca5f5",
         "aac63abd-87bc-4aaf-98af-40d7365ae2b5",
         "0edd50be-40f9-4c43-b80a-92dc56035dd4",
         "8839ad1f-460b-4d95-98d1-fed396b90b36",

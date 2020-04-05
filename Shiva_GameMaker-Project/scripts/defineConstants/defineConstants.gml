@@ -133,3 +133,4 @@
 
 // Aliens
 #macro RUDRA "Rudra"
+#macro INDRA "Indra"

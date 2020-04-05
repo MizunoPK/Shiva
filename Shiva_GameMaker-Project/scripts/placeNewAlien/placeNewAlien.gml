@@ -11,8 +11,15 @@ if ( not placedAlien and global.invasionRound ) {
 	}
 	var targetTile = ds_list_find_value( targetsList, random(ds_list_size(targetsList)) )
 	
+	if ( irandom(1) == 0 ) {
+		var newAlien = o_Alien_Rudra
+	}
+	else {
+		var newAlien = o_Alien_Indra
+	}
+	
 	// place an alien on that tile
-	var newAlien = instance_create_layer(targetTile.x, targetTile.y, "Units", o_Alien_Rudra)
+	var newAlien = instance_create_layer(targetTile.x, targetTile.y, "Units", newAlien)
 	newAlien.tileLocation = targetTile
 	targetTile.occupier = newAlien
 	
