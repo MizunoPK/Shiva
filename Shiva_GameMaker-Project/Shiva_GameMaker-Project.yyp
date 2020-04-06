@@ -1047,6 +1047,14 @@
             }
         },
         {
+            "Key": "482c5798-076c-41ee-8055-d9d4ad287425",
+            "Value": {
+                "id": "9ae09f44-c067-4b55-b42c-ae268dc72bb5",
+                "resourcePath": "objects\\o_LevelUp\\o_LevelUp.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4837c276-fa77-4d6a-b341-0e4c50f69412",
             "Value": {
                 "id": "a53324b3-d6c1-4868-b604-a3770b504dc6",
@@ -1423,6 +1431,14 @@
             }
         },
         {
+            "Key": "671c12f4-8cf7-48e5-990f-dc63e8f1d3fe",
+            "Value": {
+                "id": "2dc30da3-6975-4f97-bd92-ffaa70219465",
+                "resourcePath": "sprites\\s_LevelUp\\s_LevelUp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "672c5948-bcfb-4fa3-9945-aec79578b0c8",
             "Value": {
                 "id": "d49090f3-6aa2-4a81-9d8a-994fb1b52724",
@@ -1668,6 +1684,14 @@
                 "id": "4ecffe80-bc71-476e-ac6d-374860ea1207",
                 "resourcePath": "objects\\o_MachineGunButton\\o_MachineGunButton.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "79426cc7-bb7b-4ec3-a218-32ee7990c33b",
+            "Value": {
+                "id": "81c13cb8-d301-4cb7-ad9a-79d62083b240",
+                "resourcePath": "views\\79426cc7-bb7b-4ec3-a218-32ee7990c33b.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -2031,6 +2055,14 @@
             }
         },
         {
+            "Key": "93e89a64-2e9e-47d2-81af-cb0f9f78c2a2",
+            "Value": {
+                "id": "2084c442-2a2c-4a6b-ae58-b44f02134c21",
+                "resourcePath": "scripts\\checkLevelButton\\checkLevelButton.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9480b911-cdbb-4cc0-a5d0-3dac78985ab4",
             "Value": {
                 "id": "7fde6295-bab7-4650-b87d-5a18c1d7f744",
@@ -2051,6 +2083,14 @@
             "Value": {
                 "id": "c2caf979-7e48-4ee9-a937-6ae6b4b85514",
                 "resourcePath": "scripts\\msg_static\\msg_static.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "96bfef53-3444-4862-80aa-f69b0abb0a9a",
+            "Value": {
+                "id": "36946eb6-2069-4b55-a733-f34283a5e8aa",
+                "resourcePath": "scripts\\createLevelUpButton\\createLevelUpButton.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2380,6 +2420,14 @@
                 "id": "93440d85-aa63-4e2e-b7af-d194363fbb3b",
                 "resourcePath": "objects\\o_Shot_Laser\\o_Shot_Laser.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "af76c7df-a4ae-42dd-96f8-ac654f4aef2e",
+            "Value": {
+                "id": "5b4b57cd-abf4-48f6-a956-87ba1be1e4d7",
+                "resourcePath": "scripts\\levelUp\\levelUp.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -3664,6 +3712,9 @@
         "dedb21f9-bf9b-4243-88e2-c4827fe0be13",
         "d54df3f5-b62e-4773-b3c8-f18a3940194f",
         "c2c54acd-07df-4d53-a5cf-f589c399c9a9",
+        "af76c7df-a4ae-42dd-96f8-ac654f4aef2e",
+        "96bfef53-3444-4862-80aa-f69b0abb0a9a",
+        "93e89a64-2e9e-47d2-81af-cb0f9f78c2a2",
         "3aed2b66-608a-427c-9c76-7d4454e5a29d",
         "bd36a5a3-b4dc-437f-a457-2579b5951512",
         "6e3ffcef-a21b-45cf-a32b-a7747c6ed849",

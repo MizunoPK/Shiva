@@ -10,6 +10,7 @@ checkStatus()
 checkMovementButton()
 // check the food button
 checkFoodButton()
+checkLevelButton()
 // check the unit's direction
 updateDirection()
 // check if the unit has been provided a tile target

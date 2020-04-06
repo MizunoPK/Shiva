@@ -19,6 +19,7 @@ passiveUnit = argument3 // is the unit an attacking unit or a non-attacking unit
 movementSpeed = argument4 // how fast the unit moves (used to start paths in checkMovement)
 sightRange = argument5 // how many tiles away the unit can see enemies
 attackRange = argument6 // how many tiles away from the enemy the unit needs to be within in order to attack
+level = 1
 
 isAttacking = false // keeps track of if the entity is currently attacking something
 canAttack = true // keeps track of if the unit is on attack cooldown

@@ -3,6 +3,7 @@ checkManualTurretHealth()
 checkTurretHunger()
 checkTurretFoodButton()
 checkSoldierButton()
+checkLevelButton()
 checkForSoldierButtonTile()
 
 if ( instanceRound != global.roundNumber ) {

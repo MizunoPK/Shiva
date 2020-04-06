@@ -5,6 +5,7 @@ if ( passiveUnit ) {
 	status = "Waiting for Soldier..."
 	dialogText = (
 		name + "\n" +
+		"\nLevel: " + string(level) +
 		"\nHealth: " + string(currentHealth) + 
 		"\nStatus: " + status
 		)
@@ -14,6 +15,7 @@ else {
 	
 	dialogText = (
 		name + "\n" +
+		"\nLevel: " + string(level) +
 		"\nHealth: " + string(currentHealth) + 
 		"\nHunger: " + string(hunger) +
 		"\nStatus: " + status

@@ -14,6 +14,7 @@ if ( justExplored ) {
 else {
 	dialogText = (
 		name + "\n" +
+		"\nLevel: " + string(level) +
 		"\nHealth: " + string(currentHealth) + 
 		"\nHunger: " + string(hunger) +
 		"\nStatus: " + status

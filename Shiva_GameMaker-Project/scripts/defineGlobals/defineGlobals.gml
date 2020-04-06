@@ -3,10 +3,6 @@
 
 global.gameOverMenu = instance_create_layer(0,0,"GameOver",o_GameOverMenu)
 
-global.tileDepth = 900;
-global.unitDepth = 0;
-global.guiDepth = -100;
-
 global.currentSelectedObject = noone // the currently selected object by the user
 global.homeBase = noone // the instance of the home base
 global.homeBaseNearbyTiles = ds_list_create() // a list storing the tiles within SAFE_RADIUS of the home base
@@ -18,7 +14,7 @@ global.invasionRound = false // is the game currently on an invasion round?
 global.enemiesOnBoard = -1 // the number of enemies on the board... -1 when during a prep round
 global.aliensInvaded = false // boolean to detect when the aliens have finished exiting spawn pods and started invading
 global.roundNumber = 1 // the round the user is on
-global.researchPoints = 0 // the amount of research points the player has accumulated
+global.researchPoints = 100 // the amount of research points the player has accumulated
 global.food = 0 // the amount of food the player has accumulated
 global.spawnPods = 0 // the number of spawn pods on the map, and this is the initial amount of spawn pods
 
