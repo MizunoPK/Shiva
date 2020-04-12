@@ -1,3 +1,3 @@
 draw_self()
-setBaseUnitDialog()
+setWallDialog()
 unitDialog()
