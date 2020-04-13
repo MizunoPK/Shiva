@@ -29,6 +29,7 @@ global.inventory = instance_create_layer(0,0, INVENTORY_LAYER, o_Inventory) // m
 
 // Tiles
 global.board = ds_list_create()
+global.fog = ds_list_create()
 global.adjacencyList = ds_map_create()
 global.isGenerating = 0;
 

@@ -1,6 +1,6 @@
 ///generateRing(argument0)
 
-/// @func: calculateAdjacencies
+/// @func: generateStaticRing
 /// @description: Generates rings of static plains tiles around the colony tile. Static tiles cannot be replaced.
 
 ringNumber = argument0;
