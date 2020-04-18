@@ -7,5 +7,7 @@
 //		there are no more aliens on the board
 // then end the invasion round
 if ( global.invasionRound and global.aliensInvaded and global.enemiesOnBoard == 0 ) {
+	audio_stop_sound(roundStartLoop)
+	audio_play_sound(snd_RoundEnd, 3, false)
 	newPrepRound()
 }

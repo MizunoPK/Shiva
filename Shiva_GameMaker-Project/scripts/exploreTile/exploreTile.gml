@@ -52,6 +52,7 @@ with (tileLocation) {
 		if ( foundResource != none ) {
 			other.justExplored = true
 			other.lastThingClicked = global.currentSelectedObject
+			audio_play_sound(snd_Pickup, 2, false)
 		}
 	}
 }

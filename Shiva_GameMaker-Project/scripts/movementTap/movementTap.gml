@@ -2,6 +2,7 @@
 /// @description what happens when the movement button is pressed
 
 if ( not global.invasionRound ) {
+	audio_play_sound(snd_Select, 1, false)
 	// if the user was selecting: mark that we are no longer selecting and update the button
 	with (currentTarget) {
 		if ( selectingTarget ) {

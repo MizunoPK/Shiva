@@ -63,7 +63,7 @@ if ( not isMoving and tileMovingTo != noone and tileMovingTo != tileLocation ) {
 		mp_potential_path(myPath, currentTarget.x, currentTarget.y, 2, 3, false)
 		mp_potential_settings(45, 10, 3, true)
 		path_start(myPath, 2, path_action_stop, true)
-		
+		audio_play_sound(snd_Walk, 1, false)		
 }
 
 if (isMoving) {

@@ -7,3 +7,4 @@ pod.tileLocation.occupier = noone
 global.spawnPods = global.spawnPods - 1
 pod.exploding = true
 pod.sprite_index = pod.explosionSprite
+audio_play_sound(snd_PodExplosion, 2, false)

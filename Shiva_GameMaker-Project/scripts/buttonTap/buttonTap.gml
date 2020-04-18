@@ -1,6 +1,8 @@
 /// @func itemTap()
 /// @description tap function for inventory buttons
 
+audio_play_sound(snd_Select, 1, false)
+
 if ( itemQuantity > 0 and not global.invasionRound ) {
 	with (owningInventory) {
 		selectingTarget = true
