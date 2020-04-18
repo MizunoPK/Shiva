@@ -11,3 +11,6 @@ maxHealth = HEALTH_1
 currentHealth = maxHealth
 currentTarget = noone
 dialogColor = FRIENDLY_DIALOG_COLOR
+level = 1
+sightRange = 0
+movementSpeed = 0

@@ -703,6 +703,14 @@
             }
         },
         {
+            "Key": "2b802d14-8780-4f12-a2ca-388bed2b01cf",
+            "Value": {
+                "id": "f25a8061-cb00-461b-82ec-22fac3efb692",
+                "resourcePath": "sprites\\spr_Fog\\spr_Fog.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2b8ab765-dea3-4391-9d9a-1a75c7f24f0c",
             "Value": {
                 "id": "249ff5fe-daf3-47e5-b1fc-fcba8862dbab",
@@ -2007,6 +2015,14 @@
             }
         },
         {
+            "Key": "8d4116da-3f63-4c99-9a8a-f9bd4b27cefe",
+            "Value": {
+                "id": "0d5aefc9-2824-4c28-a03d-69a4a52b88cd",
+                "resourcePath": "objects\\obj_Fog\\obj_Fog.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8d6d5a4e-6cd2-4fac-8274-2cdc60c92942",
             "Value": {
                 "id": "321a8979-b9c9-4dee-9ff0-3b91a6211e43",
@@ -2535,6 +2551,14 @@
             }
         },
         {
+            "Key": "b336d0ab-2bb0-44e0-acb0-d7544158edcf",
+            "Value": {
+                "id": "d8924b48-9ffe-439a-9b09-43c79757bb99",
+                "resourcePath": "scripts\\generateFog\\generateFog.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b38ae21f-1c3a-4264-a602-6aed41dfbf8b",
             "Value": {
                 "id": "b2c53247-56d8-48f6-9239-691a234ecd4d",
@@ -3052,6 +3076,14 @@
                 "id": "695dc122-4eaa-41c6-8d9b-16dd26c0d960",
                 "resourcePath": "objects\\o_ManualTurretButton\\o_ManualTurretButton.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d4dadeb3-3679-4e5c-b212-0e8a22321b86",
+            "Value": {
+                "id": "c51f9e9f-8a6f-45ca-9689-29556d39c929",
+                "resourcePath": "scripts\\setWallDialog\\setWallDialog.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -3717,6 +3749,7 @@
         "0edd50be-40f9-4c43-b80a-92dc56035dd4",
         "8839ad1f-460b-4d95-98d1-fed396b90b36",
         "0a5eec98-5e01-4a66-a1c5-3901c370bd2d",
+        "d4dadeb3-3679-4e5c-b212-0e8a22321b86",
         "23508a0c-651a-40d8-ba9a-76bb92621db7",
         "c960a186-b760-48b0-bebc-8ea3a6068ae1",
         "181b66a7-5d04-46d5-a0c2-13cc4316efe1",
@@ -3733,6 +3766,7 @@
         "a184e9d7-3277-4bf4-8030-95e29faf746d",
         "0f08f251-7f95-4296-a1e2-3895d47e7ab4",
         "b24f9862-fa16-4d81-bd33-712d40f95adf",
+        "b336d0ab-2bb0-44e0-acb0-d7544158edcf",
         "da339de5-c217-40ef-b9dd-7aafdfdf1c41",
         "f0c883f3-747f-48e0-b1b7-a2c4d211d56f",
         "0513f8c9-8f0a-4eda-a6bd-4a3fcc7e3479",

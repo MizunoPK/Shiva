@@ -1,6 +1,6 @@
 ///generateRing(argument0)
 
-/// @func: calculateAdjacencies
+/// @func: generateRing
 /// @description: Generates rings of plains tiles around the colony tile.
 
 ringNumber = argument0;
