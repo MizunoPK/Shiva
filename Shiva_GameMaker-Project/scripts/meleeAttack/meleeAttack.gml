@@ -3,6 +3,7 @@
 // @Author: Kai Mizuno
 
 if ( isAttacking and canAttack ) { 
+	audio_play_sound(snd_Hit, 1, false)
 	with ( enemyInstance ) {
 		currentHealth -= other.damage
 	}

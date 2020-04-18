@@ -8,6 +8,7 @@ if ( not other.isExploding ) {
 
 	// Switch to the explosion sprite
 	with (other) {
+		
 		startExplosion()
 	}
 }

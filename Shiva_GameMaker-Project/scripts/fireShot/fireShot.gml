@@ -17,6 +17,7 @@ if ( not passiveUnit and isAttacking and canAttack ) {
 		xShotVelocity = cos( degtorad(other.direction) ) * other.velocityMultiplier
 		yShotVelocity =  - sin( degtorad(other.direction) ) * other.velocityMultiplier
 		damage = other.damage
+		audio_play_sound(fireSound, 1, false)
 	}
 	
 	
