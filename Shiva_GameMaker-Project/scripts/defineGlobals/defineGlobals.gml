@@ -45,13 +45,13 @@ global.CITY_RESOURCES = ds_list_create() // resource list for cities
 	ds_list_add(global.CITY_RESOURCES, 0, 30, 15, 10, 30, 15)
 		
 global.FOREST_RESOURCES = ds_list_create() // resource list for forests
-	ds_list_add(global.FOREST_RESOURCES, 30, 20, 15, 5, 20, 10)
+	ds_list_add(global.FOREST_RESOURCES, 30, 25, 20, 5, 20, 10)
 		
 global.LANDING_RESOURCES = ds_list_create() // resource list for landing sites
 	ds_list_add(global.LANDING_RESOURCES, 0, 0, 5, 55, 0, 40)
 		
 global.PLAINS_RESOURCES = ds_list_create() // resource list for plains
-	ds_list_add(global.PLAINS_RESOURCES, 75, 6, 8, 2, 5, 4)
+	ds_list_add(global.PLAINS_RESOURCES, 25, 20, 20, 5, 20, 10)
 	
 // Probability Lists for the resource types
 global.HUMAN_CHANCES = ds_list_create()				 // odds for each type of human being found

@@ -22,3 +22,10 @@ while (soldiersSpawned < STARTING_SURROUNDING_SOLDIERS and ds_list_size(tilesTri
 	
 	ds_list_add(tilesTried, nearbyTile)
 }
+
+// spawn a turret
+with (global.homeBase) {
+	calcTargets( tileLocation, 1 )
+	var randomIndex = irandom(ds_list_size(targetsList) - 1)
+	placeObject( ds_list_find_value(targetsList, randomIndex), o_StandardTurret )
+}

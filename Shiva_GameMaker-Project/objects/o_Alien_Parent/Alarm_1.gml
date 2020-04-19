@@ -1,2 +1,4 @@
 /// @description Kill the unit if it got stuck
-currentHealth = 0
+if ( not global.gameOverMenu.isGameOver ) {
+	currentHealth = 0
+}

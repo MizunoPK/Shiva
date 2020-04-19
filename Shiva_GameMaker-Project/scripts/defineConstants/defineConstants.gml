@@ -89,13 +89,13 @@
 #macro ATTACK_RANGE_0 0
 #macro ATTACK_RANGE_1 1
 #macro ATTACK_RANGE_2 2
-#macro ATTACK_RANGE_3 3
+#macro ATTACK_RANGE_3 4
 
 // Base Movement Range
 #macro BASE_MOVEMENT_0 0
 #macro BASE_MOVEMENT_1 1
 #macro BASE_MOVEMENT_2 3
-#macro BASE_MOVEMENT_3 5
+#macro BASE_MOVEMENT_3 4
 #macro BASE_MOVEMENT_4 6
 #macro BASE_MOVEMENT_5 8
 
