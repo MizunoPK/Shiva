@@ -118,8 +118,8 @@
 #macro WALL "Wall"
 
 // Turrets
-#macro STANDARD_TURRET "Manual Turret"
-#macro CANNON_TURRET "Manual Alien Burst Cannon"
+#macro STANDARD_TURRET "Turret"
+#macro CANNON_TURRET "Alien Mounted Cannon"
 #macro LASER_TURRET "Automatic Alien Laser"
 
 // Inventory

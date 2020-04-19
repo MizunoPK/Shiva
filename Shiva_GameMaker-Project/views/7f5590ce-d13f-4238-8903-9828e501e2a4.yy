@@ -14,7 +14,8 @@
         "bf9ad1cb-d90a-45d6-9cb1-d69542f3ca65",
         "d4772465-fd29-4778-8396-9af99bc875b8",
         "28758829-eb8f-4b6d-bd96-967cc92af9f0",
-        "c4368cb5-ce7e-4b02-a493-3a10fbfaef29"
+        "c4368cb5-ce7e-4b02-a493-3a10fbfaef29",
+        "371ea757-bda1-4332-a196-0d9dcb3e054d"
     ],
     "filterType": "GMObject",
     "folderName": "Inventory",

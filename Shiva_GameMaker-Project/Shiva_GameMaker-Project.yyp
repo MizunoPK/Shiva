@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "0d2f8992-ca58-4af5-abbb-469250203f9f",
+            "Value": {
+                "id": "eaf12de7-47d4-43d6-985a-ecbb1f8861f1",
+                "resourcePath": "sprites\\s_Turret_Cannon_Manned_SouthEast\\s_Turret_Cannon_Manned_SouthEast.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0e0c8593-6999-4d72-80c7-da07a36ee6da",
             "Value": {
                 "id": "8225b460-58ca-4649-a8e6-d50c5b586fc4",
@@ -895,6 +903,14 @@
             }
         },
         {
+            "Key": "371ea757-bda1-4332-a196-0d9dcb3e054d",
+            "Value": {
+                "id": "7925827c-8ff3-428b-81bc-4e1d5dfcedc1",
+                "resourcePath": "objects\\o_CannonTurretButton\\o_CannonTurretButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "379f7fce-23e9-4659-b5b4-dba80522d583",
             "Value": {
                 "id": "55560b73-fe40-4236-89a8-d8588ab4bc5f",
@@ -940,6 +956,14 @@
                 "id": "1d69023b-38eb-48f4-9070-0d63a1826c48",
                 "resourcePath": "scripts\\placeObject\\placeObject.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "3dcd514a-0c97-4632-87e2-c62b09f9fa5f",
+            "Value": {
+                "id": "6d8fbecd-ede5-48a9-8a89-8bf950109b3d",
+                "resourcePath": "views\\3dcd514a-0c97-4632-87e2-c62b09f9fa5f.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1028,6 +1052,14 @@
                 "id": "c27395c7-f5fc-4ede-b3a8-2d79830b4f4e",
                 "resourcePath": "scripts\\laserTurretSetup\\laserTurretSetup.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "43ad5703-2124-4853-975b-3fe21c6421d3",
+            "Value": {
+                "id": "71867487-c911-43fa-b174-ee7481e26536",
+                "resourcePath": "sprites\\s_Turret_Cannon_Unmanned_NorthWest\\s_Turret_Cannon_Unmanned_NorthWest.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1695,6 +1727,14 @@
             }
         },
         {
+            "Key": "77788b28-4e76-40af-b8f3-745b99820adf",
+            "Value": {
+                "id": "c9a38185-816f-4adb-9226-23e7a5d2e39e",
+                "resourcePath": "views\\77788b28-4e76-40af-b8f3-745b99820adf.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "77de1aa4-69d7-43e3-b8c5-7ac3f83772b0",
             "Value": {
                 "id": "083627bd-c40b-4421-a4f5-4910cc5c8c06",
@@ -1828,6 +1868,14 @@
                 "id": "6d6282b6-4370-48a7-88ba-1ebb9c209a15",
                 "resourcePath": "sounds\\snd_Pickup\\snd_Pickup.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "8029e998-a304-489f-b744-e6547feb2923",
+            "Value": {
+                "id": "24847d07-1ed5-4fa2-9440-053811b2082c",
+                "resourcePath": "sprites\\s_Turret_Cannon_Manned_NorthWest\\s_Turret_Cannon_Manned_NorthWest.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2063,6 +2111,14 @@
             }
         },
         {
+            "Key": "90163a9e-654d-4d98-90f0-f4028736f341",
+            "Value": {
+                "id": "b578f469-4777-4126-a01f-453951703520",
+                "resourcePath": "sprites\\s_Turret_Cannon_Manned_NorthEast\\s_Turret_Cannon_Manned_NorthEast.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "90167937-87cf-4516-a8ca-dcc654975b2f",
             "Value": {
                 "id": "93c78f60-ca76-43b9-93e9-6e571b1fbb72",
@@ -2255,6 +2311,14 @@
             }
         },
         {
+            "Key": "a027c5cb-f76e-434a-be5c-5ef2f2446d43",
+            "Value": {
+                "id": "6e8c1be3-cd7d-40fb-ae9e-0b9a7ec46c91",
+                "resourcePath": "sprites\\s_Turret_Cannon_Manned_North\\s_Turret_Cannon_Manned_North.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a1750407-ec4d-4bcb-9566-6efcdf99fd6a",
             "Value": {
                 "id": "77e48b70-a4fe-4b5e-93a9-73982fdc9449",
@@ -2415,6 +2479,14 @@
             }
         },
         {
+            "Key": "aa46521b-8e43-49b2-869a-9306cc0e34f5",
+            "Value": {
+                "id": "84bc6699-2473-4314-8db6-7f656ffcc4e7",
+                "resourcePath": "sprites\\s_Turret_Cannon_Manned_East\\s_Turret_Cannon_Manned_East.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "aab7031c-ac19-48f3-afb5-569f9cb8116b",
             "Value": {
                 "id": "07648d8a-be1e-4ea3-a5fc-bb0d77f32983",
@@ -2543,6 +2615,14 @@
             }
         },
         {
+            "Key": "b1c0f8d5-862b-422e-9b0b-549181b86446",
+            "Value": {
+                "id": "6cb23aef-5334-4cd7-b307-35bad455ebed",
+                "resourcePath": "sprites\\s_Turret_Cannon_Manned_West\\s_Turret_Cannon_Manned_West.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b1c9a2f6-0a4c-421f-ae48-84ab6970304a",
             "Value": {
                 "id": "3ebb434e-6157-452e-be5c-910bf05fb634",
@@ -2611,6 +2691,14 @@
             "Value": {
                 "id": "3d90d994-d296-4a45-97f8-1ae6678cacae",
                 "resourcePath": "sprites\\s_Soldier_Unarmed_South_East\\s_Soldier_Unarmed_South_East.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b7790536-15db-4c22-8acd-aa541f8df4bd",
+            "Value": {
+                "id": "b64f98aa-b660-401c-9961-599ee8d70d5c",
+                "resourcePath": "sprites\\s_Turret_Cannon_Unmanned_North\\s_Turret_Cannon_Unmanned_North.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2847,6 +2935,14 @@
             }
         },
         {
+            "Key": "c32513bd-9173-457a-9c01-348bab109f8e",
+            "Value": {
+                "id": "5d131bd6-d9ca-4e3c-9151-c548dbe7e693",
+                "resourcePath": "sprites\\s_Turret_Cannon_Manned_SouthWest\\s_Turret_Cannon_Manned_SouthWest.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c37a70b2-b0d0-4a26-ba02-a2536ab96d3b",
             "Value": {
                 "id": "df97ad1a-50c6-4d80-a1b1-0e59f175e0ec",
@@ -3031,6 +3127,14 @@
             }
         },
         {
+            "Key": "cd642248-15c4-4834-b39f-27f09663f3ce",
+            "Value": {
+                "id": "83600f58-d868-4e40-92f3-1a55f5833919",
+                "resourcePath": "sprites\\s_Turret_Cannon_Unmanned_SouthEast\\s_Turret_Cannon_Unmanned_SouthEast.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ce92b9e4-910f-44c5-bad6-c29c24f42ef2",
             "Value": {
                 "id": "885ccc69-f6e9-4b16-9aa2-b68c674c07c5",
@@ -3044,6 +3148,14 @@
                 "id": "54917ca7-f573-402f-8632-9b6363c5af1a",
                 "resourcePath": "views\\cf4619a4-6d74-4fee-9ddd-93a8f938461b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cff1d897-8ab8-45fe-8a88-fb75a8e99dd0",
+            "Value": {
+                "id": "3cb3a9ab-35ad-42bb-befb-42701e70feba",
+                "resourcePath": "sprites\\s_Turret_Cannon_Unmanned_NorthEast\\s_Turret_Cannon_Unmanned_NorthEast.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3092,6 +3204,14 @@
                 "id": "bc7a5f60-a81e-43ff-a466-999c9a7dbf00",
                 "resourcePath": "views\\d386b296-d6d6-4ba8-bf19-7b50c3db21eb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d3ccc6cb-41f2-4267-9380-bc2ed5bf28df",
+            "Value": {
+                "id": "071bee0c-5d8c-4592-889b-adf7f6541f57",
+                "resourcePath": "sprites\\s_Turret_Cannon_Unmanned_West\\s_Turret_Cannon_Unmanned_West.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3263,6 +3383,14 @@
             }
         },
         {
+            "Key": "def3a1ff-eebf-4b8e-a074-c4cc72e84013",
+            "Value": {
+                "id": "4cff837f-cc33-44e6-9322-16025d5b0036",
+                "resourcePath": "sprites\\s_Turret_Cannon_Unmanned_South\\s_Turret_Cannon_Unmanned_South.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e05efa23-c8a4-4885-b04f-32f0133ab469",
             "Value": {
                 "id": "d4720a05-89e0-4cb3-8aa5-e80b681e293c",
@@ -3340,6 +3468,14 @@
                 "id": "1a1eead7-6438-4cec-b05a-2ddfc055ce3d",
                 "resourcePath": "scripts\\discoveredAlienWeapon\\discoveredAlienWeapon.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e5ada981-d76c-4e40-820d-6da21127c948",
+            "Value": {
+                "id": "2913334f-08bd-41ac-b893-d926db0700bb",
+                "resourcePath": "sprites\\s_Turret_Cannon_Unmanned_East\\s_Turret_Cannon_Unmanned_East.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3503,11 +3639,35 @@
             }
         },
         {
+            "Key": "f0daa592-587d-4296-af40-e6fbb826df77",
+            "Value": {
+                "id": "87ce488f-d103-4da2-9039-2a61faed316e",
+                "resourcePath": "sprites\\s_Turret_Cannon_Manned_South\\s_Turret_Cannon_Manned_South.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f1914319-e878-448f-9463-f794fcc31788",
+            "Value": {
+                "id": "1e09d492-b118-4a8f-8c7c-62fdf13778f4",
+                "resourcePath": "sprites\\s_Turret_Cannon_Unmanned_SouthWest\\s_Turret_Cannon_Unmanned_SouthWest.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f2df931e-4926-4250-b590-821f31e2a513",
             "Value": {
                 "id": "7bb545e8-9708-4b69-a27b-dadc44427ba5",
                 "resourcePath": "objects\\o_Trap_Barbwire\\o_Trap_Barbwire.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f3bf02d7-6509-406a-8ff7-f67239b106d7",
+            "Value": {
+                "id": "0136b8e7-4f8b-4d98-9206-2e27bd62bf6b",
+                "resourcePath": "views\\f3bf02d7-6509-406a-8ff7-f67239b106d7.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

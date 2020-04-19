@@ -22,7 +22,7 @@ global.spawnPods = 0 // the number of spawn pods on the map, and this is the ini
 global.humanButtons = ds_list_create() // list of the buttons corresponding to human things
 ds_list_add(global.humanButtons, o_PistolButton, o_MachineGunButton, o_ManualTurretButton, o_WallButton)
 global.alienButtons = ds_list_create() // list of the buttons corresponding to alien things
-ds_list_add(global.alienButtons, o_LaserButton, o_CannonButton)
+ds_list_add(global.alienButtons, o_LaserButton, o_CannonButton, o_CannonTurretButton)
 global.listOfSoldiers = ds_list_create() 
 global.listOfHumans = ds_list_create()
 global.inventory = instance_create_layer(0,0, INVENTORY_LAYER, o_Inventory) // make this last so that the create event can access the prior global variables
@@ -61,7 +61,7 @@ global.HUMAN_WEAPON_CHANCES = ds_list_create()				 // odds for each type of huma
 	ds_list_add(global.HUMAN_WEAPON_CHANCES, 75, 25, 0, 0) // format: [Pistol, Machine Gun, Manual Turret, Wall]
 	
 global.ALIEN_WEAPON_CHANCES = ds_list_create()				 // odds for each type of alien weapon being found
-	ds_list_add(global.ALIEN_WEAPON_CHANCES, 75, 25, 0, 0) // format: [Laser Gun, Cannon, Automatic Laser Turret, Manual Cannon Turret]
+	ds_list_add(global.ALIEN_WEAPON_CHANCES, 55, 25, 0, 20) // format: [Laser Gun, Cannon, Automatic Laser Turret, Manual Cannon Turret]
 
 // Camera globals
 global.halfViewWidth = camera_get_view_width(view_camera[0]) / 2;
