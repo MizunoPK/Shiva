@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "00c6cfd8-8ce2-4065-bda3-22ae188f28ec",
+            "Value": {
+                "id": "1b346ee7-bdbf-459b-ad89-4a687c215738",
+                "resourcePath": "sprites\\s_Title\\s_Title.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "00d726c1-ad6c-4f1d-82ca-62d43568476a",
             "Value": {
                 "id": "7bf75d26-14b9-48ff-ba86-5b08736e39be",
@@ -92,6 +100,14 @@
                 "id": "91816173-dd39-4fde-979a-e96d4bbc4e15",
                 "resourcePath": "scripts\\exploreTile\\exploreTile.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "0580dd72-7645-4abf-a5a4-1cf879031fd3",
+            "Value": {
+                "id": "54bbfe7b-40f0-4456-a9a3-01945275c9eb",
+                "resourcePath": "sprites\\s_StartGame\\s_StartGame.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -631,6 +647,14 @@
             }
         },
         {
+            "Key": "255cadb8-3fa0-48d6-94df-88bf0b51fb03",
+            "Value": {
+                "id": "267ddf8a-288e-447a-83c4-4d2202e26e5b",
+                "resourcePath": "sprites\\s_TitleBKG\\s_TitleBKG.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "25f2ced0-7667-4d97-a435-be71c97e3b70",
             "Value": {
                 "id": "a268b805-d80c-4edb-bedd-ce2255471ef1",
@@ -724,6 +748,14 @@
                 "id": "249ff5fe-daf3-47e5-b1fc-fcba8862dbab",
                 "resourcePath": "scripts\\meleeAttack\\meleeAttack.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2c96bc8e-1b13-4aec-97b3-0acb85c92431",
+            "Value": {
+                "id": "0896f57d-4e6f-4f61-a6e1-f18ee5ab32d5",
+                "resourcePath": "objects\\o_Start\\o_Start.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -892,6 +924,14 @@
                 "id": "e2130a59-764f-449e-85d8-6ae50520153f",
                 "resourcePath": "sprites\\s_LoadingBKG\\s_LoadingBKG.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "36d1424c-aa56-47f2-b3ec-c872ba98033c",
+            "Value": {
+                "id": "64c64d99-9c31-41c3-be9c-c4e3cfe8b1ff",
+                "resourcePath": "rooms\\Title\\Title.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
